@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YT-VIS — Motion Patterns (1,310 captioned clips)</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+:root {
+  --bg:#111; --bg-card:#161616; --bg-header:#1a1a1a;
+  --border:#222; --border-hover:#444;
+  --text:#d4d4d4; --text-heading:#f0f0f0; --text-secondary:#777; --text-muted:#555;
+  --track-bg:#1a1a1a; --cursor:#ff3c3c;
+}
+[data-theme="light"] {
+  --bg:#f5f5f0; --bg-card:#fff; --bg-header:#f0efe8;
+  --border:#ddd; --border-hover:#bbb;
+  --text:#333; --text-heading:#111; --text-secondary:#666; --text-muted:#999;
+  --track-bg:#efefe8; --cursor:#c23030;
+}
+body { font-family:'Inter',sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
+.page { max-width:1500px; margin:0 auto; padding:0 24px; }
+.masthead { padding:30px 0 16px; border-bottom:1px solid var(--border); margin-bottom:20px;
+  display:flex; align-items:flex-start; justify-content:space-between; gap:20px; }
+.masthead h1 { font-family:'Playfair Display',serif; font-size:2rem; color:var(--text-heading); }
+.masthead .subtitle { font-size:0.85rem; color:var(--text-secondary); margin-top:4px; max-width:1000px; }
+.masthead-right { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+.masthead-right a, .theme-toggle, .masthead-right input[type="search"] {
+  color:var(--text-secondary); font-size:0.78rem; text-decoration:none;
+  border:1px solid var(--border); padding:5px 12px; border-radius:20px;
+  background:var(--bg-card); cursor:pointer; font-family:inherit;
+}
+.masthead-right input[type="search"] { cursor:text; min-width:180px; }
+.masthead-right input[type="search"]:focus { outline:none; border-color:var(--border-hover); color:var(--text); }
+.masthead-right a:hover, .theme-toggle:hover { color:var(--text); border-color:var(--border-hover); }
+
+.stats-bar { font-size:0.72rem; color:var(--text-muted); padding:0 0 12px; }
+.clip-list { display:flex; flex-direction:column; gap:16px; padding-bottom:40px; }
+.clip-card { background:var(--bg-card); border:1px solid var(--border); border-radius:10px; overflow:hidden; }
+.clip-card.hidden { display:none; }
+.clip-header { padding:10px 14px; border-bottom:1px solid var(--border);
+  display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; }
+.clip-header .title { font-weight:600; font-size:0.85rem; color:var(--text-heading); }
+.clip-header .desc { font-size:0.72rem; color:var(--text-muted); width:100%; margin-top:2px; }
+.clip-header .meta { font-size:0.68rem; color:var(--text-muted); font-family:monospace; display:flex; gap:12px; }
+.clip-header .seg-badge { background:#4a9eff; color:#fff; padding:1px 7px; border-radius:10px; font-size:0.65rem; font-weight:600; }
+
+.clip-content { display:grid; grid-template-columns:1fr 1fr; gap:0; min-height:300px; }
+.clip-video-panel { position:relative; background:#000; border-right:1px solid var(--border); }
+.video-wrap { position:relative; width:100%; height:100%; display:flex; align-items:center; justify-content:center; }
+.video-wrap video { width:100%; height:100%; object-fit:contain; display:block; }
+.video-wrap canvas.overlay { position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none; }
+.viewer-3d { width:100%; height:300px; position:relative; background:#0d0d0d; }
+.viewer-3d canvas { width:100%!important; height:100%!important; display:block; }
+.loading-msg { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); color:var(--text-muted); font-size:0.8rem; }
+
+.motion-chart-wrap { padding:6px 12px 4px; border-top:1px solid var(--border); height:140px; position:relative; }
+.motion-chart-wrap canvas { width:100%!important; height:100%!important; }
+
+.timeline-panel { padding:10px 14px; }
+.timeline-row { display:flex; flex-direction:column; gap:4px; padding:4px 6px; }
+.timeline-label { font-size:0.7rem; font-weight:500; color:var(--text-heading);
+  display:flex; justify-content:space-between; }
+.timeline-label .obj-name { font-family:monospace; }
+.timeline-label .obj-clips { font-size:0.62rem; color:var(--text-muted); font-family:monospace; }
+.timeline-bar { position:relative; height:20px; background:var(--track-bg); border-radius:3px; border:1px solid var(--border); overflow:hidden; }
+.clip-range { position:absolute; top:0; bottom:0; opacity:0.85; cursor:pointer; }
+.cursor-line { position:absolute; top:-2px; bottom:-2px; width:2px; background:var(--cursor); z-index:10; pointer-events:none; }
+
+.scrub-row { display:flex; align-items:center; gap:8px; padding:6px 14px; border-top:1px solid var(--border); }
+.play-btn { background:none; border:1px solid var(--border); color:var(--text); padding:2px 9px; border-radius:4px; cursor:pointer; font-size:0.75rem; font-family:inherit; }
+.scrub-row input[type=range] { flex:1; }
+.frame-label { font-size:0.66rem; color:var(--text-muted); min-width:66px; text-align:right; font-family:monospace; }
+
+.pager { display:flex; gap:6px; justify-content:center; align-items:center; padding:18px 0 32px; flex-wrap:wrap; }
+.pager button { background:var(--bg-card); border:1px solid var(--border); color:var(--text); padding:5px 12px; border-radius:6px; cursor:pointer; font-family:inherit; font-size:0.78rem; }
+.pager button:hover:not([disabled]) { border-color:var(--border-hover); }
+.pager button[disabled] { opacity:0.4; cursor:default; }
+.pager .pager-info { font-size:0.72rem; color:var(--text-muted); padding:0 12px; font-family:monospace; }
+
+@media(max-width:1000px) { .clip-content { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="masthead">
+    <div>
+      <h1>YT-VIS — Motion Patterns</h1>
+      <div class="subtitle">
+        The 1,310 captioned YouTube-VIS sequences with GenTraj 3D point tracks. Each card shows the
+        ViPE RGB video with 2D track overlay (left), animated 3D tracks (right), per-object motion-magnitude chart,
+        and clip-range timeline. Only objects marked <code>keep</code> in the human/auto annotations are shown.
+        Clip selection: threshold = 0.02, min gap = 5f, min clip = 0.5s, top-20% per-frame outlier trim. Native 8 fps.
+      </div>
+    </div>
+    <div class="masthead-right">
+      <input type="search" id="search" placeholder="search caption / id / object…" />
+      <button class="theme-toggle" onclick="toggleTheme()">Toggle theme</button>
+    </div>
+  </div>
+  <div class="stats-bar" id="statsBar">Loading manifest…</div>
+  <div class="clip-list" id="clipList"></div>
+  <div class="pager" id="pager"></div>
+</div>
+
+<script>
+const TRAIL_LEN = 16;
+const PAGE_SIZE = 50;
+const cardState = {};
+let allClips = [];
+let filtered = [];
+let curPage = 0;
+
+function toggleTheme() {
+  const t = document.documentElement.getAttribute('data-theme')==='light'?'':'light';
+  document.documentElement.setAttribute('data-theme', t);
+  localStorage.setItem('motion-theme', t);
+}
+(function(){ const t=localStorage.getItem('motion-theme'); if(t) document.documentElement.setAttribute('data-theme',t); })();
+
+function colorForObject(name) {
+  let h=0; for(let i=0;i<name.length;i++) h=(h*31+name.charCodeAt(i))&0xffffffff;
+  return `hsl(${((h%360)+360)%360},65%,58%)`;
+}
+function escapeHtml(s) { return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+async function init() {
+  const resp = await fetch('static/data/motion/ytvis/manifest.json');
+  const m = await resp.json();
+  allClips = m.ytvis || [];
+  filtered = allClips.slice();
+  document.getElementById('search').addEventListener('input', onSearch);
+  renderPage(0);
+}
+
+function onSearch(e) {
+  const q = e.target.value.trim().toLowerCase();
+  if (!q) {
+    filtered = allClips.slice();
+  } else {
+    filtered = allClips.filter(c =>
+      (c.id||'').toLowerCase().includes(q) ||
+      (c.text||'').toLowerCase().includes(q) ||
+      (c.object_names||[]).some(o => o.toLowerCase().includes(q))
+    );
+  }
+  renderPage(0);
+}
+
+function renderPage(p) {
+  // Dispose any active 3D contexts before swapping page
+  while (activeViewers.length) {
+    const old = activeViewers.shift();
+    try { old.renderer.dispose(); old.renderer.forceContextLoss(); } catch(e) {}
+  }
+  curPage = p;
+  const total = filtered.length;
+  const nPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+  curPage = Math.min(curPage, nPages - 1);
+  const start = curPage * PAGE_SIZE;
+  const end = Math.min(start + PAGE_SIZE, total);
+  const pageClips = filtered.slice(start, end);
+
+  const container = document.getElementById('clipList');
+  container.innerHTML = '';
+  for (const k in cardState) delete cardState[k];
+
+  pageClips.forEach((clip, idx) => {
+    const id = 'd_' + idx;
+    const card = document.createElement('div');
+    card.className = 'clip-card';
+    card.id = id;
+    card.innerHTML = `
+      <div class="clip-header">
+        <div>
+          <span class="title">${escapeHtml(clip.id)}</span>
+          <span style="font-size:0.72rem;color:var(--text-secondary);margin-left:8px;">${escapeHtml(clip.object_names.join(', '))}</span>
+        </div>
+        <div class="meta">
+          <span>${clip.num_frames}f</span>
+          <span class="seg-badge">${clip.num_clips} clips</span>
+        </div>
+        ${clip.text ? `<div class="desc">${escapeHtml(clip.text)}</div>` : ''}
+      </div>
+      <div class="clip-content">
+        <div class="clip-video-panel">
+          <div class="video-wrap">
+            <video id="${id}_vid" muted loop playsinline preload="none"></video>
+            <canvas class="overlay" id="${id}_canvas"></canvas>
+          </div>
+        </div>
+        <div class="viewer-3d" id="${id}_3d">
+          <canvas id="${id}_3dcanvas"></canvas>
+          <span class="loading-msg" id="${id}_load">Scroll to load</span>
+        </div>
+      </div>
+      <div class="motion-chart-wrap"><canvas id="${id}_chart"></canvas></div>
+      <div class="timeline-panel" id="${id}_timelines"></div>
+      <div class="scrub-row">
+        <button class="play-btn" onclick="togglePlay('${id}')">▶</button>
+        <input type="range" id="${id}_scrub" min="0" max="1000" value="0" oninput="scrubTo('${id}',this.value)">
+        <span class="frame-label" id="${id}_frame">0/0</span>
+      </div>
+    `;
+    container.appendChild(card);
+    cardState[id] = { clip, loaded: false };
+  });
+
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting && cardState[e.target.id] && !cardState[e.target.id].loaded) {
+        cardState[e.target.id].loaded = true;
+        loadClip(e.target.id);
+      }
+    });
+  }, { rootMargin: '400px' });
+  pageClips.forEach((_, idx) => obs.observe(document.getElementById('d_' + idx)));
+
+  // Stats + pager
+  const totalClips = filtered.reduce((s,c)=>s+(c.num_clips||0),0);
+  document.getElementById('statsBar').textContent =
+    `${total} clip${total===1?'':'s'} · ${totalClips} motion-segments · showing ${start+1}–${end}`;
+
+  const pager = document.getElementById('pager');
+  pager.innerHTML = '';
+  if (nPages > 1) {
+    const mk = (label, page, dis) => {
+      const b = document.createElement('button');
+      b.textContent = label; if (dis) b.disabled = true;
+      b.onclick = () => { renderPage(page); window.scrollTo({top:0, behavior:'smooth'}); };
+      return b;
+    };
+    pager.appendChild(mk('« First', 0, curPage===0));
+    pager.appendChild(mk('‹ Prev', curPage-1, curPage===0));
+    const info = document.createElement('span');
+    info.className = 'pager-info';
+    info.textContent = `Page ${curPage+1} / ${nPages}`;
+    pager.appendChild(info);
+    pager.appendChild(mk('Next ›', curPage+1, curPage===nPages-1));
+    pager.appendChild(mk('Last »', nPages-1, curPage===nPages-1));
+  }
+}
+
+async function loadClip(id) {
+  const st = cardState[id];
+  const clip = st.clip;
+
+  const vid = document.getElementById(id + '_vid');
+  vid.src = clip.rgb_url;
+  vid.load();
+  vid.addEventListener('loadedmetadata', () => { vid.play(); });
+
+  document.getElementById(id + '_load').textContent = 'Loading…';
+  let md;
+  try {
+    md = await (await fetch(clip.motion_url)).json();
+    st.motionData = md;
+  } catch(e) {
+    document.getElementById(id + '_load').textContent = 'Load failed';
+    return;
+  }
+
+  document.getElementById(id + '_load').style.display = 'none';
+
+  buildMotionChart(id, md);
+  buildTimelines(id, md);
+  start2DOverlay(id, md, vid);
+  try { init3DViewer(id, md); } catch(e) { console.warn('3D viewer failed for', id, e); }
+
+  vid.addEventListener('timeupdate', () => {
+    if (!vid.duration) return;
+    const pct = vid.currentTime / vid.duration;
+    document.getElementById(id + '_scrub').value = Math.round(pct * 1000);
+    const T = md.num_frames;
+    const fi = Math.min(Math.round(pct * (T - 1)), T - 1);
+    document.getElementById(id + '_frame').textContent = fi + '/' + (T - 1);
+    const card = document.getElementById(id);
+    card.querySelectorAll('.cursor-line').forEach(c => c.style.left = (pct*100)+'%');
+    if (st.chart) { st.chart._cursorIndex = fi; st.chart.draw(); }
+    if (st.draw3DFrame) st.draw3DFrame(fi);
+  });
+}
+
+function buildMotionChart(id, md) {
+  const mags = md.magnitudes_by_object;
+  if (!mags || !Object.keys(mags).length) return;
+  const T = md.num_frames;
+  const labels = Array.from({length:T},(_,i)=>i);
+  const isDark = document.documentElement.getAttribute('data-theme')!=='light';
+  const datasets = [];
+  let yMax = 0;
+  for (const [name, vals] of Object.entries(mags)) {
+    const color = colorForObject(name);
+    yMax = Math.max(yMax, ...vals);
+    datasets.push({ label:name, data:vals, borderColor:color, borderWidth:1.6, pointRadius:0, tension:0.25, fill:false });
+  }
+  yMax = Math.max(yMax*1.15, (md.threshold||0.02)*1.8, 0.05);
+  const canvas = document.getElementById(id+'_chart');
+  const chart = new Chart(canvas.getContext('2d'), {
+    type:'line', data:{labels, datasets},
+    options:{
+      responsive:true, maintainAspectRatio:false, animation:false,
+      interaction:{mode:'index',intersect:false},
+      plugins:{legend:{display:false}},
+      scales:{
+        x:{display:false}, y:{min:0,max:yMax,
+          ticks:{color:isDark?'#555':'#999',font:{size:8},maxTicksLimit:4},
+          grid:{color:isDark?'rgba(255,255,255,0.04)':'rgba(0,0,0,0.05)'}},
+      }
+    },
+    plugins:[{
+      id:'shade',
+      beforeDatasetsDraw(ch){
+        const ctx=ch.ctx, yT=ch.scales.y.top, yB=ch.scales.y.bottom;
+        for(const[name,ranges]of Object.entries(md.clips_by_object||{})){
+          ctx.save(); ctx.fillStyle=colorForObject(name).replace('hsl','hsla').replace(')',',0.18)');
+          ranges.forEach(([s,e])=>{const xs=ch.scales.x.getPixelForValue(s),xe=ch.scales.x.getPixelForValue(e);ctx.fillRect(xs,yT,xe-xs,yB-yT);});
+          ctx.restore();
+        }
+        if(md.threshold!=null){const yL=ch.scales.y.getPixelForValue(md.threshold);ctx.save();ctx.strokeStyle='rgba(255,107,53,0.6)';ctx.setLineDash([6,4]);ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(ch.scales.x.left,yL);ctx.lineTo(ch.scales.x.right,yL);ctx.stroke();ctx.restore();}
+      },
+      afterDraw(ch){
+        const ci=ch._cursorIndex; if(ci==null)return;
+        const x=ch.scales.x.getPixelForValue(ci),ctx=ch.ctx;
+        ctx.save();ctx.beginPath();ctx.moveTo(x,ch.scales.y.top);ctx.lineTo(x,ch.scales.y.bottom);
+        ctx.strokeStyle='rgba(255,60,60,0.75)';ctx.lineWidth=1.5;ctx.setLineDash([4,3]);ctx.stroke();ctx.restore();
+      }
+    }]
+  });
+  cardState[id].chart = chart;
+}
+
+function buildTimelines(id, md) {
+  const panel = document.getElementById(id+'_timelines');
+  const T = md.num_frames;
+  const clips = md.clips_by_object||{};
+  for(const[name,ranges]of Object.entries(clips)){
+    const color=colorForObject(name);
+    const totalF=ranges.reduce((s,[a,b])=>s+(b-a+1),0);
+    const row=document.createElement('div'); row.className='timeline-row';
+    row.innerHTML=`<div class="timeline-label"><span class="obj-name" style="color:${color}">■ ${escapeHtml(name)}</span><span class="obj-clips">${ranges.length} clip${ranges.length===1?'':'s'} · ${totalF}f</span></div>
+      <div class="timeline-bar">${ranges.map(([s,e])=>`<div class="clip-range" style="left:${s/(T-1)*100}%;width:${(e-s+1)/T*100}%;background:${color};"></div>`).join('')}<div class="cursor-line"></div></div>`;
+    panel.appendChild(row);
+  }
+}
+
+function start2DOverlay(id, md, vid) {
+  if(!md.tracks_by_object || !Object.keys(md.tracks_by_object).length) return;
+  const canvas = document.getElementById(id+'_canvas');
+  const ctx = canvas.getContext('2d');
+  const [imgH,imgW] = md.img_dim;
+  function draw(){
+    if(!document.body.contains(vid)){return;}
+    if(!vid.duration){requestAnimationFrame(draw);return;}
+    const rect=vid.getBoundingClientRect(),dpr=window.devicePixelRatio||1;
+    const cssW=Math.max(1,Math.floor(rect.width)),cssH=Math.max(1,Math.floor(rect.height));
+    if(canvas.width!==cssW*dpr||canvas.height!==cssH*dpr){canvas.width=cssW*dpr;canvas.height=cssH*dpr;canvas.style.width=cssW+'px';canvas.style.height=cssH+'px';ctx.setTransform(dpr,0,0,dpr,0,0);}
+    const asp=cssW/cssH,vasp=imgW/imgH;
+    let vw,vh,vx,vy;if(asp>vasp){vh=cssH;vw=cssH*vasp;}else{vw=cssW;vh=cssW/vasp;}vx=(cssW-vw)/2;vy=(cssH-vh)/2;
+    ctx.clearRect(0,0,cssW,cssH);
+    const T=md.num_frames,fi=Math.min(Math.round((vid.currentTime/vid.duration)*(T-1)),T-1),ts=Math.max(0,fi-TRAIL_LEN);
+    for(const[name,td]of Object.entries(md.tracks_by_object)){
+      const color=colorForObject(name),tracks=td.tracks,vis=td.visibility,P=tracks.length;
+      for(let p=0;p<P;p++){
+        ctx.strokeStyle=color;ctx.lineWidth=1.5;ctx.beginPath();let started=false;
+        for(let t=ts;t<=fi;t++){if(!vis[p][t])continue;const pt=tracks[p][t];if(pt[0]==null)continue;const x=vx+(pt[0]/imgW)*vw,y=vy+(pt[1]/imgH)*vh;if(!started){ctx.moveTo(x,y);started=true;}else ctx.lineTo(x,y);}ctx.stroke();
+        if(vis[p][fi]){const pt=tracks[p][fi];if(pt[0]!=null){const x=vx+(pt[0]/imgW)*vw,y=vy+(pt[1]/imgH)*vh;ctx.fillStyle=color;ctx.beginPath();ctx.arc(x,y,3,0,Math.PI*2);ctx.fill();}}
+      }
+    }
+    requestAnimationFrame(draw);
+  }
+  requestAnimationFrame(draw);
+}
+
+function hsvPaletteRGB(n){
+  const out=[];for(let i=0;i<n;i++){const h=(i*137.508)%360,s=0.7,v=0.9,c=v*s,x=c*(1-Math.abs((h/60)%2-1)),m=v-c;
+    let r,g,b;if(h<60){r=c;g=x;b=0;}else if(h<120){r=x;g=c;b=0;}else if(h<180){r=0;g=c;b=x;}else if(h<240){r=0;g=x;b=c;}else if(h<300){r=x;g=0;b=c;}else{r=c;g=0;b=x;}
+    out.push({r:r+m,g:g+m,b:b+m});}return out;
+}
+
+const MAX_WEBGL = 8;
+const activeViewers = [];
+
+function init3DViewer(id, md){
+  if(!md.objects_3d || !Object.keys(md.objects_3d).length) return;
+  const canvasEl = document.getElementById(id+'_3dcanvas');
+  const box = document.getElementById(id+'_3d');
+
+  while (activeViewers.length >= MAX_WEBGL) {
+    const old = activeViewers.shift();
+    try { old.renderer.dispose(); old.renderer.forceContextLoss(); } catch(e) {}
+  }
+
+  let renderer;
+  try {
+    renderer = new THREE.WebGLRenderer({canvas:canvasEl, antialias:true});
+  } catch(e) {
+    console.warn('WebGL init failed for', id);
+    return;
+  }
+  activeViewers.push({id, renderer});
+  renderer.setClearColor(0x0d0d0d);
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(50,1,0.01,500);
+
+  // No point cloud in yt-vis (omitted to keep per-clip JSON small)
+
+  let allPts=[];
+  for(const[name,od]of Object.entries(md.objects_3d)){
+    const N=od.N, T=od.T, data=od.pts3d, vis=od.vis3d;
+    for(let i=0;i<data.length;i++){
+      if(vis && !vis[i]) continue;
+      const p=data[i];
+      if(isFinite(p[0]) && (p[0]!==0 || p[1]!==0 || p[2]!==0)) allPts.push([p[0],-p[1],-p[2]]);
+    }
+  }
+  if(!allPts.length) return;
+  const xs=allPts.map(p=>p[0]).sort((a,b)=>a-b), ys=allPts.map(p=>p[1]).sort((a,b)=>a-b), zs=allPts.map(p=>p[2]).sort((a,b)=>a-b);
+  const xmin=xs[Math.floor(xs.length*0.01)],xmax=xs[Math.floor(xs.length*0.99)];
+  const ymin=ys[Math.floor(ys.length*0.01)],ymax=ys[Math.floor(ys.length*0.99)];
+  const zmin=zs[Math.floor(zs.length*0.01)],zmax=zs[Math.floor(zs.length*0.99)];
+  const cx=(xmin+xmax)/2,cy=(ymin+ymax)/2,cz=(zmin+zmax)/2;
+  const interval=Math.max(xmax-xmin,ymax-ymin,zmax-zmin,0.1);
+
+  let camYaw=Math.PI*0.25, camPitch=0.3, camDist=interval*1.5;
+  const target=new THREE.Vector3(cx,cy,cz);
+  function updateCam(){
+    camera.position.set(target.x+camDist*Math.sin(camYaw)*Math.cos(camPitch),target.y+camDist*Math.sin(camPitch),target.z+camDist*Math.cos(camYaw)*Math.cos(camPitch));
+    camera.lookAt(target);
+    renderScene();
+  }
+
+  let isDragging=false, prevMouse={x:0,y:0};
+  canvasEl.addEventListener('mousedown',e=>{isDragging=true;prevMouse={x:e.clientX,y:e.clientY};});
+  canvasEl.addEventListener('contextmenu',e=>e.preventDefault());
+  window.addEventListener('mouseup',()=>isDragging=false);
+  canvasEl.addEventListener('mousemove',e=>{if(!isDragging)return;camYaw-=(e.clientX-prevMouse.x)*0.005;camPitch-=(e.clientY-prevMouse.y)*0.005;camPitch=Math.max(-Math.PI/2+0.1,Math.min(Math.PI/2-0.1,camPitch));prevMouse={x:e.clientX,y:e.clientY};updateCam();});
+  canvasEl.addEventListener('wheel',e=>{camDist=Math.max(0.3,Math.min(interval*8,camDist+e.deltaY*0.01*interval));updateCam();e.preventDefault();},{passive:false});
+
+  const grid=new THREE.GridHelper(interval*2.4,20,0x333333,0x222222);
+  grid.position.set(cx,ys[0],cz);scene.add(grid);
+
+  const dynGroup = new THREE.Group();
+  scene.add(dynGroup);
+
+  function renderScene(){
+    const w=box.clientWidth,h=box.clientHeight;if(!w||!h)return;
+    renderer.setSize(w,h);camera.aspect=w/h;camera.updateProjectionMatrix();
+    renderer.render(scene,camera);
+  }
+
+  const objEntries = Object.entries(md.objects_3d);
+  const TRAIL = 12;
+  function draw3DFrame(fi){
+    while(dynGroup.children.length) dynGroup.remove(dynGroup.children[0]);
+    for(const[name,od] of objEntries){
+      const N=od.N, T=od.T, data=od.pts3d, vis=od.vis3d;
+      const colors=hsvPaletteRGB(N);
+      const trailStart=Math.max(0,fi-TRAIL);
+      for(let n=0;n<N;n++){
+        let seg=[];
+        for(let t=trailStart;t<=Math.min(fi,T-1);t++){
+          const idx=n*T+t;
+          if(vis && !vis[idx]){if(seg.length>=6){const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(seg,3));dynGroup.add(new THREE.Line(g,new THREE.LineBasicMaterial({color:new THREE.Color(colors[n].r,colors[n].g,colors[n].b)})));}seg=[];continue;}
+          const p=data[idx];
+          if(!p||!isFinite(p[0])){if(seg.length>=6){const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(seg,3));dynGroup.add(new THREE.Line(g,new THREE.LineBasicMaterial({color:new THREE.Color(colors[n].r,colors[n].g,colors[n].b)})));}seg=[];continue;}
+          seg.push(p[0],-p[1],-p[2]);
+        }
+        if(seg.length>=6){const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(seg,3));dynGroup.add(new THREE.Line(g,new THREE.LineBasicMaterial({color:new THREE.Color(colors[n].r,colors[n].g,colors[n].b)})));}
+      }
+      const ptP=[],ptC=[];
+      for(let n=0;n<N;n++){
+        const idx=n*T+Math.min(fi,T-1);
+        if(vis && !vis[idx]) continue;
+        const p=data[idx];
+        if(!p||!isFinite(p[0]))continue;
+        ptP.push(p[0],-p[1],-p[2]);ptC.push(colors[n].r,colors[n].g,colors[n].b);
+      }
+      if(ptP.length){const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.Float32BufferAttribute(ptP,3));g.setAttribute('color',new THREE.Float32BufferAttribute(ptC,3));dynGroup.add(new THREE.Points(g,new THREE.PointsMaterial({vertexColors:true,size:interval*0.012,sizeAttenuation:true})));}
+    }
+    renderScene();
+  }
+
+  cardState[id].draw3DFrame = draw3DFrame;
+  updateCam();
+  draw3DFrame(0);
+}
+
+function togglePlay(id){const v=document.getElementById(id+'_vid');if(v.paused)v.play();else v.pause();}
+function scrubTo(id,val){const v=document.getElementById(id+'_vid');if(v.duration)v.currentTime=(val/1000)*v.duration;}
+
+init();
+</script>
+</body>
+</html>
