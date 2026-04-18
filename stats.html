@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YT-VIS — Per-(video, object) median magnitude</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+:root {
+  --bg:#111; --bg-card:#161616; --bg-header:#1a1a1a;
+  --border:#222; --border-hover:#444;
+  --text:#d4d4d4; --text-heading:#f0f0f0; --text-secondary:#777; --text-muted:#555;
+  --accent:#4a9eff; --accent-soft:rgba(74,158,255,0.18);
+  --warn:#ff6b35;
+}
+[data-theme="light"] {
+  --bg:#f5f5f0; --bg-card:#fff; --bg-header:#f0efe8;
+  --border:#ddd; --border-hover:#bbb;
+  --text:#333; --text-heading:#111; --text-secondary:#666; --text-muted:#999;
+  --accent:#2266cc; --accent-soft:rgba(34,102,204,0.18);
+  --warn:#c2562a;
+}
+body { font-family:'Inter',sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
+.page { max-width:1400px; margin:0 auto; padding:0 24px; }
+.masthead { padding:30px 0 16px; border-bottom:1px solid var(--border); margin-bottom:20px;
+  display:flex; align-items:flex-start; justify-content:space-between; gap:20px; }
+.masthead h1 { font-family:'Playfair Display',serif; font-size:2rem; color:var(--text-heading); }
+.masthead .subtitle { font-size:0.85rem; color:var(--text-secondary); margin-top:4px; max-width:1000px; }
+.masthead-right { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+.masthead-right a, .theme-toggle {
+  color:var(--text-secondary); font-size:0.78rem; text-decoration:none;
+  border:1px solid var(--border); padding:5px 12px; border-radius:20px;
+  background:var(--bg-card); cursor:pointer; font-family:inherit;
+}
+.masthead-right a:hover, .theme-toggle:hover { color:var(--text); border-color:var(--border-hover); }
+
+.card { background:var(--bg-card); border:1px solid var(--border); border-radius:10px;
+  padding:18px 22px; margin-bottom:18px; }
+.card h2 { font-size:0.85rem; font-weight:600; color:var(--text-heading); letter-spacing:0.04em;
+  text-transform:uppercase; margin-bottom:14px; }
+
+.chart-wrap { position:relative; height:340px; }
+.chart-wrap canvas { width:100%!important; height:100%!important; }
+
+.controls {
+  display:grid; grid-template-columns: 1fr 1fr auto; gap:14px 20px; align-items:end;
+  margin-top:16px;
+}
+.control-group { display:flex; flex-direction:column; gap:4px; }
+.control-group label { font-size:0.7rem; color:var(--text-muted); letter-spacing:0.05em; text-transform:uppercase; }
+.control-group .row { display:flex; gap:8px; align-items:center; }
+.control-group input[type=number] {
+  background:var(--bg); border:1px solid var(--border); color:var(--text);
+  padding:6px 10px; border-radius:6px; font-family:'SF Mono', monospace; font-size:0.85rem;
+  width:120px;
+}
+.control-group input[type=number]:focus { outline:none; border-color:var(--accent); }
+.control-group input[type=range] { flex:1; }
+.preset-btns { display:flex; gap:6px; flex-wrap:wrap; }
+.preset-btns button {
+  background:var(--bg); border:1px solid var(--border); color:var(--text-secondary);
+  padding:4px 10px; border-radius:14px; cursor:pointer; font-family:inherit; font-size:0.7rem;
+}
+.preset-btns button:hover { color:var(--text); border-color:var(--border-hover); }
+
+.results { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-top:18px; }
+.metric { background:var(--bg); border:1px solid var(--border); border-radius:8px; padding:12px 14px; }
+.metric .lbl { font-size:0.65rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.05em; }
+.metric .val { font-size:1.4rem; font-family:'SF Mono', monospace; color:var(--text-heading); margin-top:2px; }
+.metric .val .pct { font-size:0.85rem; color:var(--text-secondary); margin-left:6px; }
+
+.examples-grid {
+  display:grid; grid-template-columns:repeat(auto-fill, minmax(180px, 1fr)); gap:10px; margin-top:10px;
+}
+.ex-card {
+  background:var(--bg); border:1px solid var(--border); border-radius:6px;
+  padding:8px 10px; font-family:'SF Mono', monospace; font-size:0.72rem;
+}
+.ex-card a { color:var(--accent); text-decoration:none; }
+.ex-card a:hover { text-decoration:underline; }
+.ex-card .obj { color:var(--text-muted); font-size:0.66rem; }
+.ex-card .med { color:var(--text-heading); float:right; }
+
+.flex-row { display:flex; gap:14px; align-items:center; flex-wrap:wrap; font-size:0.78rem; color:var(--text-secondary); }
+.dl-btn {
+  background:var(--accent); color:#fff; border:none; padding:8px 14px; border-radius:6px;
+  cursor:pointer; font-family:inherit; font-size:0.78rem;
+}
+.dl-btn:hover { filter:brightness(1.1); }
+
+@media(max-width:900px) {
+  .controls { grid-template-columns:1fr; }
+  .results { grid-template-columns:repeat(2,1fr); }
+}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="masthead">
+    <div>
+      <h1>YT-VIS — Per-(video, object) median magnitude</h1>
+      <div class="subtitle">
+        Distribution of the median frame-to-frame motion magnitude for every
+        keep-object across all 1,310 captioned clips. Use the min/max sliders
+        to pick a magnitude band; the live count shows how many objects (and
+        clips) survive. Mono-depth scale is not metric, so values span ~0.001
+        to ~14 — log axis recommended.
+      </div>
+    </div>
+    <div class="masthead-right">
+      <a href="index.html">← Clips</a>
+      <button class="theme-toggle" onclick="toggleTheme()">Toggle theme</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Distribution of per-(video, object) median magnitude</h2>
+    <div class="chart-wrap"><canvas id="histChart"></canvas></div>
+    <div class="controls">
+      <div class="control-group">
+        <label>Min median (log slider)</label>
+        <div class="row">
+          <input type="range" id="minSlide" min="0" max="1000" value="0" step="1">
+          <input type="number" id="minVal" step="0.001" value="0">
+        </div>
+      </div>
+      <div class="control-group">
+        <label>Max median (log slider)</label>
+        <div class="row">
+          <input type="range" id="maxSlide" min="0" max="1000" value="1000" step="1">
+          <input type="number" id="maxVal" step="0.001" value="100">
+        </div>
+      </div>
+      <div class="control-group">
+        <label>Presets</label>
+        <div class="preset-btns">
+          <button data-min="0.005" data-max="0.5">moderate (5e-3 → 0.5)</button>
+          <button data-min="0.01"  data-max="1.0">loose (1e-2 → 1.0)</button>
+          <button data-min="0.02"  data-max="0.3">tight (2e-2 → 0.3)</button>
+          <button data-min="0"     data-max="100">none</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="results">
+      <div class="metric"><div class="lbl">Range</div><div class="val" id="mRange">— → —</div></div>
+      <div class="metric"><div class="lbl">Objects pass</div><div class="val" id="mObj">—<span class="pct" id="mObjPct"></span></div></div>
+      <div class="metric"><div class="lbl">Clips with ≥ 1 pass</div><div class="val" id="mClip">—<span class="pct" id="mClipPct"></span></div></div>
+      <div class="metric"><div class="lbl">Median in-band</div><div class="val" id="mMed">—</div></div>
+    </div>
+
+    <div class="flex-row" style="margin-top:18px;">
+      <button class="dl-btn" id="downloadBtn">Download passing-list JSON</button>
+      <span id="dlNote">— pick a range first</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Sample at the boundaries (sanity-check the cutoff)</h2>
+    <div class="flex-row" style="margin-bottom:8px;">
+      <span>20 random objects with median <span style="color:var(--accent)">just above</span> the min cutoff:</span>
+    </div>
+    <div class="examples-grid" id="exJustIn"></div>
+    <div class="flex-row" style="margin:18px 0 8px;">
+      <span>20 random objects <span style="color:var(--warn)">just below</span> the min cutoff (excluded):</span>
+    </div>
+    <div class="examples-grid" id="exJustOut"></div>
+    <div class="flex-row" style="margin:18px 0 8px;">
+      <span>20 random objects with median <span style="color:var(--warn)">above</span> the max cutoff (excluded as scale-runaway):</span>
+    </div>
+    <div class="examples-grid" id="exTooHi"></div>
+  </div>
+</div>
+
+<script>
+function toggleTheme() {
+  const t = document.documentElement.getAttribute('data-theme')==='light'?'':'light';
+  document.documentElement.setAttribute('data-theme', t);
+  localStorage.setItem('motion-theme', t);
+  if (window._chart) buildChart();   // re-skin
+}
+(function(){ const t=localStorage.getItem('motion-theme'); if(t) document.documentElement.setAttribute('data-theme',t); })();
+
+// --- log slider mapping ---
+const LO = 0.001, HI = 20.0;
+const logLO = Math.log10(LO), logHI = Math.log10(HI);
+function slideToVal(s) { const t = s/1000; return Math.pow(10, logLO + t*(logHI-logLO)); }
+function valToSlide(v) { v = Math.max(LO, Math.min(HI, v)); return Math.round(((Math.log10(v)-logLO)/(logHI-logLO))*1000); }
+function fmt(v) { if(v < 0.01) return v.toExponential(2); if(v < 10) return v.toFixed(3); return v.toFixed(2); }
+
+let DATA = null;   // {items:[{clip,obj,median,max,n_frames}], n_clips, n_objects}
+let BINS = null;   // {edges:[...], counts:[...], midpoints:[...]}
+let curMin = 0, curMax = 100;
+
+const NBINS = 60;
+
+async function init() {
+  const r = await fetch('static/data/motion/ytvis/object_stats.json');
+  DATA = await r.json();
+  console.log('loaded', DATA.n_objects, 'objects across', DATA.n_clips, 'clips');
+
+  // log-spaced bins
+  const edges = [];
+  for (let i = 0; i <= NBINS; i++) edges.push(Math.pow(10, logLO + (i/NBINS)*(logHI-logLO)));
+  const counts = new Array(NBINS).fill(0);
+  for (const it of DATA.items) {
+    const v = it.median;
+    if (v < edges[0] || v >= edges[NBINS]) continue;
+    let lo = 0, hi = NBINS;
+    while (lo < hi-1) { const m=(lo+hi)>>1; if (edges[m] <= v) lo = m; else hi = m; }
+    counts[lo]++;
+  }
+  const mids = [];
+  for (let i = 0; i < NBINS; i++) mids.push(Math.sqrt(edges[i]*edges[i+1]));
+  BINS = {edges, counts, midpoints: mids};
+
+  buildChart();
+  bindControls();
+  applyRange();
+}
+
+function buildChart() {
+  const isDark = document.documentElement.getAttribute('data-theme')!=='light';
+  const ctx = document.getElementById('histChart').getContext('2d');
+  if (window._chart) window._chart.destroy();
+
+  const labels = BINS.midpoints.map(v => fmt(v));
+  const inBand = BINS.midpoints.map(m => m >= curMin && m <= curMax);
+
+  window._chart = new Chart(ctx, {
+    type:'bar',
+    data:{
+      labels,
+      datasets:[{
+        label:'count',
+        data:BINS.counts,
+        backgroundColor: BINS.midpoints.map(m =>
+          (m>=curMin && m<=curMax) ? 'rgba(74,158,255,0.85)' : 'rgba(150,150,150,0.35)'),
+        borderWidth:0,
+        barPercentage:1.0, categoryPercentage:1.0,
+      }]
+    },
+    options:{
+      animation:false, responsive:true, maintainAspectRatio:false,
+      plugins:{ legend:{display:false},
+        tooltip:{ callbacks:{
+          title: (items)=>`bin: ${fmt(BINS.edges[items[0].dataIndex])} – ${fmt(BINS.edges[items[0].dataIndex+1])}`,
+          label: (it)=>`${it.parsed.y} objects`
+        }}
+      },
+      scales:{
+        x:{ title:{display:true,text:'median magnitude (log bins, 60 bins, 0.001–20)', color:isDark?'#777':'#666'},
+            ticks:{ color:isDark?'#666':'#888', font:{size:9}, maxTicksLimit:12, autoSkip:true } },
+        y:{ title:{display:true,text:'# (video, object) pairs', color:isDark?'#777':'#666'},
+            ticks:{ color:isDark?'#666':'#888', font:{size:10} },
+            grid:{color:isDark?'rgba(255,255,255,0.05)':'rgba(0,0,0,0.05)'} }
+      }
+    }
+  });
+}
+
+function bindControls() {
+  const minSlide = document.getElementById('minSlide');
+  const maxSlide = document.getElementById('maxSlide');
+  const minVal = document.getElementById('minVal');
+  const maxVal = document.getElementById('maxVal');
+
+  minSlide.value = valToSlide(LO);
+  maxSlide.value = valToSlide(HI);
+  minVal.value = LO;
+  maxVal.value = HI;
+
+  minSlide.addEventListener('input', () => { const v = slideToVal(+minSlide.value); minVal.value = +v.toFixed(5); applyRange(); });
+  maxSlide.addEventListener('input', () => { const v = slideToVal(+maxSlide.value); maxVal.value = +v.toFixed(5); applyRange(); });
+  minVal.addEventListener('change', () => { minSlide.value = valToSlide(+minVal.value); applyRange(); });
+  maxVal.addEventListener('change', () => { maxSlide.value = valToSlide(+maxVal.value); applyRange(); });
+
+  document.querySelectorAll('.preset-btns button').forEach(b => {
+    b.addEventListener('click', () => {
+      minVal.value = b.dataset.min;
+      maxVal.value = b.dataset.max;
+      minSlide.value = valToSlide(+b.dataset.min);
+      maxSlide.value = valToSlide(+b.dataset.max);
+      applyRange();
+    });
+  });
+
+  document.getElementById('downloadBtn').addEventListener('click', downloadPassing);
+}
+
+function applyRange() {
+  curMin = +document.getElementById('minVal').value;
+  curMax = +document.getElementById('maxVal').value;
+  if (curMin > curMax) [curMin, curMax] = [curMax, curMin];
+
+  const passing = DATA.items.filter(it => it.median >= curMin && it.median <= curMax);
+  const passClips = new Set(passing.map(it => it.clip));
+  const inBandMedians = passing.map(it => it.median).sort((a,b)=>a-b);
+  const med = inBandMedians.length ? inBandMedians[Math.floor(inBandMedians.length/2)] : null;
+
+  document.getElementById('mRange').textContent = `${fmt(curMin)} → ${fmt(curMax)}`;
+  document.getElementById('mObj').firstChild.textContent = `${passing.length}`;
+  document.getElementById('mObjPct').textContent = ` / ${DATA.n_objects} (${(100*passing.length/DATA.n_objects).toFixed(1)}%)`;
+  document.getElementById('mClip').firstChild.textContent = `${passClips.size}`;
+  document.getElementById('mClipPct').textContent = ` / ${DATA.n_clips} (${(100*passClips.size/DATA.n_clips).toFixed(1)}%)`;
+  document.getElementById('mMed').textContent = med==null ? '—' : fmt(med);
+  document.getElementById('dlNote').textContent =
+    `would export ${passing.length} (clip, obj) pairs covering ${passClips.size} clips`;
+
+  // re-skin chart bars and update presets state
+  if (window._chart) {
+    window._chart.data.datasets[0].backgroundColor = BINS.midpoints.map(m =>
+      (m>=curMin && m<=curMax) ? 'rgba(74,158,255,0.85)' : 'rgba(150,150,150,0.35)');
+    window._chart.update('none');
+  }
+
+  // Sample at boundaries
+  const sortedByMed = DATA.items.slice().sort((a,b)=>a.median-b.median);
+  const justInPool = sortedByMed.filter(it => it.median >= curMin && it.median <= curMax).slice(0, 200);
+  const justOutLowPool = sortedByMed.filter(it => it.median < curMin).slice(-200);
+  const justOutHighPool = sortedByMed.filter(it => it.median > curMax).slice(0, 200);
+  fillExamples('exJustIn', randSample(justInPool, 20));
+  fillExamples('exJustOut', randSample(justOutLowPool, 20));
+  fillExamples('exTooHi', randSample(justOutHighPool, 20));
+}
+
+function randSample(arr, n) {
+  if (arr.length <= n) return arr.slice();
+  const out = [], used = new Set();
+  while (out.length < n && used.size < arr.length) {
+    const i = Math.floor(Math.random() * arr.length);
+    if (!used.has(i)) { used.add(i); out.push(arr[i]); }
+  }
+  return out;
+}
+
+function fillExamples(elId, items) {
+  const el = document.getElementById(elId);
+  el.innerHTML = '';
+  for (const it of items) {
+    const card = document.createElement('div');
+    card.className = 'ex-card';
+    card.innerHTML = `<a href="index.html#${it.clip}" target="_blank">${it.clip}</a>
+      <span class="med">${fmt(it.median)}</span>
+      <div class="obj">${it.obj} · ${it.n_frames}f · max=${fmt(it.max)}</div>`;
+    el.appendChild(card);
+  }
+}
+
+function downloadPassing() {
+  const passing = DATA.items.filter(it => it.median >= curMin && it.median <= curMax);
+  const out = {
+    threshold: {min: curMin, max: curMax},
+    n_objects: passing.length,
+    n_clips: new Set(passing.map(it => it.clip)).size,
+    items: passing,
+  };
+  const blob = new Blob([JSON.stringify(out, null, 2)], {type:'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `ytvis_passing_${curMin}_${curMax}.json`;
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+init();
+</script>
+</body>
+</html>
