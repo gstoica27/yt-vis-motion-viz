@@ -1,0 +1,4204 @@
+{
+  "mammalnet": [
+    {
+      "id": "clip_00005_Hj_scIJYqC8_hippos",
+      "query": "hippos",
+      "text": "a hippo swims to the right",
+      "object_names": [
+        "hippos"
+      ],
+      "num_objects": 1,
+      "num_frames": 75,
+      "num_clips": 0,
+      "median_magnitude": 0.011067922227084637,
+      "rgb_url": "static/videos/mammalnet/clip_00005_Hj_scIJYqC8_hippos.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_00005_Hj_scIJYqC8_hippos.json"
+    },
+    {
+      "id": "clip_00036_-7xPX2KRBrU_red_pandas",
+      "query": "red pandas",
+      "text": "a red panda drinks water",
+      "object_names": [
+        "red pandas"
+      ],
+      "num_objects": 1,
+      "num_frames": 75,
+      "num_clips": 0,
+      "median_magnitude": 0.003707637661136687,
+      "rgb_url": "static/videos/mammalnet/clip_00036_-7xPX2KRBrU_red_pandas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_00036_-7xPX2KRBrU_red_pandas.json"
+    },
+    {
+      "id": "clip_00058_-I7swPnD0KE_rhinoceroses",
+      "query": "rhinoceroses",
+      "text": "a rhinoceros lies on the ground and scratches its head with its horn",
+      "object_names": [
+        "rhinoceroses"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.011146939359605312,
+      "rgb_url": "static/videos/mammalnet/clip_00058_-I7swPnD0KE_rhinoceroses.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_00058_-I7swPnD0KE_rhinoceroses.json"
+    },
+    {
+      "id": "clip_00134_-kEmvfjmWvo_chinchillas",
+      "query": "chinchillas",
+      "text": "a gray chinchilla eats a blue object",
+      "object_names": [
+        "chinchillas"
+      ],
+      "num_objects": 1,
+      "num_frames": 137,
+      "num_clips": 2,
+      "median_magnitude": 0.00822401512414217,
+      "rgb_url": "static/videos/mammalnet/clip_00134_-kEmvfjmWvo_chinchillas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_00134_-kEmvfjmWvo_chinchillas.json"
+    },
+    {
+      "id": "clip_00151_-pwWgX_iPCg_alpacas",
+      "query": "alpacas",
+      "text": "four alpacas walk to the left",
+      "object_names": [
+        "alpacas"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.027400875464081764,
+      "rgb_url": "static/videos/mammalnet/clip_00151_-pwWgX_iPCg_alpacas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_00151_-pwWgX_iPCg_alpacas.json"
+    },
+    {
+      "id": "clip_00170_-u4tlPZkz1M_chinchillas",
+      "query": "chinchillas",
+      "text": "A white chinchilla jumps into the cage and a gray chinchilla chases it",
+      "object_names": [
+        "chinchillas"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.004952684510499239,
+      "rgb_url": "static/videos/mammalnet/clip_00170_-u4tlPZkz1M_chinchillas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_00170_-u4tlPZkz1M_chinchillas.json"
+    },
+    {
+      "id": "clip_00201_0-QzCFs6-SY_wolves",
+      "query": "wolves",
+      "text": "a wolf is eating",
+      "object_names": [
+        "wolves"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.011864851228892803,
+      "rgb_url": "static/videos/mammalnet/clip_00201_0-QzCFs6-SY_wolves.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_00201_0-QzCFs6-SY_wolves.json"
+    },
+    {
+      "id": "clip_00257_0FQOm7oL1rU_birds",
+      "query": "birds",
+      "text": "two birds fly in the air",
+      "object_names": [
+        "birds"
+      ],
+      "num_objects": 1,
+      "num_frames": 12,
+      "num_clips": 1,
+      "median_magnitude": 0.05800268054008484,
+      "rgb_url": "static/videos/mammalnet/clip_00257_0FQOm7oL1rU_birds.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_00257_0FQOm7oL1rU_birds.json"
+    },
+    {
+      "id": "clip_00331_0fRoudlmqbw_hippos",
+      "query": "hippos",
+      "text": "a hippo drinks water",
+      "object_names": [
+        "hippos"
+      ],
+      "num_objects": 1,
+      "num_frames": 75,
+      "num_clips": 2,
+      "median_magnitude": 0.022523365914821625,
+      "rgb_url": "static/videos/mammalnet/clip_00331_0fRoudlmqbw_hippos.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_00331_0fRoudlmqbw_hippos.json"
+    },
+    {
+      "id": "clip_00443_1GzL8BKxNdg_zebras",
+      "query": "zebras",
+      "text": "two zebras stand on the ground",
+      "object_names": [
+        "zebras"
+      ],
+      "num_objects": 1,
+      "num_frames": 75,
+      "num_clips": 1,
+      "median_magnitude": 0.022436439990997314,
+      "rgb_url": "static/videos/mammalnet/clip_00443_1GzL8BKxNdg_zebras.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_00443_1GzL8BKxNdg_zebras.json"
+    },
+    {
+      "id": "clip_00481_1T6jtf5TG44_servals",
+      "query": "servals",
+      "text": "two servals play with each other",
+      "object_names": [
+        "servals"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.004614395555108786,
+      "rgb_url": "static/videos/mammalnet/clip_00481_1T6jtf5TG44_servals.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_00481_1T6jtf5TG44_servals.json"
+    },
+    {
+      "id": "clip_00583_1vlFQYth26U_topis",
+      "query": "topis",
+      "text": "two topis are fighting each other",
+      "object_names": [
+        "topis"
+      ],
+      "num_objects": 1,
+      "num_frames": 83,
+      "num_clips": 1,
+      "median_magnitude": 0.021001632325351238,
+      "rgb_url": "static/videos/mammalnet/clip_00583_1vlFQYth26U_topis.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_00583_1vlFQYth26U_topis.json"
+    },
+    {
+      "id": "clip_00619_24c8_fnOOww_camels",
+      "query": "camels",
+      "text": "a camel walks to the right and then walks back",
+      "object_names": [
+        "camels"
+      ],
+      "num_objects": 1,
+      "num_frames": 88,
+      "num_clips": 0,
+      "median_magnitude": 0.2725243419408798,
+      "rgb_url": "static/videos/mammalnet/clip_00619_24c8_fnOOww_camels.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_00619_24c8_fnOOww_camels.json"
+    },
+    {
+      "id": "clip_00691_2Uy_DGa1d10_camels",
+      "query": "camels",
+      "text": "a camel drinks water",
+      "object_names": [
+        "camels"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.0054195476695895195,
+      "rgb_url": "static/videos/mammalnet/clip_00691_2Uy_DGa1d10_camels.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_00691_2Uy_DGa1d10_camels.json"
+    },
+    {
+      "id": "clip_00745_2cdCZZ1akRQ_baby_fur_seals",
+      "query": "baby fur seals",
+      "text": "a baby fur seal swims to the right",
+      "object_names": [
+        "baby fur seals"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 3,
+      "median_magnitude": 0.036473143845796585,
+      "rgb_url": "static/videos/mammalnet/clip_00745_2cdCZZ1akRQ_baby_fur_seals.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_00745_2cdCZZ1akRQ_baby_fur_seals.json"
+    },
+    {
+      "id": "clip_00754_2fAlRP-61gk_buffaloes",
+      "query": "buffaloes",
+      "text": "a group of buffaloes are walking on the ground",
+      "object_names": [
+        "buffaloes"
+      ],
+      "num_objects": 1,
+      "num_frames": 81,
+      "num_clips": 2,
+      "median_magnitude": 0.02424292080104351,
+      "rgb_url": "static/videos/mammalnet/clip_00754_2fAlRP-61gk_buffaloes.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_00754_2fAlRP-61gk_buffaloes.json"
+    },
+    {
+      "id": "clip_00762_2g5I1nAZKYw_cheetahs",
+      "query": "cheetahs",
+      "text": "a cheetah is lying on the ground and eating",
+      "object_names": [
+        "cheetahs"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.0022206392604857683,
+      "rgb_url": "static/videos/mammalnet/clip_00762_2g5I1nAZKYw_cheetahs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_00762_2g5I1nAZKYw_cheetahs.json"
+    },
+    {
+      "id": "clip_00944_3RinpTt750I_malamutes",
+      "query": "malamutes",
+      "text": "a malamute stands on the grass and sniffs",
+      "object_names": [
+        "malamutes"
+      ],
+      "num_objects": 1,
+      "num_frames": 81,
+      "num_clips": 1,
+      "median_magnitude": 0.0052526905201375484,
+      "rgb_url": "static/videos/mammalnet/clip_00944_3RinpTt750I_malamutes.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_00944_3RinpTt750I_malamutes.json"
+    },
+    {
+      "id": "clip_01029_3lWdzMYQT3g_hamsters",
+      "query": "hamsters",
+      "text": "a hamster is held in a person's hand and looks at the camera",
+      "object_names": [
+        "hamsters"
+      ],
+      "num_objects": 1,
+      "num_frames": 123,
+      "num_clips": 0,
+      "median_magnitude": 0.0017816787585616112,
+      "rgb_url": "static/videos/mammalnet/clip_01029_3lWdzMYQT3g_hamsters.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01029_3lWdzMYQT3g_hamsters.json"
+    },
+    {
+      "id": "clip_01084_43lCHjR4npk_pandas",
+      "query": "pandas",
+      "text": "a panda is playing with a ball",
+      "object_names": [
+        "pandas"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.002296390477567911,
+      "rgb_url": "static/videos/mammalnet/clip_01084_43lCHjR4npk_pandas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01084_43lCHjR4npk_pandas.json"
+    },
+    {
+      "id": "clip_01119_4BoDMUIJN7Y_asian_elephants",
+      "query": "asian elephants",
+      "text": "an elephant stands behind a fence and eats grass",
+      "object_names": [
+        "asian elephants"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.003776536090299487,
+      "rgb_url": "static/videos/mammalnet/clip_01119_4BoDMUIJN7Y_asian_elephants.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01119_4BoDMUIJN7Y_asian_elephants.json"
+    },
+    {
+      "id": "clip_01195_4czjasUxT4U_leopards",
+      "query": "leopards",
+      "text": "A spotted leopard lies on the ground, licking her cub",
+      "object_names": [
+        "leopards"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.003139168955385685,
+      "rgb_url": "static/videos/mammalnet/clip_01195_4czjasUxT4U_leopards.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01195_4czjasUxT4U_leopards.json"
+    },
+    {
+      "id": "clip_01204_4e8x1hNl358_wolverines",
+      "query": "wolverines",
+      "text": "a wolverine digs a hole in the ground",
+      "object_names": [
+        "wolverines"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 3,
+      "median_magnitude": 0.012027337215840816,
+      "rgb_url": "static/videos/mammalnet/clip_01204_4e8x1hNl358_wolverines.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01204_4e8x1hNl358_wolverines.json"
+    },
+    {
+      "id": "clip_01310_50qrzXRdvBk_sloths",
+      "query": "sloths",
+      "text": "two sloths are hanging on a branch",
+      "object_names": [
+        "sloths"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.0023430788423866034,
+      "rgb_url": "static/videos/mammalnet/clip_01310_50qrzXRdvBk_sloths.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01310_50qrzXRdvBk_sloths.json"
+    },
+    {
+      "id": "clip_01351_5JUe707EHeM_lynxes",
+      "query": "lynxes",
+      "text": "a lynx walks to the right",
+      "object_names": [
+        "lynxes"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.0041714259423315525,
+      "rgb_url": "static/videos/mammalnet/clip_01351_5JUe707EHeM_lynxes.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01351_5JUe707EHeM_lynxes.json"
+    },
+    {
+      "id": "clip_01375_5Tgs1sMbAE4_pigs",
+      "query": "pigs",
+      "text": "a group of pigs are walking in the forest",
+      "object_names": [
+        "pigs"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.02022549696266651,
+      "rgb_url": "static/videos/mammalnet/clip_01375_5Tgs1sMbAE4_pigs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01375_5Tgs1sMbAE4_pigs.json"
+    },
+    {
+      "id": "clip_01380_5UVmMvriyXU_red_foxes",
+      "query": "red foxes",
+      "text": "a group of red foxes are playing with each other",
+      "object_names": [
+        "red foxes"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 3,
+      "median_magnitude": 0.01889328844845295,
+      "rgb_url": "static/videos/mammalnet/clip_01380_5UVmMvriyXU_red_foxes.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01380_5UVmMvriyXU_red_foxes.json"
+    },
+    {
+      "id": "clip_01395_5XHv3016RXs_elks",
+      "query": "elks",
+      "text": "a group of elks runs to the left",
+      "object_names": [
+        "elks"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.0021416465751826763,
+      "rgb_url": "static/videos/mammalnet/clip_01395_5XHv3016RXs_elks.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01395_5XHv3016RXs_elks.json"
+    },
+    {
+      "id": "clip_01412_5_YHqZUjfbE_terriers",
+      "query": "terriers",
+      "text": "a brown dog wearing a yellow vest digs in the hay",
+      "object_names": [
+        "terriers"
+      ],
+      "num_objects": 1,
+      "num_frames": 98,
+      "num_clips": 2,
+      "median_magnitude": 0.009116638451814651,
+      "rgb_url": "static/videos/mammalnet/clip_01412_5_YHqZUjfbE_terriers.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01412_5_YHqZUjfbE_terriers.json"
+    },
+    {
+      "id": "clip_01416_5aWTHTOg9dg_rams",
+      "query": "rams",
+      "text": "two rams are separated by a fence, one on each side, and they are staring at each other",
+      "object_names": [
+        "rams"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.007923380471765995,
+      "rgb_url": "static/videos/mammalnet/clip_01416_5aWTHTOg9dg_rams.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01416_5aWTHTOg9dg_rams.json"
+    },
+    {
+      "id": "clip_01422_5ccscUZ5WkY_giraffes",
+      "query": "giraffes",
+      "text": "two giraffes walk to the left",
+      "object_names": [
+        "giraffes"
+      ],
+      "num_objects": 1,
+      "num_frames": 132,
+      "num_clips": 2,
+      "median_magnitude": 0.023873701691627502,
+      "rgb_url": "static/videos/mammalnet/clip_01422_5ccscUZ5WkY_giraffes.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01422_5ccscUZ5WkY_giraffes.json"
+    },
+    {
+      "id": "clip_01459_5uQcpP_O8Js_deer",
+      "query": "deer",
+      "text": "a deer is nursing",
+      "object_names": [
+        "deer"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.0055952733382582664,
+      "rgb_url": "static/videos/mammalnet/clip_01459_5uQcpP_O8Js_deer.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01459_5uQcpP_O8Js_deer.json"
+    },
+    {
+      "id": "clip_01464_5uZtidzeJx8_sea_lions",
+      "query": "sea lions",
+      "text": "some sea lions are lying on the beach, and one sea lion is walking to the right",
+      "object_names": [
+        "sea lions"
+      ],
+      "num_objects": 1,
+      "num_frames": 77,
+      "num_clips": 1,
+      "median_magnitude": 0.03889981657266617,
+      "rgb_url": "static/videos/mammalnet/clip_01464_5uZtidzeJx8_sea_lions.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01464_5uZtidzeJx8_sea_lions.json"
+    },
+    {
+      "id": "clip_01521_6H0rRDacpTM_dogs",
+      "query": "dogs",
+      "text": "a black and white dog walks to the right",
+      "object_names": [
+        "dogs"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 3,
+      "median_magnitude": 0.012349694967269897,
+      "rgb_url": "static/videos/mammalnet/clip_01521_6H0rRDacpTM_dogs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01521_6H0rRDacpTM_dogs.json"
+    },
+    {
+      "id": "clip_01533_6Jp47inw9wM_donkeys",
+      "query": "donkeys",
+      "text": "two donkeys are lying on the ground, one of them is sleeping",
+      "object_names": [
+        "donkeys"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.005794085096567869,
+      "rgb_url": "static/videos/mammalnet/clip_01533_6Jp47inw9wM_donkeys.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01533_6Jp47inw9wM_donkeys.json"
+    },
+    {
+      "id": "clip_01585_6XyLe0iddtc_goats",
+      "query": "goats",
+      "text": "a white goat walks to the front",
+      "object_names": [
+        "goats"
+      ],
+      "num_objects": 1,
+      "num_frames": 127,
+      "num_clips": 3,
+      "median_magnitude": 0.01516941748559475,
+      "rgb_url": "static/videos/mammalnet/clip_01585_6XyLe0iddtc_goats.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01585_6XyLe0iddtc_goats.json"
+    },
+    {
+      "id": "clip_01609_6c4-qtGlenw_snakes",
+      "query": "snakes",
+      "text": "a snake is biting a raccoon",
+      "object_names": [
+        "snakes"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.0023034901823848486,
+      "rgb_url": "static/videos/mammalnet/clip_01609_6c4-qtGlenw_snakes.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01609_6c4-qtGlenw_snakes.json"
+    },
+    {
+      "id": "clip_01619_6daiD-Qk2kw_raccoons",
+      "query": "raccoons",
+      "text": "a raccoon is lying on a woman's stomach and sleeping",
+      "object_names": [
+        "raccoons"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.0025469250977039337,
+      "rgb_url": "static/videos/mammalnet/clip_01619_6daiD-Qk2kw_raccoons.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01619_6daiD-Qk2kw_raccoons.json"
+    },
+    {
+      "id": "clip_01636_6fQjDuWMFfw_hippos",
+      "query": "hippos",
+      "text": "a hippo walks to the left",
+      "object_names": [
+        "hippos"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.03320000693202019,
+      "rgb_url": "static/videos/mammalnet/clip_01636_6fQjDuWMFfw_hippos.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01636_6fQjDuWMFfw_hippos.json"
+    },
+    {
+      "id": "clip_01641_6fxOWXee_Ks_harbor_seals",
+      "query": "harbor seals",
+      "text": "a harbor seal swims in the water and catches a bird",
+      "object_names": [
+        "harbor seals"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.05468226596713066,
+      "rgb_url": "static/videos/mammalnet/clip_01641_6fxOWXee_Ks_harbor_seals.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01641_6fxOWXee_Ks_harbor_seals.json"
+    },
+    {
+      "id": "clip_01649_6goPQpovF7c_japanese_macaques",
+      "query": "japanese macaques",
+      "text": "three monkeys are playing on the rocks",
+      "object_names": [
+        "japanese macaques"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 4,
+      "median_magnitude": 0.0180352833122015,
+      "rgb_url": "static/videos/mammalnet/clip_01649_6goPQpovF7c_japanese_macaques.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01649_6goPQpovF7c_japanese_macaques.json"
+    },
+    {
+      "id": "clip_01655_6hiRj_rvTJU_chimpanzees",
+      "query": "chimpanzees",
+      "text": "three chimpanzees are playing in the zoo",
+      "object_names": [
+        "chimpanzees"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.004327848087996244,
+      "rgb_url": "static/videos/mammalnet/clip_01655_6hiRj_rvTJU_chimpanzees.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01655_6hiRj_rvTJU_chimpanzees.json"
+    },
+    {
+      "id": "clip_01686_6t2dHWhlY9U_shepherd_dogs",
+      "query": "shepherd dogs",
+      "text": "two shepherd dogs are playing and biting each other",
+      "object_names": [
+        "shepherd dogs"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.06134897843003273,
+      "rgb_url": "static/videos/mammalnet/clip_01686_6t2dHWhlY9U_shepherd_dogs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01686_6t2dHWhlY9U_shepherd_dogs.json"
+    },
+    {
+      "id": "clip_01689_6v1UclNnkKM_hamsters",
+      "query": "hamsters",
+      "text": "a hamster is holding a baby hamster in its mouth",
+      "object_names": [
+        "hamsters"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.003246610052883625,
+      "rgb_url": "static/videos/mammalnet/clip_01689_6v1UclNnkKM_hamsters.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01689_6v1UclNnkKM_hamsters.json"
+    },
+    {
+      "id": "clip_01696_6xyETA2pbxI_tigers",
+      "query": "tigers",
+      "text": "a tiger is eating a dead animal",
+      "object_names": [
+        "tigers"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.004315930884331465,
+      "rgb_url": "static/videos/mammalnet/clip_01696_6xyETA2pbxI_tigers.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01696_6xyETA2pbxI_tigers.json"
+    },
+    {
+      "id": "clip_01724_79NQlOfwXyc_walruses",
+      "query": "walruses",
+      "text": "a walrus lies on the beach",
+      "object_names": [
+        "walruses"
+      ],
+      "num_objects": 1,
+      "num_frames": 75,
+      "num_clips": 0,
+      "median_magnitude": 0.0025111099239438772,
+      "rgb_url": "static/videos/mammalnet/clip_01724_79NQlOfwXyc_walruses.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01724_79NQlOfwXyc_walruses.json"
+    },
+    {
+      "id": "clip_01736_7DvYPdg7uFU_black_bears",
+      "query": "black bears",
+      "text": "a black bear drinks water",
+      "object_names": [
+        "black bears"
+      ],
+      "num_objects": 1,
+      "num_frames": 90,
+      "num_clips": 0,
+      "median_magnitude": 0.007355634123086929,
+      "rgb_url": "static/videos/mammalnet/clip_01736_7DvYPdg7uFU_black_bears.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01736_7DvYPdg7uFU_black_bears.json"
+    },
+    {
+      "id": "clip_01786_7Vz4X6TcG7o_seals",
+      "query": "seals",
+      "text": "a gray seal stands on the ground and turns its head to the right",
+      "object_names": [
+        "seals"
+      ],
+      "num_objects": 1,
+      "num_frames": 75,
+      "num_clips": 1,
+      "median_magnitude": 0.013820457737892866,
+      "rgb_url": "static/videos/mammalnet/clip_01786_7Vz4X6TcG7o_seals.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01786_7Vz4X6TcG7o_seals.json"
+    },
+    {
+      "id": "clip_01877_85v3OAxUiwA_hamsters",
+      "query": "hamsters",
+      "text": "a hamster is sleeping",
+      "object_names": [
+        "hamsters"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.004063136875629425,
+      "rgb_url": "static/videos/mammalnet/clip_01877_85v3OAxUiwA_hamsters.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01877_85v3OAxUiwA_hamsters.json"
+    },
+    {
+      "id": "clip_01878_86hiK9qP7js_pigs",
+      "query": "pigs",
+      "text": "a pig lies on the sofa and sniffs the sofa",
+      "object_names": [
+        "pigs"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.0022283236030489206,
+      "rgb_url": "static/videos/mammalnet/clip_01878_86hiK9qP7js_pigs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01878_86hiK9qP7js_pigs.json"
+    },
+    {
+      "id": "clip_01902_8KUiMviQzP8_cheetahs_or_leopards",
+      "query": "cheetahs or leopards",
+      "text": "two leopards walk on the grass",
+      "object_names": [
+        "cheetahs or leopards"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.005741054657846689,
+      "rgb_url": "static/videos/mammalnet/clip_01902_8KUiMviQzP8_cheetahs_or_leopards.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01902_8KUiMviQzP8_cheetahs_or_leopards.json"
+    },
+    {
+      "id": "clip_01912_8PwpvdjoRD4_hamsters",
+      "query": "hamsters",
+      "text": "a hamster drinks water from a water bottle",
+      "object_names": [
+        "hamsters"
+      ],
+      "num_objects": 1,
+      "num_frames": 131,
+      "num_clips": 0,
+      "median_magnitude": 0.00309804268181324,
+      "rgb_url": "static/videos/mammalnet/clip_01912_8PwpvdjoRD4_hamsters.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01912_8PwpvdjoRD4_hamsters.json"
+    },
+    {
+      "id": "clip_01959_8bR7sdwBL8g_cattles",
+      "query": "cattles",
+      "text": "cattles are eating grasses",
+      "object_names": [
+        "cattles"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.0504666231572628,
+      "rgb_url": "static/videos/mammalnet/clip_01959_8bR7sdwBL8g_cattles.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_01959_8bR7sdwBL8g_cattles.json"
+    },
+    {
+      "id": "clip_02047_97OMmMNgi7Y_prairie_dogs",
+      "query": "prairie dogs",
+      "text": "four small prairie dogs are playing with each other",
+      "object_names": [
+        "prairie dogs"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.005213665310293436,
+      "rgb_url": "static/videos/mammalnet/clip_02047_97OMmMNgi7Y_prairie_dogs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02047_97OMmMNgi7Y_prairie_dogs.json"
+    },
+    {
+      "id": "clip_02078_9LP_s8VNXAY_chinchillas",
+      "query": "chinchillas",
+      "text": "a gray chinchilla picks up grass and eats it",
+      "object_names": [
+        "chinchillas"
+      ],
+      "num_objects": 1,
+      "num_frames": 97,
+      "num_clips": 1,
+      "median_magnitude": 0.004201308358460665,
+      "rgb_url": "static/videos/mammalnet/clip_02078_9LP_s8VNXAY_chinchillas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02078_9LP_s8VNXAY_chinchillas.json"
+    },
+    {
+      "id": "clip_02161_9izyB2Q9-P4_gorillas",
+      "query": "gorillas",
+      "text": "a gorilla holds a baby and scratches its head",
+      "object_names": [
+        "gorillas"
+      ],
+      "num_objects": 1,
+      "num_frames": 75,
+      "num_clips": 0,
+      "median_magnitude": 0.012215799652040005,
+      "rgb_url": "static/videos/mammalnet/clip_02161_9izyB2Q9-P4_gorillas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02161_9izyB2Q9-P4_gorillas.json"
+    },
+    {
+      "id": "clip_02195_9sGZKCIwe_o_red_pandas",
+      "query": "red pandas",
+      "text": "a red panda lies on a wooden platform and blinks its eyes",
+      "object_names": [
+        "red pandas"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.006565742660313845,
+      "rgb_url": "static/videos/mammalnet/clip_02195_9sGZKCIwe_o_red_pandas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02195_9sGZKCIwe_o_red_pandas.json"
+    },
+    {
+      "id": "clip_02213_A-ZWmk8x5gU_arctic_foxes",
+      "query": "arctic foxes",
+      "text": "a fox runs to the left and then stops to eat",
+      "object_names": [
+        "arctic foxes"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 4,
+      "median_magnitude": 0.023691583424806595,
+      "rgb_url": "static/videos/mammalnet/clip_02213_A-ZWmk8x5gU_arctic_foxes.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02213_A-ZWmk8x5gU_arctic_foxes.json"
+    },
+    {
+      "id": "clip_02223_A0Di6LDgpBs_chimpanzees",
+      "query": "chimpanzees",
+      "text": "a chimpanzee is eating fruit",
+      "object_names": [
+        "chimpanzees"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.003957091365009546,
+      "rgb_url": "static/videos/mammalnet/clip_02223_A0Di6LDgpBs_chimpanzees.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02223_A0Di6LDgpBs_chimpanzees.json"
+    },
+    {
+      "id": "clip_02239_A9jE9Ukw2-E_black_bears",
+      "query": "black bears",
+      "text": "a black bear walks to the right",
+      "object_names": [
+        "black bears"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.033993735909461975,
+      "rgb_url": "static/videos/mammalnet/clip_02239_A9jE9Ukw2-E_black_bears.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02239_A9jE9Ukw2-E_black_bears.json"
+    },
+    {
+      "id": "clip_02287_ANsXrhzi80Y_patas_monkeys",
+      "query": "patas monkeys",
+      "text": "two patas monkeys are fighting",
+      "object_names": [
+        "patas monkeys"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.009612303227186203,
+      "rgb_url": "static/videos/mammalnet/clip_02287_ANsXrhzi80Y_patas_monkeys.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02287_ANsXrhzi80Y_patas_monkeys.json"
+    },
+    {
+      "id": "clip_02296_AQ14o7kYL3g_chimpanzees",
+      "query": "chimpanzees",
+      "text": "a chimpanzee stands on the ground and looks at the glass",
+      "object_names": [
+        "chimpanzees"
+      ],
+      "num_objects": 1,
+      "num_frames": 127,
+      "num_clips": 0,
+      "median_magnitude": 0.009365638252347708,
+      "rgb_url": "static/videos/mammalnet/clip_02296_AQ14o7kYL3g_chimpanzees.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02296_AQ14o7kYL3g_chimpanzees.json"
+    },
+    {
+      "id": "clip_02317_AVL0fsP5Inc_hawaiian_monk_seals",
+      "query": "hawaiian monk seals",
+      "text": "a hawaiian monk seal lies on the beach",
+      "object_names": [
+        "hawaiian monk seals"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.002856945153325796,
+      "rgb_url": "static/videos/mammalnet/clip_02317_AVL0fsP5Inc_hawaiian_monk_seals.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02317_AVL0fsP5Inc_hawaiian_monk_seals.json"
+    },
+    {
+      "id": "clip_02329_AZb50c5g-0U_elks",
+      "query": "elks",
+      "text": "two elk fight with their antlers",
+      "object_names": [
+        "elks"
+      ],
+      "num_objects": 1,
+      "num_frames": 98,
+      "num_clips": 1,
+      "median_magnitude": 0.029758401215076447,
+      "rgb_url": "static/videos/mammalnet/clip_02329_AZb50c5g-0U_elks.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02329_AZb50c5g-0U_elks.json"
+    },
+    {
+      "id": "clip_02363_Ag3K_iZPYSE_cheetahs",
+      "query": "cheetahs",
+      "text": "a cheetah is licking a baby cheetah",
+      "object_names": [
+        "cheetahs"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.003981652902439237,
+      "rgb_url": "static/videos/mammalnet/clip_02363_Ag3K_iZPYSE_cheetahs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02363_Ag3K_iZPYSE_cheetahs.json"
+    },
+    {
+      "id": "clip_02388_AotoIuZ9Tp8_ferrets",
+      "query": "ferrets",
+      "text": "a white cat nurses from a ferret",
+      "object_names": [
+        "ferrets"
+      ],
+      "num_objects": 1,
+      "num_frames": 127,
+      "num_clips": 1,
+      "median_magnitude": 0.0067375656217336655,
+      "rgb_url": "static/videos/mammalnet/clip_02388_AotoIuZ9Tp8_ferrets.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02388_AotoIuZ9Tp8_ferrets.json"
+    },
+    {
+      "id": "clip_02414_AtuC2la9R8Q_donkeys",
+      "query": "donkeys",
+      "text": "a brown donkey lies on the ground and looks at the camera",
+      "object_names": [
+        "donkeys"
+      ],
+      "num_objects": 1,
+      "num_frames": 105,
+      "num_clips": 1,
+      "median_magnitude": 0.007937580347061157,
+      "rgb_url": "static/videos/mammalnet/clip_02414_AtuC2la9R8Q_donkeys.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02414_AtuC2la9R8Q_donkeys.json"
+    },
+    {
+      "id": "clip_02420_AwRevqqrjBQ_terriers",
+      "query": "terriers",
+      "text": "a brown dog eats meat",
+      "object_names": [
+        "terriers"
+      ],
+      "num_objects": 1,
+      "num_frames": 108,
+      "num_clips": 0,
+      "median_magnitude": 0.0043038236908614635,
+      "rgb_url": "static/videos/mammalnet/clip_02420_AwRevqqrjBQ_terriers.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02420_AwRevqqrjBQ_terriers.json"
+    },
+    {
+      "id": "clip_02442_B0w1vdqahVY_bulldogs",
+      "query": "bulldogs",
+      "text": "a white bulldog chases a black dog",
+      "object_names": [
+        "bulldogs"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.09809314832091331,
+      "rgb_url": "static/videos/mammalnet/clip_02442_B0w1vdqahVY_bulldogs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02442_B0w1vdqahVY_bulldogs.json"
+    },
+    {
+      "id": "clip_02510_BUztvEAslHE_cheetahs",
+      "query": "cheetahs",
+      "text": "a cheetah runs to the right",
+      "object_names": [
+        "cheetahs"
+      ],
+      "num_objects": 1,
+      "num_frames": 142,
+      "num_clips": 2,
+      "median_magnitude": 0.04547218978404999,
+      "rgb_url": "static/videos/mammalnet/clip_02510_BUztvEAslHE_cheetahs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02510_BUztvEAslHE_cheetahs.json"
+    },
+    {
+      "id": "clip_02574_Bm7C6uJHaWA_springboks",
+      "query": "springboks",
+      "text": "a springbok lies on the ground and looks at the camera",
+      "object_names": [
+        "springboks"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.008009511511772871,
+      "rgb_url": "static/videos/mammalnet/clip_02574_Bm7C6uJHaWA_springboks.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02574_Bm7C6uJHaWA_springboks.json"
+    },
+    {
+      "id": "clip_02583_Bqmw93YEjkE_orangutans",
+      "query": "orangutans",
+      "text": "an orangutan holds a white object in its hand",
+      "object_names": [
+        "orangutans"
+      ],
+      "num_objects": 1,
+      "num_frames": 75,
+      "num_clips": 0,
+      "median_magnitude": 0.0038797506131231785,
+      "rgb_url": "static/videos/mammalnet/clip_02583_Bqmw93YEjkE_orangutans.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02583_Bqmw93YEjkE_orangutans.json"
+    },
+    {
+      "id": "clip_02618_C1-C5nRKxHs_manatees",
+      "query": "manatees",
+      "text": "a manatee swims to the right",
+      "object_names": [
+        "manatees"
+      ],
+      "num_objects": 1,
+      "num_frames": 112,
+      "num_clips": 3,
+      "median_magnitude": 0.016900965943932533,
+      "rgb_url": "static/videos/mammalnet/clip_02618_C1-C5nRKxHs_manatees.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02618_C1-C5nRKxHs_manatees.json"
+    },
+    {
+      "id": "clip_02622_C2qa0SBHSrc_topis",
+      "query": "topis",
+      "text": "a brown topis runs to the right",
+      "object_names": [
+        "topis"
+      ],
+      "num_objects": 1,
+      "num_frames": 76,
+      "num_clips": 1,
+      "median_magnitude": 0.22875523567199707,
+      "rgb_url": "static/videos/mammalnet/clip_02622_C2qa0SBHSrc_topis.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02622_C2qa0SBHSrc_topis.json"
+    },
+    {
+      "id": "clip_02627_C5YuK9ehEgE_beavers",
+      "query": "beavers",
+      "text": "two beavers are fighting",
+      "object_names": [
+        "beavers"
+      ],
+      "num_objects": 1,
+      "num_frames": 90,
+      "num_clips": 0,
+      "median_magnitude": 0.011717663146555424,
+      "rgb_url": "static/videos/mammalnet/clip_02627_C5YuK9ehEgE_beavers.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02627_C5YuK9ehEgE_beavers.json"
+    },
+    {
+      "id": "clip_02696_CTBHTJv1v6g_deer",
+      "query": "deer",
+      "text": "a deer is lying on the ground",
+      "object_names": [
+        "deer"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 3,
+      "median_magnitude": 0.013263426721096039,
+      "rgb_url": "static/videos/mammalnet/clip_02696_CTBHTJv1v6g_deer.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02696_CTBHTJv1v6g_deer.json"
+    },
+    {
+      "id": "clip_02716_C_S3tBkVgm4_deer",
+      "query": "deer",
+      "text": "a deer grazes on the grass",
+      "object_names": [
+        "deer"
+      ],
+      "num_objects": 1,
+      "num_frames": 89,
+      "num_clips": 2,
+      "median_magnitude": 0.015069657936692238,
+      "rgb_url": "static/videos/mammalnet/clip_02716_C_S3tBkVgm4_deer.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02716_C_S3tBkVgm4_deer.json"
+    },
+    {
+      "id": "clip_02829_D9nUE3a2Ktg_wombats",
+      "query": "wombats",
+      "text": "a brown wombat walks to the right",
+      "object_names": [
+        "wombats"
+      ],
+      "num_objects": 1,
+      "num_frames": 90,
+      "num_clips": 0,
+      "median_magnitude": 0.009889152832329273,
+      "rgb_url": "static/videos/mammalnet/clip_02829_D9nUE3a2Ktg_wombats.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02829_D9nUE3a2Ktg_wombats.json"
+    },
+    {
+      "id": "clip_02863_D9nUE3a2Ktg_capybaras",
+      "query": "capybaras",
+      "text": "a capybara walks to the right",
+      "object_names": [
+        "capybaras"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 3,
+      "median_magnitude": 0.012643687427043915,
+      "rgb_url": "static/videos/mammalnet/clip_02863_D9nUE3a2Ktg_capybaras.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02863_D9nUE3a2Ktg_capybaras.json"
+    },
+    {
+      "id": "clip_02954_DV-pWjUNuUQ_hippos",
+      "query": "hippos",
+      "text": "a hippo walks to the right",
+      "object_names": [
+        "hippos"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.031229913234710693,
+      "rgb_url": "static/videos/mammalnet/clip_02954_DV-pWjUNuUQ_hippos.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02954_DV-pWjUNuUQ_hippos.json"
+    },
+    {
+      "id": "clip_02973_D_ZA5SemNjY_sheep",
+      "query": "sheep",
+      "text": "a brown sheep walks to the right",
+      "object_names": [
+        "sheep"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.10279984027147293,
+      "rgb_url": "static/videos/mammalnet/clip_02973_D_ZA5SemNjY_sheep.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_02973_D_ZA5SemNjY_sheep.json"
+    },
+    {
+      "id": "clip_03032_Do3lbrYYkPM_skunks",
+      "query": "skunks",
+      "text": "two skunks walk to the right and then walk back",
+      "object_names": [
+        "skunks"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.019365206360816956,
+      "rgb_url": "static/videos/mammalnet/clip_03032_Do3lbrYYkPM_skunks.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_03032_Do3lbrYYkPM_skunks.json"
+    },
+    {
+      "id": "clip_03100_EAdUTqGN_T8_hamsters",
+      "query": "hamsters",
+      "text": "a white hamster eats a rose",
+      "object_names": [
+        "hamsters"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.003262159414589405,
+      "rgb_url": "static/videos/mammalnet/clip_03100_EAdUTqGN_T8_hamsters.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_03100_EAdUTqGN_T8_hamsters.json"
+    },
+    {
+      "id": "clip_03137_EUOkCaXGeHg_walruses",
+      "query": "walruses",
+      "text": "a walrus is sleeping on the ground",
+      "object_names": [
+        "walruses"
+      ],
+      "num_objects": 1,
+      "num_frames": 112,
+      "num_clips": 1,
+      "median_magnitude": 0.008253039792180061,
+      "rgb_url": "static/videos/mammalnet/clip_03137_EUOkCaXGeHg_walruses.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_03137_EUOkCaXGeHg_walruses.json"
+    },
+    {
+      "id": "clip_03140_EVjK50_dVe4_sloths",
+      "query": "sloths",
+      "text": "a sloth hangs upside down and moves its head",
+      "object_names": [
+        "sloths"
+      ],
+      "num_objects": 1,
+      "num_frames": 105,
+      "num_clips": 0,
+      "median_magnitude": 0.004112281138077378,
+      "rgb_url": "static/videos/mammalnet/clip_03140_EVjK50_dVe4_sloths.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_03140_EVjK50_dVe4_sloths.json"
+    },
+    {
+      "id": "clip_03193_Er48SHbq770_ponies",
+      "query": "ponies",
+      "text": "a group of horses are eating grass",
+      "object_names": [
+        "ponies"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.015072974376380444,
+      "rgb_url": "static/videos/mammalnet/clip_03193_Er48SHbq770_ponies.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_03193_Er48SHbq770_ponies.json"
+    },
+    {
+      "id": "clip_03281_FH6CcB25oWQ_spotted_hyenas",
+      "query": "spotted hyenas",
+      "text": "four spotted hyenas are attacking a wildebeest",
+      "object_names": [
+        "spotted hyenas"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 3,
+      "median_magnitude": 0.018984055146574974,
+      "rgb_url": "static/videos/mammalnet/clip_03281_FH6CcB25oWQ_spotted_hyenas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_03281_FH6CcB25oWQ_spotted_hyenas.json"
+    },
+    {
+      "id": "clip_03303_FPifUSrRGIE_meerkats",
+      "query": "meerkats",
+      "text": "a meerkat eats a dead chicken",
+      "object_names": [
+        "meerkats"
+      ],
+      "num_objects": 1,
+      "num_frames": 120,
+      "num_clips": 3,
+      "median_magnitude": 0.018555810675024986,
+      "rgb_url": "static/videos/mammalnet/clip_03303_FPifUSrRGIE_meerkats.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_03303_FPifUSrRGIE_meerkats.json"
+    },
+    {
+      "id": "clip_03304_FPifUSrRGIE_dogs",
+      "query": "dogs",
+      "text": "a brown dog walks to the left",
+      "object_names": [
+        "dogs"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 3,
+      "median_magnitude": 0.01646064966917038,
+      "rgb_url": "static/videos/mammalnet/clip_03304_FPifUSrRGIE_dogs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_03304_FPifUSrRGIE_dogs.json"
+    },
+    {
+      "id": "clip_03320_FUBkYbAribo_shepherd_dogs",
+      "query": "shepherd dogs",
+      "text": "a shepherd dog stands on the ground and looks to the left",
+      "object_names": [
+        "shepherd dogs"
+      ],
+      "num_objects": 1,
+      "num_frames": 75,
+      "num_clips": 0,
+      "median_magnitude": 0.005779472412541509,
+      "rgb_url": "static/videos/mammalnet/clip_03320_FUBkYbAribo_shepherd_dogs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_03320_FUBkYbAribo_shepherd_dogs.json"
+    },
+    {
+      "id": "clip_03376_FktswELv5Zc_martens",
+      "query": "martens",
+      "text": "a dark gray animal walks to the left and then walks to the right",
+      "object_names": [
+        "martens"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.007899395190179348,
+      "rgb_url": "static/videos/mammalnet/clip_03376_FktswELv5Zc_martens.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_03376_FktswELv5Zc_martens.json"
+    },
+    {
+      "id": "clip_03625_Gxn8ePzXnrw_hamsters",
+      "query": "hamsters",
+      "text": "a white hamster is playing with a dice",
+      "object_names": [
+        "hamsters"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.0033846301957964897,
+      "rgb_url": "static/videos/mammalnet/clip_03625_Gxn8ePzXnrw_hamsters.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_03625_Gxn8ePzXnrw_hamsters.json"
+    },
+    {
+      "id": "clip_03668_HKPOItcd_bs_antelopes",
+      "query": "antelopes",
+      "text": "a hyena feeds on a dead antelope",
+      "object_names": [
+        "antelopes"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.0075525459833443165,
+      "rgb_url": "static/videos/mammalnet/clip_03668_HKPOItcd_bs_antelopes.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_03668_HKPOItcd_bs_antelopes.json"
+    },
+    {
+      "id": "clip_03693_HOendiag27k_bisons",
+      "query": "bisons",
+      "text": "two bison are fighting",
+      "object_names": [
+        "bisons"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.10759661346673965,
+      "rgb_url": "static/videos/mammalnet/clip_03693_HOendiag27k_bisons.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_03693_HOendiag27k_bisons.json"
+    },
+    {
+      "id": "clip_03737_HaUMxNV12tc_elephants",
+      "query": "elephants",
+      "text": "an elephant eats leaves",
+      "object_names": [
+        "elephants"
+      ],
+      "num_objects": 1,
+      "num_frames": 83,
+      "num_clips": 0,
+      "median_magnitude": 0.0010490301065146923,
+      "rgb_url": "static/videos/mammalnet/clip_03737_HaUMxNV12tc_elephants.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_03737_HaUMxNV12tc_elephants.json"
+    },
+    {
+      "id": "clip_03745_Hcn6qq86b1I_different_people_visibles_in_t",
+      "query": "different people visibles in the safari vehicles and on the road",
+      "text": "different people visible in the safari vehicles and on the road",
+      "object_names": [
+        "different people visibles in the safari vehicles and on the road"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.038660354912281036,
+      "rgb_url": "static/videos/mammalnet/clip_03745_Hcn6qq86b1I_different_people_visibles_in_t.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_03745_Hcn6qq86b1I_different_people_visibles_in_t.json"
+    },
+    {
+      "id": "clip_03756_HhehGZqKhTo_bald_eagles",
+      "query": "bald eagles",
+      "text": "two bears play with each other",
+      "object_names": [
+        "bald eagles"
+      ],
+      "num_objects": 1,
+      "num_frames": 119,
+      "num_clips": 1,
+      "median_magnitude": 0.03715088963508606,
+      "rgb_url": "static/videos/mammalnet/clip_03756_HhehGZqKhTo_bald_eagles.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_03756_HhehGZqKhTo_bald_eagles.json"
+    },
+    {
+      "id": "clip_03794_Hsq2Hr1wiWI_baboons",
+      "query": "baboons",
+      "text": "six baboons are playing on the ground",
+      "object_names": [
+        "baboons"
+      ],
+      "num_objects": 1,
+      "num_frames": 97,
+      "num_clips": 1,
+      "median_magnitude": 0.012737907003611326,
+      "rgb_url": "static/videos/mammalnet/clip_03794_Hsq2Hr1wiWI_baboons.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_03794_Hsq2Hr1wiWI_baboons.json"
+    },
+    {
+      "id": "clip_03800_HxQMNSed5oM_moose",
+      "query": "moose",
+      "text": "two moose are fighting",
+      "object_names": [
+        "moose"
+      ],
+      "num_objects": 1,
+      "num_frames": 80,
+      "num_clips": 1,
+      "median_magnitude": 0.16617245972156525,
+      "rgb_url": "static/videos/mammalnet/clip_03800_HxQMNSed5oM_moose.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_03800_HxQMNSed5oM_moose.json"
+    },
+    {
+      "id": "clip_03831_I94Mc5oalf0_hounds",
+      "query": "hounds",
+      "text": "a black dog lies on a bed and sleeps",
+      "object_names": [
+        "hounds"
+      ],
+      "num_objects": 1,
+      "num_frames": 83,
+      "num_clips": 0,
+      "median_magnitude": 0.0022955924505367875,
+      "rgb_url": "static/videos/mammalnet/clip_03831_I94Mc5oalf0_hounds.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_03831_I94Mc5oalf0_hounds.json"
+    },
+    {
+      "id": "clip_03854_IIxSJh5ckLs_goats",
+      "query": "goats",
+      "text": "a black goat is standing and a brown goat is suckling milk from the black goat",
+      "object_names": [
+        "goats"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.003718620166182518,
+      "rgb_url": "static/videos/mammalnet/clip_03854_IIxSJh5ckLs_goats.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_03854_IIxSJh5ckLs_goats.json"
+    },
+    {
+      "id": "clip_03872_IP-LPABnTPg_terriers",
+      "query": "terriers",
+      "text": "two dogs are playing with each other",
+      "object_names": [
+        "terriers"
+      ],
+      "num_objects": 1,
+      "num_frames": 149,
+      "num_clips": 3,
+      "median_magnitude": 0.016956954263150692,
+      "rgb_url": "static/videos/mammalnet/clip_03872_IP-LPABnTPg_terriers.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_03872_IP-LPABnTPg_terriers.json"
+    },
+    {
+      "id": "clip_03895_IWiME6Ffteo_salmon",
+      "query": "salmon",
+      "text": "a salmon jumps out of the water",
+      "object_names": [
+        "salmon"
+      ],
+      "num_objects": 1,
+      "num_frames": 75,
+      "num_clips": 2,
+      "median_magnitude": 0.02371505182236433,
+      "rgb_url": "static/videos/mammalnet/clip_03895_IWiME6Ffteo_salmon.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_03895_IWiME6Ffteo_salmon.json"
+    },
+    {
+      "id": "clip_03908_IX_20omrrnQ_baboons",
+      "query": "baboons",
+      "text": "two monkeys are sitting on a wooden house and playing with a rope",
+      "object_names": [
+        "baboons"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.0048796869814395905,
+      "rgb_url": "static/videos/mammalnet/clip_03908_IX_20omrrnQ_baboons.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_03908_IX_20omrrnQ_baboons.json"
+    },
+    {
+      "id": "clip_03934_IjH7syd-GSU_fallow_deer",
+      "query": "fallow deer",
+      "text": "a group of fallow deer is feeding",
+      "object_names": [
+        "fallow deer"
+      ],
+      "num_objects": 1,
+      "num_frames": 97,
+      "num_clips": 1,
+      "median_magnitude": 0.012053349055349827,
+      "rgb_url": "static/videos/mammalnet/clip_03934_IjH7syd-GSU_fallow_deer.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_03934_IjH7syd-GSU_fallow_deer.json"
+    },
+    {
+      "id": "clip_04051_JM3TLhBEv9M_elephant_seals",
+      "query": "elephant seals",
+      "text": "a elephant seal lies on the ground and blinks its eyes",
+      "object_names": [
+        "elephant seals"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.003732105949893594,
+      "rgb_url": "static/videos/mammalnet/clip_04051_JM3TLhBEv9M_elephant_seals.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_04051_JM3TLhBEv9M_elephant_seals.json"
+    },
+    {
+      "id": "clip_04226_KLfz1HtQlvQ_large_birds_with_bald,_colorfu",
+      "query": "large birds with bald, colorful heads",
+      "text": "a group of birds walk around a wild boar",
+      "object_names": [
+        "large birds with bald, colorful heads"
+      ],
+      "num_objects": 1,
+      "num_frames": 105,
+      "num_clips": 1,
+      "median_magnitude": 0.0291838888078928,
+      "rgb_url": "static/videos/mammalnet/clip_04226_KLfz1HtQlvQ_large_birds_with_bald,_colorfu.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_04226_KLfz1HtQlvQ_large_birds_with_bald,_colorfu.json"
+    },
+    {
+      "id": "clip_04351_Kw51jUFZi70_orangutans",
+      "query": "orangutans",
+      "text": "two orangutans are playing with each other on a rock",
+      "object_names": [
+        "orangutans"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.03001256100833416,
+      "rgb_url": "static/videos/mammalnet/clip_04351_Kw51jUFZi70_orangutans.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_04351_Kw51jUFZi70_orangutans.json"
+    },
+    {
+      "id": "clip_04416_LFxO7t0ri68_rabbits",
+      "query": "rabbits",
+      "text": "a rabbit runs away from a weasel",
+      "object_names": [
+        "rabbits"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.007988398894667625,
+      "rgb_url": "static/videos/mammalnet/clip_04416_LFxO7t0ri68_rabbits.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_04416_LFxO7t0ri68_rabbits.json"
+    },
+    {
+      "id": "clip_04524_LmXoa1EAyNE_sloths",
+      "query": "sloths",
+      "text": "a sloth is hanging on a tree",
+      "object_names": [
+        "sloths"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.003732719225808978,
+      "rgb_url": "static/videos/mammalnet/clip_04524_LmXoa1EAyNE_sloths.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_04524_LmXoa1EAyNE_sloths.json"
+    },
+    {
+      "id": "clip_04533_LpBKOQKOD38_golden_retriever_puppies",
+      "query": "golden retriever puppies",
+      "text": "a golden retriever puppy walks to the left",
+      "object_names": [
+        "golden retriever puppies"
+      ],
+      "num_objects": 1,
+      "num_frames": 75,
+      "num_clips": 2,
+      "median_magnitude": 0.018905186094343662,
+      "rgb_url": "static/videos/mammalnet/clip_04533_LpBKOQKOD38_golden_retriever_puppies.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_04533_LpBKOQKOD38_golden_retriever_puppies.json"
+    },
+    {
+      "id": "clip_04536_Lq0oZ8FSNGs_lynxes",
+      "query": "lynxes",
+      "text": "a cat is licking the other cat",
+      "object_names": [
+        "lynxes"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.0044164820574223995,
+      "rgb_url": "static/videos/mammalnet/clip_04536_Lq0oZ8FSNGs_lynxes.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_04536_Lq0oZ8FSNGs_lynxes.json"
+    },
+    {
+      "id": "clip_04557_M1LnanfS8Ks_vervet_monkeys",
+      "query": "vervet monkeys",
+      "text": "two monkeys are sitting on the roof, one of them is holding the other one",
+      "object_names": [
+        "vervet monkeys"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.0027301600202918053,
+      "rgb_url": "static/videos/mammalnet/clip_04557_M1LnanfS8Ks_vervet_monkeys.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_04557_M1LnanfS8Ks_vervet_monkeys.json"
+    },
+    {
+      "id": "clip_04574_M74ZS9FfLtk_tigers",
+      "query": "tigers",
+      "text": "two tigers walk to the left",
+      "object_names": [
+        "tigers"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.08759643882513046,
+      "rgb_url": "static/videos/mammalnet/clip_04574_M74ZS9FfLtk_tigers.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_04574_M74ZS9FfLtk_tigers.json"
+    },
+    {
+      "id": "clip_04728_MubocFZ5BqI_white_birds",
+      "query": "white birds",
+      "text": "white birds walk on the grass",
+      "object_names": [
+        "white birds"
+      ],
+      "num_objects": 1,
+      "num_frames": 91,
+      "num_clips": 0,
+      "median_magnitude": 0.015531782992184162,
+      "rgb_url": "static/videos/mammalnet/clip_04728_MubocFZ5BqI_white_birds.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_04728_MubocFZ5BqI_white_birds.json"
+    },
+    {
+      "id": "clip_04729_MvezaL1VJFI_mice",
+      "query": "mice",
+      "text": "a brown mouse and a gray mouse are sitting on a pile of grass and twigs",
+      "object_names": [
+        "mice"
+      ],
+      "num_objects": 1,
+      "num_frames": 127,
+      "num_clips": 0,
+      "median_magnitude": 0.002647045417688787,
+      "rgb_url": "static/videos/mammalnet/clip_04729_MvezaL1VJFI_mice.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_04729_MvezaL1VJFI_mice.json"
+    },
+    {
+      "id": "clip_04787_NDqcFlreY4Q_giraffes",
+      "query": "giraffes",
+      "text": "two giraffes are fighting",
+      "object_names": [
+        "giraffes"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.03457556292414665,
+      "rgb_url": "static/videos/mammalnet/clip_04787_NDqcFlreY4Q_giraffes.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_04787_NDqcFlreY4Q_giraffes.json"
+    },
+    {
+      "id": "clip_04861_NXIanKg-G1g_african_wild_dogs",
+      "query": "african wild dogs",
+      "text": "four African wild dogs are eating a dead animal",
+      "object_names": [
+        "african wild dogs"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.006906487978994846,
+      "rgb_url": "static/videos/mammalnet/clip_04861_NXIanKg-G1g_african_wild_dogs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_04861_NXIanKg-G1g_african_wild_dogs.json"
+    },
+    {
+      "id": "clip_04980_O3RD0rAeSSI_sea_otters",
+      "query": "sea otters",
+      "text": "a sea otter lies on the beach and scratches its face with its paws",
+      "object_names": [
+        "sea otters"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.01182944979518652,
+      "rgb_url": "static/videos/mammalnet/clip_04980_O3RD0rAeSSI_sea_otters.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_04980_O3RD0rAeSSI_sea_otters.json"
+    },
+    {
+      "id": "clip_05016_OCDwny-R3JE_wild_boars",
+      "query": "wild boars",
+      "text": "two wild boars chase each other on a dirt road",
+      "object_names": [
+        "wild boars"
+      ],
+      "num_objects": 1,
+      "num_frames": 90,
+      "num_clips": 1,
+      "median_magnitude": 0.050531428307294846,
+      "rgb_url": "static/videos/mammalnet/clip_05016_OCDwny-R3JE_wild_boars.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05016_OCDwny-R3JE_wild_boars.json"
+    },
+    {
+      "id": "clip_05035_OJo3xaYkv_w_warthogs",
+      "query": "warthogs",
+      "text": "a warthog mounts another warthog",
+      "object_names": [
+        "warthogs"
+      ],
+      "num_objects": 1,
+      "num_frames": 115,
+      "num_clips": 0,
+      "median_magnitude": 0.011879044119268656,
+      "rgb_url": "static/videos/mammalnet/clip_05035_OJo3xaYkv_w_warthogs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05035_OJo3xaYkv_w_warthogs.json"
+    },
+    {
+      "id": "clip_05051_ONrnvuydgn8_wildebeests",
+      "query": "wildebeests",
+      "text": "a wildebeest is licking its baby",
+      "object_names": [
+        "wildebeests"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.05301263928413391,
+      "rgb_url": "static/videos/mammalnet/clip_05051_ONrnvuydgn8_wildebeests.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05051_ONrnvuydgn8_wildebeests.json"
+    },
+    {
+      "id": "clip_05071_OXe0Uhuci0s_goats",
+      "query": "goats",
+      "text": "a group of goats are eating grass",
+      "object_names": [
+        "goats"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.021567463874816895,
+      "rgb_url": "static/videos/mammalnet/clip_05071_OXe0Uhuci0s_goats.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05071_OXe0Uhuci0s_goats.json"
+    },
+    {
+      "id": "clip_05090_Oe00xrRKr28_indian_rhinos",
+      "query": "indian rhinos",
+      "text": "two rhinos are walking to the right",
+      "object_names": [
+        "indian rhinos"
+      ],
+      "num_objects": 1,
+      "num_frames": 120,
+      "num_clips": 1,
+      "median_magnitude": 0.005135201383382082,
+      "rgb_url": "static/videos/mammalnet/clip_05090_Oe00xrRKr28_indian_rhinos.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05090_Oe00xrRKr28_indian_rhinos.json"
+    },
+    {
+      "id": "clip_05099_OfwgjSMY7Qg_raccoons",
+      "query": "raccoons",
+      "text": "a raccoon walks to the left and then turns around",
+      "object_names": [
+        "raccoons"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.010158669203519821,
+      "rgb_url": "static/videos/mammalnet/clip_05099_OfwgjSMY7Qg_raccoons.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05099_OfwgjSMY7Qg_raccoons.json"
+    },
+    {
+      "id": "clip_05125_OmJ10-22McI_giraffes",
+      "query": "giraffes",
+      "text": "a giraffe walks to the right and then stops",
+      "object_names": [
+        "giraffes"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.035601649433374405,
+      "rgb_url": "static/videos/mammalnet/clip_05125_OmJ10-22McI_giraffes.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05125_OmJ10-22McI_giraffes.json"
+    },
+    {
+      "id": "clip_05184_OxDQ2Ki824g_kangaroos",
+      "query": "kangaroos",
+      "text": "two kangaroos fight with each other on the beach",
+      "object_names": [
+        "kangaroos"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.033412545919418335,
+      "rgb_url": "static/videos/mammalnet/clip_05184_OxDQ2Ki824g_kangaroos.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05184_OxDQ2Ki824g_kangaroos.json"
+    },
+    {
+      "id": "clip_05206_P6E_6C7BwZ8_patas_monkeys",
+      "query": "patas monkeys",
+      "text": "two patas monkeys are playing with each other",
+      "object_names": [
+        "patas monkeys"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.008390307426452637,
+      "rgb_url": "static/videos/mammalnet/clip_05206_P6E_6C7BwZ8_patas_monkeys.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05206_P6E_6C7BwZ8_patas_monkeys.json"
+    },
+    {
+      "id": "clip_05219_P9zTF-rgcpA_camels",
+      "query": "camels",
+      "text": "a camel walks to the right and then walks back",
+      "object_names": [
+        "camels"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 3,
+      "median_magnitude": 0.012398960068821907,
+      "rgb_url": "static/videos/mammalnet/clip_05219_P9zTF-rgcpA_camels.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05219_P9zTF-rgcpA_camels.json"
+    },
+    {
+      "id": "clip_05226_PBJd-oHNHgE_rabbits",
+      "query": "rabbits",
+      "text": "a brown rabbit scratches its face with its front paws",
+      "object_names": [
+        "rabbits"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 4,
+      "median_magnitude": 0.017331989482045174,
+      "rgb_url": "static/videos/mammalnet/clip_05226_PBJd-oHNHgE_rabbits.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05226_PBJd-oHNHgE_rabbits.json"
+    },
+    {
+      "id": "clip_05238_PHobzjr4kSo_bulldogs",
+      "query": "bulldogs",
+      "text": "a black dog is sleeping",
+      "object_names": [
+        "bulldogs"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.0017015878111124039,
+      "rgb_url": "static/videos/mammalnet/clip_05238_PHobzjr4kSo_bulldogs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05238_PHobzjr4kSo_bulldogs.json"
+    },
+    {
+      "id": "clip_05242_PJdloh1g6pw_squirrels",
+      "query": "squirrels",
+      "text": "a squirrel stands on the ground and eats",
+      "object_names": [
+        "squirrels"
+      ],
+      "num_objects": 1,
+      "num_frames": 90,
+      "num_clips": 0,
+      "median_magnitude": 0.0068630133755505085,
+      "rgb_url": "static/videos/mammalnet/clip_05242_PJdloh1g6pw_squirrels.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05242_PJdloh1g6pw_squirrels.json"
+    },
+    {
+      "id": "clip_05302_PbeQ6Ybp5eA_chinchillas",
+      "query": "chinchillas",
+      "text": "a gray chinchilla is eating grass",
+      "object_names": [
+        "chinchillas"
+      ],
+      "num_objects": 1,
+      "num_frames": 112,
+      "num_clips": 0,
+      "median_magnitude": 0.004286594223231077,
+      "rgb_url": "static/videos/mammalnet/clip_05302_PbeQ6Ybp5eA_chinchillas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05302_PbeQ6Ybp5eA_chinchillas.json"
+    },
+    {
+      "id": "clip_05340_PmjS1gw_O5s_nyalas",
+      "query": "nyalas",
+      "text": "A brown antelope runs to the right and then hides behind a tree",
+      "object_names": [
+        "nyalas"
+      ],
+      "num_objects": 1,
+      "num_frames": 130,
+      "num_clips": 2,
+      "median_magnitude": 0.02033514715731144,
+      "rgb_url": "static/videos/mammalnet/clip_05340_PmjS1gw_O5s_nyalas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05340_PmjS1gw_O5s_nyalas.json"
+    },
+    {
+      "id": "clip_05422_QIVPia6bz-M_chinchillas",
+      "query": "chinchillas",
+      "text": "a gray chinchilla drinks from a glass of orange juice",
+      "object_names": [
+        "chinchillas"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.006093708798289299,
+      "rgb_url": "static/videos/mammalnet/clip_05422_QIVPia6bz-M_chinchillas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05422_QIVPia6bz-M_chinchillas.json"
+    },
+    {
+      "id": "clip_05447_QWuG5CIwGU8_hyenas",
+      "query": "hyenas",
+      "text": "a brown hyena walks to the left",
+      "object_names": [
+        "hyenas"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 3,
+      "median_magnitude": 0.019430723041296005,
+      "rgb_url": "static/videos/mammalnet/clip_05447_QWuG5CIwGU8_hyenas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05447_QWuG5CIwGU8_hyenas.json"
+    },
+    {
+      "id": "clip_05452_QYPC-E87C3g_monkeys",
+      "query": "monkeys",
+      "text": "two gorillas are sitting on the ground and looking at each other",
+      "object_names": [
+        "monkeys"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.008298966102302074,
+      "rgb_url": "static/videos/mammalnet/clip_05452_QYPC-E87C3g_monkeys.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05452_QYPC-E87C3g_monkeys.json"
+    },
+    {
+      "id": "clip_05476_QfzXjn-EOhg_hamsters",
+      "query": "hamsters",
+      "text": "a brown hamster walks to the right",
+      "object_names": [
+        "hamsters"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.002467194339260459,
+      "rgb_url": "static/videos/mammalnet/clip_05476_QfzXjn-EOhg_hamsters.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05476_QfzXjn-EOhg_hamsters.json"
+    },
+    {
+      "id": "clip_05535_R4RDBU6rzv4_tigers",
+      "query": "tigers",
+      "text": "a tiger runs to the left",
+      "object_names": [
+        "tigers"
+      ],
+      "num_objects": 1,
+      "num_frames": 26,
+      "num_clips": 1,
+      "median_magnitude": 0.24110595881938934,
+      "rgb_url": "static/videos/mammalnet/clip_05535_R4RDBU6rzv4_tigers.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05535_R4RDBU6rzv4_tigers.json"
+    },
+    {
+      "id": "clip_05538_R6CLE7pojqI_pandas",
+      "query": "pandas",
+      "text": "a panda holds a carrot and eats it",
+      "object_names": [
+        "pandas"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.00967374723404646,
+      "rgb_url": "static/videos/mammalnet/clip_05538_R6CLE7pojqI_pandas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05538_R6CLE7pojqI_pandas.json"
+    },
+    {
+      "id": "clip_05594_RMM8BrYt594_snow_leopards",
+      "query": "snow leopards",
+      "text": "a snow leopard walks to the right",
+      "object_names": [
+        "snow leopards"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.005185810383409262,
+      "rgb_url": "static/videos/mammalnet/clip_05594_RMM8BrYt594_snow_leopards.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05594_RMM8BrYt594_snow_leopards.json"
+    },
+    {
+      "id": "clip_05628_RWQxVVGBKKg_horses",
+      "query": "horses",
+      "text": "a horse drinks water from a silver bowl",
+      "object_names": [
+        "horses"
+      ],
+      "num_objects": 1,
+      "num_frames": 97,
+      "num_clips": 1,
+      "median_magnitude": 0.014229089953005314,
+      "rgb_url": "static/videos/mammalnet/clip_05628_RWQxVVGBKKg_horses.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05628_RWQxVVGBKKg_horses.json"
+    },
+    {
+      "id": "clip_05665_Rfo233Q6aOg_polar_bears",
+      "query": "polar bears",
+      "text": "a polar bear eats a dead animal",
+      "object_names": [
+        "polar bears"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.023432977497577667,
+      "rgb_url": "static/videos/mammalnet/clip_05665_Rfo233Q6aOg_polar_bears.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05665_Rfo233Q6aOg_polar_bears.json"
+    },
+    {
+      "id": "clip_05681_Rhw2sPUP-uM_horses",
+      "query": "horses",
+      "text": "a white horse is eating tree bark",
+      "object_names": [
+        "horses"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.05149875394999981,
+      "rgb_url": "static/videos/mammalnet/clip_05681_Rhw2sPUP-uM_horses.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05681_Rhw2sPUP-uM_horses.json"
+    },
+    {
+      "id": "clip_05696_RmEz0Mhks6Y_jaguars",
+      "query": "jaguars",
+      "text": "a jaguar sleeps on the ground",
+      "object_names": [
+        "jaguars"
+      ],
+      "num_objects": 1,
+      "num_frames": 90,
+      "num_clips": 0,
+      "median_magnitude": 0.0023832551669329405,
+      "rgb_url": "static/videos/mammalnet/clip_05696_RmEz0Mhks6Y_jaguars.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05696_RmEz0Mhks6Y_jaguars.json"
+    },
+    {
+      "id": "clip_05732_RzwwngvAvro_pygmy_marmosets",
+      "query": "pygmy marmosets",
+      "text": "two pygmy marmosets are sitting on a tree branch",
+      "object_names": [
+        "pygmy marmosets"
+      ],
+      "num_objects": 1,
+      "num_frames": 105,
+      "num_clips": 0,
+      "median_magnitude": 0.0033216947922483087,
+      "rgb_url": "static/videos/mammalnet/clip_05732_RzwwngvAvro_pygmy_marmosets.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05732_RzwwngvAvro_pygmy_marmosets.json"
+    },
+    {
+      "id": "clip_05777_SB1eANSjHnc_seals",
+      "query": "seals",
+      "text": "seals swim in the water",
+      "object_names": [
+        "seals"
+      ],
+      "num_objects": 1,
+      "num_frames": 110,
+      "num_clips": 1,
+      "median_magnitude": 0.07397877052426338,
+      "rgb_url": "static/videos/mammalnet/clip_05777_SB1eANSjHnc_seals.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05777_SB1eANSjHnc_seals.json"
+    },
+    {
+      "id": "clip_05807_SJr1mFyurPE_bulldogs",
+      "query": "bulldogs",
+      "text": "a white and brown spotted dog sits on the ground and barks",
+      "object_names": [
+        "bulldogs"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.004056467674672604,
+      "rgb_url": "static/videos/mammalnet/clip_05807_SJr1mFyurPE_bulldogs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05807_SJr1mFyurPE_bulldogs.json"
+    },
+    {
+      "id": "clip_05815_SNaC5IqV9p8_ibexes",
+      "query": "ibexes",
+      "text": "two ibexes walk to the right and then fight",
+      "object_names": [
+        "ibexes"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 3,
+      "median_magnitude": 0.026710009202361107,
+      "rgb_url": "static/videos/mammalnet/clip_05815_SNaC5IqV9p8_ibexes.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05815_SNaC5IqV9p8_ibexes.json"
+    },
+    {
+      "id": "clip_05817_SO0z63RVn58_bulldogs",
+      "query": "bulldogs",
+      "text": "a bulldog is eating",
+      "object_names": [
+        "bulldogs"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.005788569804280996,
+      "rgb_url": "static/videos/mammalnet/clip_05817_SO0z63RVn58_bulldogs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05817_SO0z63RVn58_bulldogs.json"
+    },
+    {
+      "id": "clip_05852_SVIAijrsXRk_rhinoceroses",
+      "query": "rhinoceroses",
+      "text": "a rhinoceros walks to the left",
+      "object_names": [
+        "rhinoceroses"
+      ],
+      "num_objects": 1,
+      "num_frames": 104,
+      "num_clips": 1,
+      "median_magnitude": 0.044289179146289825,
+      "rgb_url": "static/videos/mammalnet/clip_05852_SVIAijrsXRk_rhinoceroses.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05852_SVIAijrsXRk_rhinoceroses.json"
+    },
+    {
+      "id": "clip_05862_SXW2E6ZEYj8_gorillas",
+      "query": "gorillas",
+      "text": "a gorilla opens its mouth wide",
+      "object_names": [
+        "gorillas"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 3,
+      "median_magnitude": 0.022206110879778862,
+      "rgb_url": "static/videos/mammalnet/clip_05862_SXW2E6ZEYj8_gorillas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05862_SXW2E6ZEYj8_gorillas.json"
+    },
+    {
+      "id": "clip_05897_ShoMYeDzmzs_tigers",
+      "query": "tigers",
+      "text": "a tiger defecates",
+      "object_names": [
+        "tigers"
+      ],
+      "num_objects": 1,
+      "num_frames": 75,
+      "num_clips": 0,
+      "median_magnitude": 0.00462905946187675,
+      "rgb_url": "static/videos/mammalnet/clip_05897_ShoMYeDzmzs_tigers.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05897_ShoMYeDzmzs_tigers.json"
+    },
+    {
+      "id": "clip_05911_Sksls8sncbY_muntjacs",
+      "query": "muntjacs",
+      "text": "a muntjac walks to the right",
+      "object_names": [
+        "muntjacs"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 3,
+      "median_magnitude": 0.015324767678976059,
+      "rgb_url": "static/videos/mammalnet/clip_05911_Sksls8sncbY_muntjacs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05911_Sksls8sncbY_muntjacs.json"
+    },
+    {
+      "id": "clip_05942_StMwsep520k_goats",
+      "query": "goats",
+      "text": "a black goat grazes on the grass",
+      "object_names": [
+        "goats"
+      ],
+      "num_objects": 1,
+      "num_frames": 113,
+      "num_clips": 1,
+      "median_magnitude": 0.004217109177261591,
+      "rgb_url": "static/videos/mammalnet/clip_05942_StMwsep520k_goats.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05942_StMwsep520k_goats.json"
+    },
+    {
+      "id": "clip_05976_T1cChusfefM_ibexes",
+      "query": "ibexes",
+      "text": "a brown ibex grazes on the ground",
+      "object_names": [
+        "ibexes"
+      ],
+      "num_objects": 1,
+      "num_frames": 128,
+      "num_clips": 3,
+      "median_magnitude": 0.021949905902147293,
+      "rgb_url": "static/videos/mammalnet/clip_05976_T1cChusfefM_ibexes.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_05976_T1cChusfefM_ibexes.json"
+    },
+    {
+      "id": "clip_06189_TwhOQZFdoBE_sea_lions",
+      "query": "sea lions",
+      "text": "a sea lion is being dragged by an orca",
+      "object_names": [
+        "sea lions"
+      ],
+      "num_objects": 1,
+      "num_frames": 58,
+      "num_clips": 2,
+      "median_magnitude": 0.014605516567826271,
+      "rgb_url": "static/videos/mammalnet/clip_06189_TwhOQZFdoBE_sea_lions.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_06189_TwhOQZFdoBE_sea_lions.json"
+    },
+    {
+      "id": "clip_06239_U9Iu_iwec28_sheep",
+      "query": "sheep",
+      "text": "a group of sheep are grazing on the grassland",
+      "object_names": [
+        "sheep"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.009912426583468914,
+      "rgb_url": "static/videos/mammalnet/clip_06239_U9Iu_iwec28_sheep.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_06239_U9Iu_iwec28_sheep.json"
+    },
+    {
+      "id": "clip_06251_UHk4sX8CBP0_sea_otters",
+      "query": "sea otters",
+      "text": "a sea otter holds a fish in its mouth and eats it",
+      "object_names": [
+        "sea otters"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 3,
+      "median_magnitude": 0.021972831338644028,
+      "rgb_url": "static/videos/mammalnet/clip_06251_UHk4sX8CBP0_sea_otters.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_06251_UHk4sX8CBP0_sea_otters.json"
+    },
+    {
+      "id": "clip_06279_UTAwA1FkJAU_baby_monkeys",
+      "query": "baby monkeys",
+      "text": "a baby monkey drinks water",
+      "object_names": [
+        "baby monkeys"
+      ],
+      "num_objects": 1,
+      "num_frames": 75,
+      "num_clips": 0,
+      "median_magnitude": 0.0021289369324222207,
+      "rgb_url": "static/videos/mammalnet/clip_06279_UTAwA1FkJAU_baby_monkeys.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_06279_UTAwA1FkJAU_baby_monkeys.json"
+    },
+    {
+      "id": "clip_06285_UUfxz0n4eTo_manatees",
+      "query": "manatees",
+      "text": "a manatee swims to the right",
+      "object_names": [
+        "manatees"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.009193770587444305,
+      "rgb_url": "static/videos/mammalnet/clip_06285_UUfxz0n4eTo_manatees.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_06285_UUfxz0n4eTo_manatees.json"
+    },
+    {
+      "id": "clip_06290_UYNuC6J10YE_donkeys",
+      "query": "donkeys",
+      "text": "a brown donkey walks to the right",
+      "object_names": [
+        "donkeys"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 5,
+      "median_magnitude": 0.015653694048523903,
+      "rgb_url": "static/videos/mammalnet/clip_06290_UYNuC6J10YE_donkeys.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_06290_UYNuC6J10YE_donkeys.json"
+    },
+    {
+      "id": "clip_06294_UZW0kzYFjr8_guinea_pigs",
+      "query": "guinea pigs",
+      "text": "a black and a white guinea pig are eating grass",
+      "object_names": [
+        "guinea pigs"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.0021450798958539963,
+      "rgb_url": "static/videos/mammalnet/clip_06294_UZW0kzYFjr8_guinea_pigs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_06294_UZW0kzYFjr8_guinea_pigs.json"
+    },
+    {
+      "id": "clip_06306_Ub4stsOu2uo_hippos",
+      "query": "hippos",
+      "text": "two hippos are fighting in the water",
+      "object_names": [
+        "hippos"
+      ],
+      "num_objects": 1,
+      "num_frames": 99,
+      "num_clips": 2,
+      "median_magnitude": 0.018501264043152332,
+      "rgb_url": "static/videos/mammalnet/clip_06306_Ub4stsOu2uo_hippos.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_06306_Ub4stsOu2uo_hippos.json"
+    },
+    {
+      "id": "clip_06339_UjcK_sdDsZA_lynxes",
+      "query": "lynxes",
+      "text": "a lynx stands on the ground and looks around",
+      "object_names": [
+        "lynxes"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.007158427499234676,
+      "rgb_url": "static/videos/mammalnet/clip_06339_UjcK_sdDsZA_lynxes.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_06339_UjcK_sdDsZA_lynxes.json"
+    },
+    {
+      "id": "clip_06348_UmEBmXdt_WY_raccoons",
+      "query": "raccoons",
+      "text": "two raccoons are eating food",
+      "object_names": [
+        "raccoons"
+      ],
+      "num_objects": 1,
+      "num_frames": 75,
+      "num_clips": 3,
+      "median_magnitude": 0.01451747864484787,
+      "rgb_url": "static/videos/mammalnet/clip_06348_UmEBmXdt_WY_raccoons.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_06348_UmEBmXdt_WY_raccoons.json"
+    },
+    {
+      "id": "clip_06365_UsaN006iRw8_impalas",
+      "query": "impalas",
+      "text": "a deer stands on the ground and chews a leaf",
+      "object_names": [
+        "impalas"
+      ],
+      "num_objects": 1,
+      "num_frames": 83,
+      "num_clips": 0,
+      "median_magnitude": 0.004086358472704887,
+      "rgb_url": "static/videos/mammalnet/clip_06365_UsaN006iRw8_impalas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_06365_UsaN006iRw8_impalas.json"
+    },
+    {
+      "id": "clip_06414_V0HVHf2HyhI_pigs",
+      "query": "pigs",
+      "text": "a pig is eating",
+      "object_names": [
+        "pigs"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.008980615064501762,
+      "rgb_url": "static/videos/mammalnet/clip_06414_V0HVHf2HyhI_pigs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_06414_V0HVHf2HyhI_pigs.json"
+    },
+    {
+      "id": "clip_06545_VlB-14oOrh0_blue_whales",
+      "query": "blue whales",
+      "text": "a blue whale swims in the sea",
+      "object_names": [
+        "blue whales"
+      ],
+      "num_objects": 1,
+      "num_frames": 83,
+      "num_clips": 0,
+      "median_magnitude": 0.0016928079421631992,
+      "rgb_url": "static/videos/mammalnet/clip_06545_VlB-14oOrh0_blue_whales.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_06545_VlB-14oOrh0_blue_whales.json"
+    },
+    {
+      "id": "clip_06609_W5EpUPIbYrA_grizzlies",
+      "query": "grizzlies",
+      "text": "a brown bear is lying on the ground with three cubs",
+      "object_names": [
+        "grizzlies"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.02406250312924385,
+      "rgb_url": "static/videos/mammalnet/clip_06609_W5EpUPIbYrA_grizzlies.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_06609_W5EpUPIbYrA_grizzlies.json"
+    },
+    {
+      "id": "clip_06617_W9wrviTY2Q4_tigers",
+      "query": "tigers",
+      "text": "a tiger drinks water",
+      "object_names": [
+        "tigers"
+      ],
+      "num_objects": 1,
+      "num_frames": 75,
+      "num_clips": 0,
+      "median_magnitude": 0.0026828376576304436,
+      "rgb_url": "static/videos/mammalnet/clip_06617_W9wrviTY2Q4_tigers.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_06617_W9wrviTY2Q4_tigers.json"
+    },
+    {
+      "id": "clip_06621_WC1T_3YsjQk_harbor_seals",
+      "query": "harbor seals",
+      "text": "five seals are on the rocks, two of them are playing with each other",
+      "object_names": [
+        "harbor seals"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.008010982535779476,
+      "rgb_url": "static/videos/mammalnet/clip_06621_WC1T_3YsjQk_harbor_seals.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_06621_WC1T_3YsjQk_harbor_seals.json"
+    },
+    {
+      "id": "clip_06626_WEfHLxSyL4E_brown_bears",
+      "query": "brown bears",
+      "text": "two brown bears fight in the forest",
+      "object_names": [
+        "brown bears"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.029406793415546417,
+      "rgb_url": "static/videos/mammalnet/clip_06626_WEfHLxSyL4E_brown_bears.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_06626_WEfHLxSyL4E_brown_bears.json"
+    },
+    {
+      "id": "clip_06627_WEznm7g7THE_leopards",
+      "query": "leopards",
+      "text": "a leopard walks to the right",
+      "object_names": [
+        "leopards"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 3,
+      "median_magnitude": 0.011076521128416061,
+      "rgb_url": "static/videos/mammalnet/clip_06627_WEznm7g7THE_leopards.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_06627_WEznm7g7THE_leopards.json"
+    },
+    {
+      "id": "clip_06775_X0buxW1aU5M_caracals",
+      "query": "caracals",
+      "text": "a brown caracal and a spotted caracal drink water from a stone bowl",
+      "object_names": [
+        "caracals"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.005389750469475985,
+      "rgb_url": "static/videos/mammalnet/clip_06775_X0buxW1aU5M_caracals.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_06775_X0buxW1aU5M_caracals.json"
+    },
+    {
+      "id": "clip_06779_X34yhILzwLA_hounds",
+      "query": "hounds",
+      "text": "a brown hound lies on the ground and then turns its head to the right",
+      "object_names": [
+        "hounds"
+      ],
+      "num_objects": 1,
+      "num_frames": 120,
+      "num_clips": 1,
+      "median_magnitude": 0.007514780852943659,
+      "rgb_url": "static/videos/mammalnet/clip_06779_X34yhILzwLA_hounds.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_06779_X34yhILzwLA_hounds.json"
+    },
+    {
+      "id": "clip_06867_XWIbbQUkWnM_pigs",
+      "query": "pigs",
+      "text": "two pigs are eating grass",
+      "object_names": [
+        "pigs"
+      ],
+      "num_objects": 1,
+      "num_frames": 143,
+      "num_clips": 0,
+      "median_magnitude": 0.01007650513201952,
+      "rgb_url": "static/videos/mammalnet/clip_06867_XWIbbQUkWnM_pigs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_06867_XWIbbQUkWnM_pigs.json"
+    },
+    {
+      "id": "clip_06973_XzPN0cAbikE_porcupines",
+      "query": "porcupines",
+      "text": "a porcupine runs around a brown dog",
+      "object_names": [
+        "porcupines"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.1373484879732132,
+      "rgb_url": "static/videos/mammalnet/clip_06973_XzPN0cAbikE_porcupines.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_06973_XzPN0cAbikE_porcupines.json"
+    },
+    {
+      "id": "clip_06979_Y0SgURey-bk_goats",
+      "query": "goats",
+      "text": "a brown and white goat is suckling from its mother",
+      "object_names": [
+        "goats"
+      ],
+      "num_objects": 1,
+      "num_frames": 83,
+      "num_clips": 0,
+      "median_magnitude": 0.007341873599216342,
+      "rgb_url": "static/videos/mammalnet/clip_06979_Y0SgURey-bk_goats.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_06979_Y0SgURey-bk_goats.json"
+    },
+    {
+      "id": "clip_07060_YV6d1h3LiQw_warthogs",
+      "query": "warthogs",
+      "text": "three warthogs are fighting in the grassland",
+      "object_names": [
+        "warthogs"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 3,
+      "median_magnitude": 0.016461515799164772,
+      "rgb_url": "static/videos/mammalnet/clip_07060_YV6d1h3LiQw_warthogs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_07060_YV6d1h3LiQw_warthogs.json"
+    },
+    {
+      "id": "clip_07103_YfLj-6uAWoM_puppies",
+      "query": "puppies",
+      "text": "two puppies are suckling",
+      "object_names": [
+        "puppies"
+      ],
+      "num_objects": 1,
+      "num_frames": 90,
+      "num_clips": 0,
+      "median_magnitude": 0.003520768601447344,
+      "rgb_url": "static/videos/mammalnet/clip_07103_YfLj-6uAWoM_puppies.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_07103_YfLj-6uAWoM_puppies.json"
+    },
+    {
+      "id": "clip_07128_Yli0RasqF5I_sheep",
+      "query": "sheep",
+      "text": "two sheep are eating leaves",
+      "object_names": [
+        "sheep"
+      ],
+      "num_objects": 1,
+      "num_frames": 79,
+      "num_clips": 1,
+      "median_magnitude": 0.01706396508961916,
+      "rgb_url": "static/videos/mammalnet/clip_07128_Yli0RasqF5I_sheep.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_07128_Yli0RasqF5I_sheep.json"
+    },
+    {
+      "id": "clip_07141_Yq56OpBIH_Q_buffaloes",
+      "query": "buffaloes",
+      "text": "a black cow gives birth to a calf",
+      "object_names": [
+        "buffaloes"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.004206667188555002,
+      "rgb_url": "static/videos/mammalnet/clip_07141_Yq56OpBIH_Q_buffaloes.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_07141_Yq56OpBIH_Q_buffaloes.json"
+    },
+    {
+      "id": "clip_07195_Z0nGDx-lfh8_chinchillas",
+      "query": "chinchillas",
+      "text": "a white chinchilla is eating a corn dog",
+      "object_names": [
+        "chinchillas"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.003941129427403212,
+      "rgb_url": "static/videos/mammalnet/clip_07195_Z0nGDx-lfh8_chinchillas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_07195_Z0nGDx-lfh8_chinchillas.json"
+    },
+    {
+      "id": "clip_07323_ZgjqbXQbB3A_manatees",
+      "query": "manatees",
+      "text": "two manatees swim to the right",
+      "object_names": [
+        "manatees"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.2430846095085144,
+      "rgb_url": "static/videos/mammalnet/clip_07323_ZgjqbXQbB3A_manatees.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_07323_ZgjqbXQbB3A_manatees.json"
+    },
+    {
+      "id": "clip_07417__4HtL21bMek_leopards",
+      "query": "leopards",
+      "text": "a leopard attacks a deer",
+      "object_names": [
+        "leopards"
+      ],
+      "num_objects": 1,
+      "num_frames": 107,
+      "num_clips": 2,
+      "median_magnitude": 0.11497101560235023,
+      "rgb_url": "static/videos/mammalnet/clip_07417__4HtL21bMek_leopards.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_07417__4HtL21bMek_leopards.json"
+    },
+    {
+      "id": "clip_07462__KhDvt7CqOc_hamsters",
+      "query": "hamsters",
+      "text": "a hamster sleeps on its back",
+      "object_names": [
+        "hamsters"
+      ],
+      "num_objects": 1,
+      "num_frames": 128,
+      "num_clips": 0,
+      "median_magnitude": 0.005137463100254536,
+      "rgb_url": "static/videos/mammalnet/clip_07462__KhDvt7CqOc_hamsters.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_07462__KhDvt7CqOc_hamsters.json"
+    },
+    {
+      "id": "clip_07472__Oxne_rXdrU_manatees",
+      "query": "manatees",
+      "text": "a manatee swims to the right",
+      "object_names": [
+        "manatees"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 4,
+      "median_magnitude": 0.005774140357971191,
+      "rgb_url": "static/videos/mammalnet/clip_07472__Oxne_rXdrU_manatees.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_07472__Oxne_rXdrU_manatees.json"
+    },
+    {
+      "id": "clip_07482__TaTatjxqD8_raccoons",
+      "query": "raccoons",
+      "text": "a raccoon walks to the right and then sits down",
+      "object_names": [
+        "raccoons"
+      ],
+      "num_objects": 1,
+      "num_frames": 103,
+      "num_clips": 1,
+      "median_magnitude": 0.015975330024957657,
+      "rgb_url": "static/videos/mammalnet/clip_07482__TaTatjxqD8_raccoons.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_07482__TaTatjxqD8_raccoons.json"
+    },
+    {
+      "id": "clip_07497__YlytOdvURE_deer",
+      "query": "deer",
+      "text": "a deer is walking on the grass",
+      "object_names": [
+        "deer"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 3,
+      "median_magnitude": 0.02318769320845604,
+      "rgb_url": "static/videos/mammalnet/clip_07497__YlytOdvURE_deer.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_07497__YlytOdvURE_deer.json"
+    },
+    {
+      "id": "clip_07515__hCpAVjUKoY_asian_elephants",
+      "query": "asian elephants",
+      "text": "a big elephant is playing with a small elephant",
+      "object_names": [
+        "asian elephants"
+      ],
+      "num_objects": 1,
+      "num_frames": 97,
+      "num_clips": 1,
+      "median_magnitude": 0.01041734404861927,
+      "rgb_url": "static/videos/mammalnet/clip_07515__hCpAVjUKoY_asian_elephants.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_07515__hCpAVjUKoY_asian_elephants.json"
+    },
+    {
+      "id": "clip_07521__hbKxrKGqyM_goats",
+      "query": "goats",
+      "text": "a black goat walks to the right",
+      "object_names": [
+        "goats"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.00859155785292387,
+      "rgb_url": "static/videos/mammalnet/clip_07521__hbKxrKGqyM_goats.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_07521__hbKxrKGqyM_goats.json"
+    },
+    {
+      "id": "clip_07717_aZkUJGbIAqk_humpback_whales",
+      "query": "humpback whales",
+      "text": "a whale swims in the sea",
+      "object_names": [
+        "humpback whales"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.012344228103756905,
+      "rgb_url": "static/videos/mammalnet/clip_07717_aZkUJGbIAqk_humpback_whales.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_07717_aZkUJGbIAqk_humpback_whales.json"
+    },
+    {
+      "id": "clip_07721_a_G9JRWhpSQ_kangaroos",
+      "query": "kangaroos",
+      "text": "Two kangaroos are fighting each other on the side of a road",
+      "object_names": [
+        "kangaroos"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.1804191768169403,
+      "rgb_url": "static/videos/mammalnet/clip_07721_a_G9JRWhpSQ_kangaroos.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_07721_a_G9JRWhpSQ_kangaroos.json"
+    },
+    {
+      "id": "clip_07857_bGXs_0y1aWE_nutria",
+      "query": "nutria",
+      "text": "two nutria are eating carrots",
+      "object_names": [
+        "nutria"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.004424556624144316,
+      "rgb_url": "static/videos/mammalnet/clip_07857_bGXs_0y1aWE_nutria.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_07857_bGXs_0y1aWE_nutria.json"
+    },
+    {
+      "id": "clip_08018_c-P3kDZjYNM_horses",
+      "query": "horses",
+      "text": "three horses stand in a corral and move around",
+      "object_names": [
+        "horses"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.011423839256167412,
+      "rgb_url": "static/videos/mammalnet/clip_08018_c-P3kDZjYNM_horses.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_08018_c-P3kDZjYNM_horses.json"
+    },
+    {
+      "id": "clip_08064_cF5NRPK49zU_sheep",
+      "query": "sheep",
+      "text": "five sheep are walking on the grassland",
+      "object_names": [
+        "sheep"
+      ],
+      "num_objects": 1,
+      "num_frames": 95,
+      "num_clips": 0,
+      "median_magnitude": 0.011945234145969152,
+      "rgb_url": "static/videos/mammalnet/clip_08064_cF5NRPK49zU_sheep.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_08064_cF5NRPK49zU_sheep.json"
+    },
+    {
+      "id": "clip_08101_cMham7UcdyE_wolves",
+      "query": "wolves",
+      "text": "two wolves are biting a cow",
+      "object_names": [
+        "wolves"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.015244383364915848,
+      "rgb_url": "static/videos/mammalnet/clip_08101_cMham7UcdyE_wolves.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_08101_cMham7UcdyE_wolves.json"
+    },
+    {
+      "id": "clip_08119_cS46v5fClh4_jaguars",
+      "query": "jaguars",
+      "text": "three jaguars are lying on the ground",
+      "object_names": [
+        "jaguars"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.010706687346100807,
+      "rgb_url": "static/videos/mammalnet/clip_08119_cS46v5fClh4_jaguars.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_08119_cS46v5fClh4_jaguars.json"
+    },
+    {
+      "id": "clip_08120_cSpxOrg_heg_sea_otters",
+      "query": "sea otters",
+      "text": "two sea otters are playing in the water",
+      "object_names": [
+        "sea otters"
+      ],
+      "num_objects": 1,
+      "num_frames": 131,
+      "num_clips": 2,
+      "median_magnitude": 0.017534181475639343,
+      "rgb_url": "static/videos/mammalnet/clip_08120_cSpxOrg_heg_sea_otters.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_08120_cSpxOrg_heg_sea_otters.json"
+    },
+    {
+      "id": "clip_08207_cx2ggxxXObE_non-husky_dogs",
+      "query": "non-husky dogs",
+      "text": "a brown dog stands on the ground and is sniffed by a black dog",
+      "object_names": [
+        "non-husky dogs"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.010725029744207859,
+      "rgb_url": "static/videos/mammalnet/clip_08207_cx2ggxxXObE_non-husky_dogs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_08207_cx2ggxxXObE_non-husky_dogs.json"
+    },
+    {
+      "id": "clip_08330_dYqQlxdrXFI_humpback_whales",
+      "query": "humpback whales",
+      "text": "a whale swims to the right",
+      "object_names": [
+        "humpback whales"
+      ],
+      "num_objects": 1,
+      "num_frames": 82,
+      "num_clips": 1,
+      "median_magnitude": 0.23724909126758575,
+      "rgb_url": "static/videos/mammalnet/clip_08330_dYqQlxdrXFI_humpback_whales.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_08330_dYqQlxdrXFI_humpback_whales.json"
+    },
+    {
+      "id": "clip_08458_e4O01b3S6eU_lynxes",
+      "query": "lynxes",
+      "text": "two lynxes mate",
+      "object_names": [
+        "lynxes"
+      ],
+      "num_objects": 1,
+      "num_frames": 75,
+      "num_clips": 0,
+      "median_magnitude": 0.010356689803302288,
+      "rgb_url": "static/videos/mammalnet/clip_08458_e4O01b3S6eU_lynxes.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_08458_e4O01b3S6eU_lynxes.json"
+    },
+    {
+      "id": "clip_08474_eBzLIOuDXpk_elephants",
+      "query": "elephants",
+      "text": "elephants walk in the grassland",
+      "object_names": [
+        "elephants"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.00543756689876318,
+      "rgb_url": "static/videos/mammalnet/clip_08474_eBzLIOuDXpk_elephants.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_08474_eBzLIOuDXpk_elephants.json"
+    },
+    {
+      "id": "clip_08580_egaLfz95SEY_sea_lions",
+      "query": "sea lions",
+      "text": "some sea lions are lying on the beach, and some are swimming in the sea",
+      "object_names": [
+        "sea lions"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.010940087027847767,
+      "rgb_url": "static/videos/mammalnet/clip_08580_egaLfz95SEY_sea_lions.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_08580_egaLfz95SEY_sea_lions.json"
+    },
+    {
+      "id": "clip_08657_f0EbI3h-uEM_hamsters",
+      "query": "hamsters",
+      "text": "two hamsters are playing with each other",
+      "object_names": [
+        "hamsters"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.004493745043873787,
+      "rgb_url": "static/videos/mammalnet/clip_08657_f0EbI3h-uEM_hamsters.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_08657_f0EbI3h-uEM_hamsters.json"
+    },
+    {
+      "id": "clip_08662_f1aHY1BKEV4_llamas",
+      "query": "llamas",
+      "text": "four llamas are walking around in a field",
+      "object_names": [
+        "llamas"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.027690589427947998,
+      "rgb_url": "static/videos/mammalnet/clip_08662_f1aHY1BKEV4_llamas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_08662_f1aHY1BKEV4_llamas.json"
+    },
+    {
+      "id": "clip_08684_f91ruQQKqgE_hyenas",
+      "query": "hyenas",
+      "text": "a group of hyenas attacks a lion",
+      "object_names": [
+        "hyenas"
+      ],
+      "num_objects": 1,
+      "num_frames": 105,
+      "num_clips": 2,
+      "median_magnitude": 0.03664730302989483,
+      "rgb_url": "static/videos/mammalnet/clip_08684_f91ruQQKqgE_hyenas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_08684_f91ruQQKqgE_hyenas.json"
+    },
+    {
+      "id": "clip_08722_fIod2nhNMk8_deer",
+      "query": "deer",
+      "text": "two deer walk to the left and then to the right",
+      "object_names": [
+        "deer"
+      ],
+      "num_objects": 1,
+      "num_frames": 135,
+      "num_clips": 1,
+      "median_magnitude": 0.005136402091011405,
+      "rgb_url": "static/videos/mammalnet/clip_08722_fIod2nhNMk8_deer.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_08722_fIod2nhNMk8_deer.json"
+    },
+    {
+      "id": "clip_08846_fpjBMaG1Oi0_leopard_seals",
+      "query": "leopard seals",
+      "text": "a leopard seal opens its mouth and then closes it",
+      "object_names": [
+        "leopard seals"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.04683057591319084,
+      "rgb_url": "static/videos/mammalnet/clip_08846_fpjBMaG1Oi0_leopard_seals.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_08846_fpjBMaG1Oi0_leopard_seals.json"
+    },
+    {
+      "id": "clip_08862_fsJ2bT7-PyY_monkeys",
+      "query": "monkeys",
+      "text": "a monkey carries another monkey and jumps into the water",
+      "object_names": [
+        "monkeys"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.021605180576443672,
+      "rgb_url": "static/videos/mammalnet/clip_08862_fsJ2bT7-PyY_monkeys.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_08862_fsJ2bT7-PyY_monkeys.json"
+    },
+    {
+      "id": "clip_08939_gEtc3RZalBQ_squirrels",
+      "query": "squirrels",
+      "text": "a squirrel is eating",
+      "object_names": [
+        "squirrels"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.003552465932443738,
+      "rgb_url": "static/videos/mammalnet/clip_08939_gEtc3RZalBQ_squirrels.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_08939_gEtc3RZalBQ_squirrels.json"
+    },
+    {
+      "id": "clip_08961_gI-c8gxNdmE_goats",
+      "query": "goats",
+      "text": "a black baby goat nurses from a white mother goat",
+      "object_names": [
+        "goats"
+      ],
+      "num_objects": 1,
+      "num_frames": 120,
+      "num_clips": 0,
+      "median_magnitude": 0.004240917041897774,
+      "rgb_url": "static/videos/mammalnet/clip_08961_gI-c8gxNdmE_goats.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_08961_gI-c8gxNdmE_goats.json"
+    },
+    {
+      "id": "clip_09055_gkL8YQWBpRI_deer",
+      "query": "deer",
+      "text": "a deer walks to the right",
+      "object_names": [
+        "deer"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 3,
+      "median_magnitude": 0.009670828934758902,
+      "rgb_url": "static/videos/mammalnet/clip_09055_gkL8YQWBpRI_deer.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_09055_gkL8YQWBpRI_deer.json"
+    },
+    {
+      "id": "clip_09080_gr7VcVWjjHE_hyenas",
+      "query": "hyenas",
+      "text": "a group of hyenas attacks a wildebeest",
+      "object_names": [
+        "hyenas"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.006937163416296244,
+      "rgb_url": "static/videos/mammalnet/clip_09080_gr7VcVWjjHE_hyenas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_09080_gr7VcVWjjHE_hyenas.json"
+    },
+    {
+      "id": "clip_09088_gs-ZVW7RMkc_raccoons",
+      "query": "raccoons",
+      "text": "two raccoons walk to the right and then lie down",
+      "object_names": [
+        "raccoons"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.028219114989042282,
+      "rgb_url": "static/videos/mammalnet/clip_09088_gs-ZVW7RMkc_raccoons.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_09088_gs-ZVW7RMkc_raccoons.json"
+    },
+    {
+      "id": "clip_09100_gtY3sXvIj_8_impalas",
+      "query": "impalas",
+      "text": "an impala walks to the left",
+      "object_names": [
+        "impalas"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.00469540199264884,
+      "rgb_url": "static/videos/mammalnet/clip_09100_gtY3sXvIj_8_impalas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_09100_gtY3sXvIj_8_impalas.json"
+    },
+    {
+      "id": "clip_09103_gufs2qak-Qw_squirrels",
+      "query": "squirrels",
+      "text": "a squirrel drinks water from a basin",
+      "object_names": [
+        "squirrels"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.0026389004196971655,
+      "rgb_url": "static/videos/mammalnet/clip_09103_gufs2qak-Qw_squirrels.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_09103_gufs2qak-Qw_squirrels.json"
+    },
+    {
+      "id": "clip_09136_h2UJElT9wzg_squirrels",
+      "query": "squirrels",
+      "text": "a squirrel climbs down a tree trunk and enters a hole",
+      "object_names": [
+        "squirrels"
+      ],
+      "num_objects": 1,
+      "num_frames": 132,
+      "num_clips": 0,
+      "median_magnitude": 0.00492062047123909,
+      "rgb_url": "static/videos/mammalnet/clip_09136_h2UJElT9wzg_squirrels.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_09136_h2UJElT9wzg_squirrels.json"
+    },
+    {
+      "id": "clip_09212_hR_sHHT9m-Y_moose",
+      "query": "moose",
+      "text": "a moose stands on the ground and a calf stands under it",
+      "object_names": [
+        "moose"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.0023132143542170525,
+      "rgb_url": "static/videos/mammalnet/clip_09212_hR_sHHT9m-Y_moose.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_09212_hR_sHHT9m-Y_moose.json"
+    },
+    {
+      "id": "clip_09350_iA8EitAOyzI_goats",
+      "query": "goats",
+      "text": "a baby goat suckles on its mother's teat",
+      "object_names": [
+        "goats"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.006191485561430454,
+      "rgb_url": "static/videos/mammalnet/clip_09350_iA8EitAOyzI_goats.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_09350_iA8EitAOyzI_goats.json"
+    },
+    {
+      "id": "clip_09456_iZz7lPqkM88_hamsters",
+      "query": "hamsters",
+      "text": "a hamster is sitting on a pink toy and eating food",
+      "object_names": [
+        "hamsters"
+      ],
+      "num_objects": 1,
+      "num_frames": 90,
+      "num_clips": 2,
+      "median_magnitude": 0.017408257350325584,
+      "rgb_url": "static/videos/mammalnet/clip_09456_iZz7lPqkM88_hamsters.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_09456_iZz7lPqkM88_hamsters.json"
+    },
+    {
+      "id": "clip_09458_i_WA5TxyMbI_zebras",
+      "query": "zebras",
+      "text": "three zebras run to the right",
+      "object_names": [
+        "zebras"
+      ],
+      "num_objects": 1,
+      "num_frames": 85,
+      "num_clips": 1,
+      "median_magnitude": 0.18414244055747986,
+      "rgb_url": "static/videos/mammalnet/clip_09458_i_WA5TxyMbI_zebras.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_09458_i_WA5TxyMbI_zebras.json"
+    },
+    {
+      "id": "clip_09538_izBsK0ZXSWM_hares",
+      "query": "hares",
+      "text": "three white rabbits are eating green leaves",
+      "object_names": [
+        "hares"
+      ],
+      "num_objects": 1,
+      "num_frames": 75,
+      "num_clips": 0,
+      "median_magnitude": 0.002672608243301511,
+      "rgb_url": "static/videos/mammalnet/clip_09538_izBsK0ZXSWM_hares.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_09538_izBsK0ZXSWM_hares.json"
+    },
+    {
+      "id": "clip_09546_j1yQvtmNGds_white-tailed_deer",
+      "query": "white-tailed deer",
+      "text": "a white-tailed deer stands and turns its head to the left",
+      "object_names": [
+        "white-tailed deer"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.005403077229857445,
+      "rgb_url": "static/videos/mammalnet/clip_09546_j1yQvtmNGds_white-tailed_deer.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_09546_j1yQvtmNGds_white-tailed_deer.json"
+    },
+    {
+      "id": "clip_09581_jFapMfWDe5Y_hamsters",
+      "query": "hamsters",
+      "text": "a hamster eats food from a white bowl",
+      "object_names": [
+        "hamsters"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.007201049011200666,
+      "rgb_url": "static/videos/mammalnet/clip_09581_jFapMfWDe5Y_hamsters.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_09581_jFapMfWDe5Y_hamsters.json"
+    },
+    {
+      "id": "clip_09583_jGyI2vjbgxQ_ermines",
+      "query": "ermines",
+      "text": "an ermine walks to the left and eats food",
+      "object_names": [
+        "ermines"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 4,
+      "median_magnitude": 0.01809314265847206,
+      "rgb_url": "static/videos/mammalnet/clip_09583_jGyI2vjbgxQ_ermines.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_09583_jGyI2vjbgxQ_ermines.json"
+    },
+    {
+      "id": "clip_09617_jUt0sc-qkwA_hyenas",
+      "query": "hyenas",
+      "text": "a hyena walks to the left",
+      "object_names": [
+        "hyenas"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.010204372927546501,
+      "rgb_url": "static/videos/mammalnet/clip_09617_jUt0sc-qkwA_hyenas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_09617_jUt0sc-qkwA_hyenas.json"
+    },
+    {
+      "id": "clip_09644_jddRfOvc4Sg_llamas",
+      "query": "llamas",
+      "text": "A white llama lies on the ground and chews grass",
+      "object_names": [
+        "llamas"
+      ],
+      "num_objects": 1,
+      "num_frames": 105,
+      "num_clips": 0,
+      "median_magnitude": 0.0015513905673287809,
+      "rgb_url": "static/videos/mammalnet/clip_09644_jddRfOvc4Sg_llamas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_09644_jddRfOvc4Sg_llamas.json"
+    },
+    {
+      "id": "clip_09717_jvIXqfyOgDw_hounds",
+      "query": "hounds",
+      "text": "a brown and white hound sleeps on a bed",
+      "object_names": [
+        "hounds"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.0035065310075879097,
+      "rgb_url": "static/videos/mammalnet/clip_09717_jvIXqfyOgDw_hounds.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_09717_jvIXqfyOgDw_hounds.json"
+    },
+    {
+      "id": "clip_09736_k1FjcXpXjSo_giraffes",
+      "query": "giraffes",
+      "text": "a giraffe bends down to eat grass",
+      "object_names": [
+        "giraffes"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.0036474030930548906,
+      "rgb_url": "static/videos/mammalnet/clip_09736_k1FjcXpXjSo_giraffes.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_09736_k1FjcXpXjSo_giraffes.json"
+    },
+    {
+      "id": "clip_09825_kM47UNigcDo_humpback_whales",
+      "query": "humpback whales",
+      "text": "a whale swims in the sea",
+      "object_names": [
+        "humpback whales"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 3,
+      "median_magnitude": 0.011067994870245457,
+      "rgb_url": "static/videos/mammalnet/clip_09825_kM47UNigcDo_humpback_whales.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_09825_kM47UNigcDo_humpback_whales.json"
+    },
+    {
+      "id": "clip_10004_l3uXN6hS4Dg_chimpanzees",
+      "query": "chimpanzees",
+      "text": "five chimpanzees are playing in the jungle",
+      "object_names": [
+        "chimpanzees"
+      ],
+      "num_objects": 1,
+      "num_frames": 102,
+      "num_clips": 3,
+      "median_magnitude": 0.016470713540911674,
+      "rgb_url": "static/videos/mammalnet/clip_10004_l3uXN6hS4Dg_chimpanzees.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10004_l3uXN6hS4Dg_chimpanzees.json"
+    },
+    {
+      "id": "clip_10018_l664viyCytw_gorillas",
+      "query": "gorillas",
+      "text": "two gorillas fight in the grass",
+      "object_names": [
+        "gorillas"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.03359385207295418,
+      "rgb_url": "static/videos/mammalnet/clip_10018_l664viyCytw_gorillas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10018_l664viyCytw_gorillas.json"
+    },
+    {
+      "id": "clip_10065_lGjPr_wQ_QU_lions",
+      "query": "lions",
+      "text": "a lion walks to the left",
+      "object_names": [
+        "lions"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.011825302615761757,
+      "rgb_url": "static/videos/mammalnet/clip_10065_lGjPr_wQ_QU_lions.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10065_lGjPr_wQ_QU_lions.json"
+    },
+    {
+      "id": "clip_10069_lHZ1B87IUBM_wolves",
+      "query": "wolves",
+      "text": "a wolf runs to the left and then turns around",
+      "object_names": [
+        "wolves"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.015575619414448738,
+      "rgb_url": "static/videos/mammalnet/clip_10069_lHZ1B87IUBM_wolves.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10069_lHZ1B87IUBM_wolves.json"
+    },
+    {
+      "id": "clip_10081_lJqEtpbX6oY_walruses",
+      "query": "walruses",
+      "text": "a walrus swims in the water",
+      "object_names": [
+        "walruses"
+      ],
+      "num_objects": 1,
+      "num_frames": 91,
+      "num_clips": 1,
+      "median_magnitude": 0.029876304790377617,
+      "rgb_url": "static/videos/mammalnet/clip_10081_lJqEtpbX6oY_walruses.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10081_lJqEtpbX6oY_walruses.json"
+    },
+    {
+      "id": "clip_10089_lM_5bQJu7tM_gazelles",
+      "query": "gazelles",
+      "text": "a group of gazelles runs to the right",
+      "object_names": [
+        "gazelles"
+      ],
+      "num_objects": 1,
+      "num_frames": 145,
+      "num_clips": 1,
+      "median_magnitude": 0.1616336926817894,
+      "rgb_url": "static/videos/mammalnet/clip_10089_lM_5bQJu7tM_gazelles.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10089_lM_5bQJu7tM_gazelles.json"
+    },
+    {
+      "id": "clip_10093_lMegKW3PcVc_hounds",
+      "query": "hounds",
+      "text": "a brown and white hound dog is lying on a sofa and yawning",
+      "object_names": [
+        "hounds"
+      ],
+      "num_objects": 1,
+      "num_frames": 135,
+      "num_clips": 0,
+      "median_magnitude": 0.003225702792406082,
+      "rgb_url": "static/videos/mammalnet/clip_10093_lMegKW3PcVc_hounds.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10093_lMegKW3PcVc_hounds.json"
+    },
+    {
+      "id": "clip_10100_lPcpP4Y7THU_cheetahs",
+      "query": "cheetahs",
+      "text": "four cheetahs are lying on the ground",
+      "object_names": [
+        "cheetahs"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.030964456498622894,
+      "rgb_url": "static/videos/mammalnet/clip_10100_lPcpP4Y7THU_cheetahs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10100_lPcpP4Y7THU_cheetahs.json"
+    },
+    {
+      "id": "clip_10204_luIklhM0PVU_squirrels",
+      "query": "squirrels",
+      "text": "a squirrel holds a piece of bread in its hand and eats it",
+      "object_names": [
+        "squirrels"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.0050615728832781315,
+      "rgb_url": "static/videos/mammalnet/clip_10204_luIklhM0PVU_squirrels.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10204_luIklhM0PVU_squirrels.json"
+    },
+    {
+      "id": "clip_10261_mLaqlS2GUW0_polar_bears",
+      "query": "polar bears",
+      "text": "a polar bear is squatting and defecating",
+      "object_names": [
+        "polar bears"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.008113774470984936,
+      "rgb_url": "static/videos/mammalnet/clip_10261_mLaqlS2GUW0_polar_bears.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10261_mLaqlS2GUW0_polar_bears.json"
+    },
+    {
+      "id": "clip_10337_mgr66qFGPWo_hamsters",
+      "query": "hamsters",
+      "text": "a white hamster is sleeping",
+      "object_names": [
+        "hamsters"
+      ],
+      "num_objects": 1,
+      "num_frames": 75,
+      "num_clips": 0,
+      "median_magnitude": 0.004828720353543758,
+      "rgb_url": "static/videos/mammalnet/clip_10337_mgr66qFGPWo_hamsters.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10337_mgr66qFGPWo_hamsters.json"
+    },
+    {
+      "id": "clip_10409_n5EGBAE5_bQ_gibbons",
+      "query": "gibbons",
+      "text": "two monkeys are eating grass",
+      "object_names": [
+        "gibbons"
+      ],
+      "num_objects": 1,
+      "num_frames": 128,
+      "num_clips": 1,
+      "median_magnitude": 0.010781645774841309,
+      "rgb_url": "static/videos/mammalnet/clip_10409_n5EGBAE5_bQ_gibbons.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10409_n5EGBAE5_bQ_gibbons.json"
+    },
+    {
+      "id": "clip_10413_n75VbvMewCw_brown_bears",
+      "query": "brown bears",
+      "text": "three brown bears are lying on the ground",
+      "object_names": [
+        "brown bears"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.007924092933535576,
+      "rgb_url": "static/videos/mammalnet/clip_10413_n75VbvMewCw_brown_bears.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10413_n75VbvMewCw_brown_bears.json"
+    },
+    {
+      "id": "clip_10520_njNF3t3nEFc_roe_deer",
+      "query": "roe deer",
+      "text": "a deer stands and eats food",
+      "object_names": [
+        "roe deer"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.011993033811450005,
+      "rgb_url": "static/videos/mammalnet/clip_10520_njNF3t3nEFc_roe_deer.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10520_njNF3t3nEFc_roe_deer.json"
+    },
+    {
+      "id": "clip_10661_oMvs37sBzg4_camels",
+      "query": "camels",
+      "text": "a camel walks to the right and then walks back",
+      "object_names": [
+        "camels"
+      ],
+      "num_objects": 1,
+      "num_frames": 82,
+      "num_clips": 0,
+      "median_magnitude": 0.009161443449556828,
+      "rgb_url": "static/videos/mammalnet/clip_10661_oMvs37sBzg4_camels.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10661_oMvs37sBzg4_camels.json"
+    },
+    {
+      "id": "clip_10675_oV7rJoITWfY_white-tailed_deer",
+      "query": "white-tailed deer",
+      "text": "two white-tailed deer are standing and sniffing a tree",
+      "object_names": [
+        "white-tailed deer"
+      ],
+      "num_objects": 1,
+      "num_frames": 127,
+      "num_clips": 0,
+      "median_magnitude": 0.003115698229521513,
+      "rgb_url": "static/videos/mammalnet/clip_10675_oV7rJoITWfY_white-tailed_deer.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10675_oV7rJoITWfY_white-tailed_deer.json"
+    },
+    {
+      "id": "clip_10724_ofaJfGVftmw_squirrels",
+      "query": "squirrels",
+      "text": "a squirrel holds an acorn and eats it",
+      "object_names": [
+        "squirrels"
+      ],
+      "num_objects": 1,
+      "num_frames": 75,
+      "num_clips": 0,
+      "median_magnitude": 0.0025213442277163267,
+      "rgb_url": "static/videos/mammalnet/clip_10724_ofaJfGVftmw_squirrels.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10724_ofaJfGVftmw_squirrels.json"
+    },
+    {
+      "id": "clip_10767_oqxxxAXMbFA_deer",
+      "query": "deer",
+      "text": "a deer walks to the left",
+      "object_names": [
+        "deer"
+      ],
+      "num_objects": 1,
+      "num_frames": 138,
+      "num_clips": 2,
+      "median_magnitude": 0.020330751314759254,
+      "rgb_url": "static/videos/mammalnet/clip_10767_oqxxxAXMbFA_deer.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10767_oqxxxAXMbFA_deer.json"
+    },
+    {
+      "id": "clip_10773_oth8NSZWFkQ_cows",
+      "query": "cows",
+      "text": "A cow is lying on the ground and a pig is lying on top of it, and then the cow stands up and walks away",
+      "object_names": [
+        "cows"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.00976896658539772,
+      "rgb_url": "static/videos/mammalnet/clip_10773_oth8NSZWFkQ_cows.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10773_oth8NSZWFkQ_cows.json"
+    },
+    {
+      "id": "clip_10796_p1zejD-poPI_marmots",
+      "query": "marmots",
+      "text": "Two marmots are fighting on the road",
+      "object_names": [
+        "marmots"
+      ],
+      "num_objects": 1,
+      "num_frames": 137,
+      "num_clips": 2,
+      "median_magnitude": 0.01794185023754835,
+      "rgb_url": "static/videos/mammalnet/clip_10796_p1zejD-poPI_marmots.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10796_p1zejD-poPI_marmots.json"
+    },
+    {
+      "id": "clip_10846_pIVdiZL_PeE_terriers",
+      "query": "terriers",
+      "text": "six black and white puppies are nursing from their mother",
+      "object_names": [
+        "terriers"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.009905051440000534,
+      "rgb_url": "static/videos/mammalnet/clip_10846_pIVdiZL_PeE_terriers.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10846_pIVdiZL_PeE_terriers.json"
+    },
+    {
+      "id": "clip_10870_pM1Od8PuPW8_hyenas",
+      "query": "hyenas",
+      "text": "a hyena walks to the left",
+      "object_names": [
+        "hyenas"
+      ],
+      "num_objects": 1,
+      "num_frames": 75,
+      "num_clips": 1,
+      "median_magnitude": 0.029394879937171936,
+      "rgb_url": "static/videos/mammalnet/clip_10870_pM1Od8PuPW8_hyenas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10870_pM1Od8PuPW8_hyenas.json"
+    },
+    {
+      "id": "clip_10885_pMzuE7LDp-Q_hamsters",
+      "query": "hamsters",
+      "text": "a black and white hamster nurses her babies",
+      "object_names": [
+        "hamsters"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.0038023709785193205,
+      "rgb_url": "static/videos/mammalnet/clip_10885_pMzuE7LDp-Q_hamsters.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10885_pMzuE7LDp-Q_hamsters.json"
+    },
+    {
+      "id": "clip_10900_pPSFGyXTZG0_wallabies",
+      "query": "wallabies",
+      "text": "two wallabies are eating carrots",
+      "object_names": [
+        "wallabies"
+      ],
+      "num_objects": 1,
+      "num_frames": 120,
+      "num_clips": 1,
+      "median_magnitude": 0.0031488933600485325,
+      "rgb_url": "static/videos/mammalnet/clip_10900_pPSFGyXTZG0_wallabies.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10900_pPSFGyXTZG0_wallabies.json"
+    },
+    {
+      "id": "clip_10977_pm9Utxno6k8_baboons",
+      "query": "baboons",
+      "text": "a monkey is grooming another monkey",
+      "object_names": [
+        "baboons"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.0040616788901388645,
+      "rgb_url": "static/videos/mammalnet/clip_10977_pm9Utxno6k8_baboons.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10977_pm9Utxno6k8_baboons.json"
+    },
+    {
+      "id": "clip_10986_pngF59v9Cfc_giraffes",
+      "query": "giraffes",
+      "text": "a giraffe walks to the left and then drinks water",
+      "object_names": [
+        "giraffes"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.1818876415491104,
+      "rgb_url": "static/videos/mammalnet/clip_10986_pngF59v9Cfc_giraffes.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_10986_pngF59v9Cfc_giraffes.json"
+    },
+    {
+      "id": "clip_11094_qIw2IxR7wTA_bulldogs",
+      "query": "bulldogs",
+      "text": "a brown bulldog with a white head eats poop on the ground",
+      "object_names": [
+        "bulldogs"
+      ],
+      "num_objects": 1,
+      "num_frames": 75,
+      "num_clips": 1,
+      "median_magnitude": 0.010310801211744547,
+      "rgb_url": "static/videos/mammalnet/clip_11094_qIw2IxR7wTA_bulldogs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_11094_qIw2IxR7wTA_bulldogs.json"
+    },
+    {
+      "id": "clip_11119_qOH-oqyajOw_gorillas",
+      "query": "gorillas",
+      "text": "a gorilla is sitting on the ground with two baby gorillas",
+      "object_names": [
+        "gorillas"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.0055371555499732494,
+      "rgb_url": "static/videos/mammalnet/clip_11119_qOH-oqyajOw_gorillas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_11119_qOH-oqyajOw_gorillas.json"
+    },
+    {
+      "id": "clip_11224_qpww7YHA-og_lynxes",
+      "query": "lynxes",
+      "text": "two lynxes are fighting on the road",
+      "object_names": [
+        "lynxes"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.012877390719950199,
+      "rgb_url": "static/videos/mammalnet/clip_11224_qpww7YHA-og_lynxes.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_11224_qpww7YHA-og_lynxes.json"
+    },
+    {
+      "id": "clip_11231_qsCLnA_P5uo_brown_bears",
+      "query": "brown bears",
+      "text": "a brown bear walks to the left",
+      "object_names": [
+        "brown bears"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.01603776216506958,
+      "rgb_url": "static/videos/mammalnet/clip_11231_qsCLnA_P5uo_brown_bears.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_11231_qsCLnA_P5uo_brown_bears.json"
+    },
+    {
+      "id": "clip_11282_r739Qfc6k8E_giraffes",
+      "query": "giraffes",
+      "text": "a giraffe holds a stick and dips it into the water",
+      "object_names": [
+        "giraffes"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.04995844140648842,
+      "rgb_url": "static/videos/mammalnet/clip_11282_r739Qfc6k8E_giraffes.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_11282_r739Qfc6k8E_giraffes.json"
+    },
+    {
+      "id": "clip_11315_rJAG6PpOI_M_squirrels",
+      "query": "squirrels",
+      "text": "two squirrels are playing with each other on a tree",
+      "object_names": [
+        "squirrels"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.008005430921912193,
+      "rgb_url": "static/videos/mammalnet/clip_11315_rJAG6PpOI_M_squirrels.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_11315_rJAG6PpOI_M_squirrels.json"
+    },
+    {
+      "id": "clip_11428_rihTzgSSkN4_dogs",
+      "query": "dogs",
+      "text": "a dog is lying on the ground and sleeping",
+      "object_names": [
+        "dogs"
+      ],
+      "num_objects": 1,
+      "num_frames": 149,
+      "num_clips": 1,
+      "median_magnitude": 0.004209933103993535,
+      "rgb_url": "static/videos/mammalnet/clip_11428_rihTzgSSkN4_dogs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_11428_rihTzgSSkN4_dogs.json"
+    },
+    {
+      "id": "clip_11537_sN6XkMZL2L8_fur_seals",
+      "query": "fur seals",
+      "text": "two seals play in the water",
+      "object_names": [
+        "fur seals"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.04720321297645569,
+      "rgb_url": "static/videos/mammalnet/clip_11537_sN6XkMZL2L8_fur_seals.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_11537_sN6XkMZL2L8_fur_seals.json"
+    },
+    {
+      "id": "clip_11540_sN6XkMZL2L8_fur_seals",
+      "query": "fur seals",
+      "text": "a baby fur seal nurses from its mother",
+      "object_names": [
+        "fur seals"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.008861023932695389,
+      "rgb_url": "static/videos/mammalnet/clip_11540_sN6XkMZL2L8_fur_seals.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_11540_sN6XkMZL2L8_fur_seals.json"
+    },
+    {
+      "id": "clip_11558_sPrbxGWAwMg_polar_bears",
+      "query": "polar bears",
+      "text": "a polar bear lies on the ground and moves its head",
+      "object_names": [
+        "polar bears"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.002951372414827347,
+      "rgb_url": "static/videos/mammalnet/clip_11558_sPrbxGWAwMg_polar_bears.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_11558_sPrbxGWAwMg_polar_bears.json"
+    },
+    {
+      "id": "clip_11578_sWbTcNEsIcw_chimpanzees",
+      "query": "chimpanzees",
+      "text": "a chimpanzee jumps from a tree to another tree",
+      "object_names": [
+        "chimpanzees"
+      ],
+      "num_objects": 1,
+      "num_frames": 79,
+      "num_clips": 1,
+      "median_magnitude": 0.016191251575946808,
+      "rgb_url": "static/videos/mammalnet/clip_11578_sWbTcNEsIcw_chimpanzees.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_11578_sWbTcNEsIcw_chimpanzees.json"
+    },
+    {
+      "id": "clip_11626_slO1MUXz51o_pandas",
+      "query": "pandas",
+      "text": "a panda eats a carrot",
+      "object_names": [
+        "pandas"
+      ],
+      "num_objects": 1,
+      "num_frames": 90,
+      "num_clips": 0,
+      "median_magnitude": 0.008982568979263306,
+      "rgb_url": "static/videos/mammalnet/clip_11626_slO1MUXz51o_pandas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_11626_slO1MUXz51o_pandas.json"
+    },
+    {
+      "id": "clip_11739_tDP-kF6Z6Bw_orangutans",
+      "query": "orangutans",
+      "text": "an orangutan eats a leaf",
+      "object_names": [
+        "orangutans"
+      ],
+      "num_objects": 1,
+      "num_frames": 104,
+      "num_clips": 0,
+      "median_magnitude": 0.0020730900578200817,
+      "rgb_url": "static/videos/mammalnet/clip_11739_tDP-kF6Z6Bw_orangutans.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_11739_tDP-kF6Z6Bw_orangutans.json"
+    },
+    {
+      "id": "clip_11880_tupJwvfAyWg_brown_hyenas",
+      "query": "brown hyenas",
+      "text": "brown hyenas are fighting with a lion",
+      "object_names": [
+        "brown hyenas"
+      ],
+      "num_objects": 1,
+      "num_frames": 135,
+      "num_clips": 1,
+      "median_magnitude": 0.13023916631937027,
+      "rgb_url": "static/videos/mammalnet/clip_11880_tupJwvfAyWg_brown_hyenas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_11880_tupJwvfAyWg_brown_hyenas.json"
+    },
+    {
+      "id": "clip_11916_u3sV2UbwxY0_chinchillas",
+      "query": "chinchillas",
+      "text": "a gray chinchilla is lying on a black blanket and a brown chinchilla is lying on the back of the gray chinchilla",
+      "object_names": [
+        "chinchillas"
+      ],
+      "num_objects": 1,
+      "num_frames": 113,
+      "num_clips": 0,
+      "median_magnitude": 0.003980410983785987,
+      "rgb_url": "static/videos/mammalnet/clip_11916_u3sV2UbwxY0_chinchillas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_11916_u3sV2UbwxY0_chinchillas.json"
+    },
+    {
+      "id": "clip_11966_uUxzLc0Jxv4_wolves",
+      "query": "wolves",
+      "text": "a wolf walks to the left",
+      "object_names": [
+        "wolves"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.04580814018845558,
+      "rgb_url": "static/videos/mammalnet/clip_11966_uUxzLc0Jxv4_wolves.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_11966_uUxzLc0Jxv4_wolves.json"
+    },
+    {
+      "id": "clip_12035_urwo8QcCMgA_jaguars",
+      "query": "jaguars",
+      "text": "a leopard drinks water",
+      "object_names": [
+        "jaguars"
+      ],
+      "num_objects": 1,
+      "num_frames": 83,
+      "num_clips": 1,
+      "median_magnitude": 0.012720274738967419,
+      "rgb_url": "static/videos/mammalnet/clip_12035_urwo8QcCMgA_jaguars.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12035_urwo8QcCMgA_jaguars.json"
+    },
+    {
+      "id": "clip_12048_uwNYujp67Fk_amur_leopards",
+      "query": "amur leopards",
+      "text": "a leopard attacks another leopard",
+      "object_names": [
+        "amur leopards"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.009382070042192936,
+      "rgb_url": "static/videos/mammalnet/clip_12048_uwNYujp67Fk_amur_leopards.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12048_uwNYujp67Fk_amur_leopards.json"
+    },
+    {
+      "id": "clip_12084_v8rwI3dNyXI_elephant_seals",
+      "query": "elephant seals",
+      "text": "two elephant seals are playing with each other",
+      "object_names": [
+        "elephant seals"
+      ],
+      "num_objects": 1,
+      "num_frames": 105,
+      "num_clips": 0,
+      "median_magnitude": 0.0037582587683573365,
+      "rgb_url": "static/videos/mammalnet/clip_12084_v8rwI3dNyXI_elephant_seals.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12084_v8rwI3dNyXI_elephant_seals.json"
+    },
+    {
+      "id": "clip_12088_vBfiy1dAjR4_squirrels",
+      "query": "squirrels",
+      "text": "a squirrel is eating",
+      "object_names": [
+        "squirrels"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.0024013021029531956,
+      "rgb_url": "static/videos/mammalnet/clip_12088_vBfiy1dAjR4_squirrels.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12088_vBfiy1dAjR4_squirrels.json"
+    },
+    {
+      "id": "clip_12132_vUEwF6WRPXI_golden_retrievers",
+      "query": "golden retrievers",
+      "text": "a golden retriever runs to the left",
+      "object_names": [
+        "golden retrievers"
+      ],
+      "num_objects": 1,
+      "num_frames": 75,
+      "num_clips": 2,
+      "median_magnitude": 0.01879596058279276,
+      "rgb_url": "static/videos/mammalnet/clip_12132_vUEwF6WRPXI_golden_retrievers.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12132_vUEwF6WRPXI_golden_retrievers.json"
+    },
+    {
+      "id": "clip_12235_w1TtvLeaH3U_lions",
+      "query": "lions",
+      "text": "a lion walks to the left",
+      "object_names": [
+        "lions"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.07319381833076477,
+      "rgb_url": "static/videos/mammalnet/clip_12235_w1TtvLeaH3U_lions.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12235_w1TtvLeaH3U_lions.json"
+    },
+    {
+      "id": "clip_12317_wVSKetde4a8_small_fish",
+      "query": "small fish",
+      "text": "a school of fish swims around a hippopotamus",
+      "object_names": [
+        "small fish"
+      ],
+      "num_objects": 1,
+      "num_frames": 75,
+      "num_clips": 1,
+      "median_magnitude": 0.009834634140133858,
+      "rgb_url": "static/videos/mammalnet/clip_12317_wVSKetde4a8_small_fish.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12317_wVSKetde4a8_small_fish.json"
+    },
+    {
+      "id": "clip_12448_xAHqNW5g014_pugs",
+      "query": "pugs",
+      "text": "three pugs wearing clothes are sleeping on a white blanket",
+      "object_names": [
+        "pugs"
+      ],
+      "num_objects": 1,
+      "num_frames": 127,
+      "num_clips": 0,
+      "median_magnitude": 0.002092080656439066,
+      "rgb_url": "static/videos/mammalnet/clip_12448_xAHqNW5g014_pugs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12448_xAHqNW5g014_pugs.json"
+    },
+    {
+      "id": "clip_12559_xubxz3Wb9p4_sheep",
+      "query": "sheep",
+      "text": "a group of sheep are walking to the right",
+      "object_names": [
+        "sheep"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 3,
+      "median_magnitude": 0.02028832770884037,
+      "rgb_url": "static/videos/mammalnet/clip_12559_xubxz3Wb9p4_sheep.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12559_xubxz3Wb9p4_sheep.json"
+    },
+    {
+      "id": "clip_12595_y5v0FpKfAzQ_beavers",
+      "query": "beavers",
+      "text": "a beaver swims to the right and eats a plant",
+      "object_names": [
+        "beavers"
+      ],
+      "num_objects": 1,
+      "num_frames": 90,
+      "num_clips": 2,
+      "median_magnitude": 0.028574589639902115,
+      "rgb_url": "static/videos/mammalnet/clip_12595_y5v0FpKfAzQ_beavers.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12595_y5v0FpKfAzQ_beavers.json"
+    },
+    {
+      "id": "clip_12598_y62H1MEdddk_black_bears",
+      "query": "black bears",
+      "text": "two black bears walk to the right",
+      "object_names": [
+        "black bears"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.013296415098011494,
+      "rgb_url": "static/videos/mammalnet/clip_12598_y62H1MEdddk_black_bears.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12598_y62H1MEdddk_black_bears.json"
+    },
+    {
+      "id": "clip_12622_yFxS7AfCGyw_african_elephants",
+      "query": "african elephants",
+      "text": "african elephants are eating grass",
+      "object_names": [
+        "african elephants"
+      ],
+      "num_objects": 1,
+      "num_frames": 106,
+      "num_clips": 0,
+      "median_magnitude": 0.005823267158120871,
+      "rgb_url": "static/videos/mammalnet/clip_12622_yFxS7AfCGyw_african_elephants.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12622_yFxS7AfCGyw_african_elephants.json"
+    },
+    {
+      "id": "clip_12637_yNQBIazKlHk_moose",
+      "query": "moose",
+      "text": "two moose are fighting",
+      "object_names": [
+        "moose"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.05667847767472267,
+      "rgb_url": "static/videos/mammalnet/clip_12637_yNQBIazKlHk_moose.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12637_yNQBIazKlHk_moose.json"
+    },
+    {
+      "id": "clip_12675_yU-8cp1gbfs_fossas",
+      "query": "fossas",
+      "text": "a brown fossa walks to the right",
+      "object_names": [
+        "fossas"
+      ],
+      "num_objects": 1,
+      "num_frames": 100,
+      "num_clips": 0,
+      "median_magnitude": 0.0051751635037362576,
+      "rgb_url": "static/videos/mammalnet/clip_12675_yU-8cp1gbfs_fossas.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12675_yU-8cp1gbfs_fossas.json"
+    },
+    {
+      "id": "clip_12711_yeuGqGK0xLI_kangaroos",
+      "query": "kangaroos",
+      "text": "a kangaroo is lying on the ground while a baby kangaroo is suckling",
+      "object_names": [
+        "kangaroos"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.004357974510639906,
+      "rgb_url": "static/videos/mammalnet/clip_12711_yeuGqGK0xLI_kangaroos.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12711_yeuGqGK0xLI_kangaroos.json"
+    },
+    {
+      "id": "clip_12762_yz9zWQtDqi8_bulldogs",
+      "query": "bulldogs",
+      "text": "a bulldog drinks water from a bowl",
+      "object_names": [
+        "bulldogs"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 2,
+      "median_magnitude": 0.013299795798957348,
+      "rgb_url": "static/videos/mammalnet/clip_12762_yz9zWQtDqi8_bulldogs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12762_yz9zWQtDqi8_bulldogs.json"
+    },
+    {
+      "id": "clip_12763_yzBqFDdmqao_raccoons",
+      "query": "raccoons",
+      "text": "a raccoon walks to the left",
+      "object_names": [
+        "raccoons"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 1,
+      "median_magnitude": 0.013229434378445148,
+      "rgb_url": "static/videos/mammalnet/clip_12763_yzBqFDdmqao_raccoons.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12763_yzBqFDdmqao_raccoons.json"
+    },
+    {
+      "id": "clip_12782_z2PAbAPIQfA_manatees",
+      "query": "manatees",
+      "text": "a manatee swims to the left",
+      "object_names": [
+        "manatees"
+      ],
+      "num_objects": 1,
+      "num_frames": 113,
+      "num_clips": 1,
+      "median_magnitude": 0.04290755279362202,
+      "rgb_url": "static/videos/mammalnet/clip_12782_z2PAbAPIQfA_manatees.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12782_z2PAbAPIQfA_manatees.json"
+    },
+    {
+      "id": "clip_12795_z5HfXRaSwtY_cheetahs",
+      "query": "cheetahs",
+      "text": "two cheetahs are playing with each other",
+      "object_names": [
+        "cheetahs"
+      ],
+      "num_objects": 1,
+      "num_frames": 109,
+      "num_clips": 1,
+      "median_magnitude": 0.006311099976301193,
+      "rgb_url": "static/videos/mammalnet/clip_12795_z5HfXRaSwtY_cheetahs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12795_z5HfXRaSwtY_cheetahs.json"
+    },
+    {
+      "id": "clip_12823_zCL0QIYXxK4_sloths",
+      "query": "sloths",
+      "text": "a sloth is drinking milk",
+      "object_names": [
+        "sloths"
+      ],
+      "num_objects": 1,
+      "num_frames": 147,
+      "num_clips": 0,
+      "median_magnitude": 0.004661755403503776,
+      "rgb_url": "static/videos/mammalnet/clip_12823_zCL0QIYXxK4_sloths.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12823_zCL0QIYXxK4_sloths.json"
+    },
+    {
+      "id": "clip_12827_zCTgWjbgXT8_dogs",
+      "query": "dogs",
+      "text": "A black and white dog is lying on the bed, and a brown dog is biting its neck",
+      "object_names": [
+        "dogs"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 3,
+      "median_magnitude": 0.020059662871062756,
+      "rgb_url": "static/videos/mammalnet/clip_12827_zCTgWjbgXT8_dogs.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12827_zCTgWjbgXT8_dogs.json"
+    },
+    {
+      "id": "clip_12828_zEaPxUbadb8_pygmy_hippopotamuses",
+      "query": "pygmy hippopotamuses",
+      "text": "a black hippopotamus eats grass",
+      "object_names": [
+        "pygmy hippopotamuses"
+      ],
+      "num_objects": 1,
+      "num_frames": 82,
+      "num_clips": 0,
+      "median_magnitude": 0.0038833010476082563,
+      "rgb_url": "static/videos/mammalnet/clip_12828_zEaPxUbadb8_pygmy_hippopotamuses.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12828_zEaPxUbadb8_pygmy_hippopotamuses.json"
+    },
+    {
+      "id": "clip_12831_zFLz4bx2ITs_mice",
+      "query": "mice",
+      "text": "a white mouse drinks water",
+      "object_names": [
+        "mice"
+      ],
+      "num_objects": 1,
+      "num_frames": 150,
+      "num_clips": 0,
+      "median_magnitude": 0.0029621904250234365,
+      "rgb_url": "static/videos/mammalnet/clip_12831_zFLz4bx2ITs_mice.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12831_zFLz4bx2ITs_mice.json"
+    },
+    {
+      "id": "clip_12859_zMUrWjYcXGw_donkeys",
+      "query": "donkeys",
+      "text": "a brown donkey and a white donkey are eating grass",
+      "object_names": [
+        "donkeys"
+      ],
+      "num_objects": 1,
+      "num_frames": 105,
+      "num_clips": 0,
+      "median_magnitude": 0.009973751846700907,
+      "rgb_url": "static/videos/mammalnet/clip_12859_zMUrWjYcXGw_donkeys.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12859_zMUrWjYcXGw_donkeys.json"
+    },
+    {
+      "id": "clip_12910_zl9jqzy1WCw_harp_seals",
+      "query": "harp seals",
+      "text": "a white harp seal sleeps on the snow",
+      "object_names": [
+        "harp seals"
+      ],
+      "num_objects": 1,
+      "num_frames": 113,
+      "num_clips": 0,
+      "median_magnitude": 0.002024941728450358,
+      "rgb_url": "static/videos/mammalnet/clip_12910_zl9jqzy1WCw_harp_seals.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12910_zl9jqzy1WCw_harp_seals.json"
+    },
+    {
+      "id": "clip_12934_zyLRVE1vQvg_raccoons",
+      "query": "raccoons",
+      "text": "two raccoons are playing with each other",
+      "object_names": [
+        "raccoons"
+      ],
+      "num_objects": 1,
+      "num_frames": 120,
+      "num_clips": 0,
+      "median_magnitude": 0.007597274612635374,
+      "rgb_url": "static/videos/mammalnet/clip_12934_zyLRVE1vQvg_raccoons.mp4",
+      "motion_url": "static/data/motion/mammalnet_clips/clip_12934_zyLRVE1vQvg_raccoons.json"
+    }
+  ]
+}
