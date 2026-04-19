@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>YT-VIS — Per-(video, object) median magnitude</title>
+<title>MammalNet — Per-(clip, object) median magnitude</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -45,7 +45,7 @@ body { font-family:'Inter',sans-serif; background:var(--bg); color:var(--text); 
 .chart-wrap canvas { width:100%!important; height:100%!important; }
 
 .controls {
-  display:grid; grid-template-columns: 1fr 1fr auto; gap:14px 20px; align-items:end;
+  display:grid; grid-template-columns: 1fr 1fr 1fr; gap:14px 20px; align-items:end;
   margin-top:16px;
 }
 .control-group { display:flex; flex-direction:column; gap:4px; }
@@ -72,16 +72,16 @@ body { font-family:'Inter',sans-serif; background:var(--bg); color:var(--text); 
 .metric .val .pct { font-size:0.85rem; color:var(--text-secondary); margin-left:6px; }
 
 .examples-grid {
-  display:grid; grid-template-columns:repeat(auto-fill, minmax(180px, 1fr)); gap:10px; margin-top:10px;
+  display:grid; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)); gap:10px; margin-top:10px;
 }
 .ex-card {
   background:var(--bg); border:1px solid var(--border); border-radius:6px;
-  padding:8px 10px; font-family:'SF Mono', monospace; font-size:0.72rem;
+  padding:8px 10px; font-family:'SF Mono', monospace; font-size:0.7rem;
 }
-.ex-card a { color:var(--accent); text-decoration:none; }
-.ex-card a:hover { text-decoration:underline; }
-.ex-card .obj { color:var(--text-muted); font-size:0.66rem; }
+.ex-card .id { color:var(--accent); word-break:break-all; }
+.ex-card .obj { color:var(--text-muted); font-size:0.65rem; }
 .ex-card .med { color:var(--text-heading); float:right; }
+.ex-card .cap { color:var(--text); font-family:'Inter', sans-serif; font-size:0.7rem; margin-top:2px; }
 
 .flex-row { display:flex; gap:14px; align-items:center; flex-wrap:wrap; font-size:0.78rem; color:var(--text-secondary); }
 .dl-btn {
@@ -100,46 +100,61 @@ body { font-family:'Inter',sans-serif; background:var(--bg); color:var(--text); 
 <div class="page">
   <div class="masthead">
     <div>
-      <h1>YT-VIS — Per-(video, object) median magnitude</h1>
+      <h1>MammalNet — Per-(clip, object) median magnitude</h1>
       <div class="subtitle">
         Distribution of the median frame-to-frame motion magnitude for every
-        keep-object across all 1,310 captioned clips. Use the min/max sliders
-        to pick a magnitude band; the live count shows how many objects (and
-        clips) survive. Mono-depth scale is not metric, so values span ~0.001
-        to ~14 — log axis recommended.
+        keep+captioned mammal-object across the 8,904 MammalNet clips. Use
+        min / max to pick a magnitude band — the live count shows how many
+        clips survive. Mono-depth scale is not metric so values span ~0.001
+        to ~30; raw axis with adjustable x-zoom.
       </div>
     </div>
     <div class="masthead-right">
-      <a href="index.html">← YT-VIS clips</a>
-      <a href="mammalnet.html">MammalNet stats →</a>
+      <a href="index.html">YT-VIS clips</a>
+      <a href="stats.html">YT-VIS stats</a>
       <button class="theme-toggle" onclick="toggleTheme()">Toggle theme</button>
     </div>
   </div>
 
   <div class="card">
-    <h2>Distribution of per-(video, object) median magnitude</h2>
+    <h2>Distribution of per-(clip, object) median magnitude (raw scale)</h2>
     <div class="chart-wrap"><canvas id="histChart"></canvas></div>
     <div class="controls">
       <div class="control-group">
-        <label>Min median (log slider)</label>
+        <label>Min median</label>
         <div class="row">
           <input type="range" id="minSlide" min="0" max="1000" value="0" step="1">
           <input type="number" id="minVal" step="0.001" value="0">
         </div>
       </div>
       <div class="control-group">
-        <label>Max median (log slider)</label>
+        <label>Max median</label>
         <div class="row">
           <input type="range" id="maxSlide" min="0" max="1000" value="1000" step="1">
           <input type="number" id="maxVal" step="0.001" value="100">
         </div>
       </div>
       <div class="control-group">
-        <label>Presets</label>
+        <label>X-axis max (chart zoom)</label>
+        <div class="row">
+          <input type="number" id="xMax" step="0.05" min="0.01" value="0.5">
+          <div class="preset-btns" style="margin-left:6px;">
+            <button data-xmax="0.1">0.1</button>
+            <button data-xmax="0.5">0.5</button>
+            <button data-xmax="2">2</button>
+            <button data-xmax="30">30</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="controls" style="margin-top:8px;">
+      <div class="control-group">
+        <label>Min/max presets</label>
         <div class="preset-btns">
-          <button data-min="0.005" data-max="0.5">moderate (5e-3 → 0.5)</button>
-          <button data-min="0.01"  data-max="1.0">loose (1e-2 → 1.0)</button>
-          <button data-min="0.02"  data-max="0.3">tight (2e-2 → 0.3)</button>
+          <button data-min="0.005" data-max="2">tracker-grade (5e-3 → 2)</button>
+          <button data-min="0.01"  data-max="2">moderate (1e-2 → 2)</button>
+          <button data-min="0.005" data-max="0.5">tight (5e-3 → 0.5)</button>
           <button data-min="0"     data-max="100">none</button>
         </div>
       </div>
@@ -147,7 +162,7 @@ body { font-family:'Inter',sans-serif; background:var(--bg); color:var(--text); 
 
     <div class="results">
       <div class="metric"><div class="lbl">Range</div><div class="val" id="mRange">— → —</div></div>
-      <div class="metric"><div class="lbl">Objects pass</div><div class="val" id="mObj">—<span class="pct" id="mObjPct"></span></div></div>
+      <div class="metric"><div class="lbl">Pairs pass</div><div class="val" id="mObj">—<span class="pct" id="mObjPct"></span></div></div>
       <div class="metric"><div class="lbl">Clips with ≥ 1 pass</div><div class="val" id="mClip">—<span class="pct" id="mClipPct"></span></div></div>
       <div class="metric"><div class="lbl">Median in-band</div><div class="val" id="mMed">—</div></div>
     </div>
@@ -161,15 +176,15 @@ body { font-family:'Inter',sans-serif; background:var(--bg); color:var(--text); 
   <div class="card">
     <h2>Sample at the boundaries (sanity-check the cutoff)</h2>
     <div class="flex-row" style="margin-bottom:8px;">
-      <span>20 random objects with median <span style="color:var(--accent)">just above</span> the min cutoff:</span>
+      <span>20 random clips with median <span style="color:var(--accent)">just above</span> the min cutoff:</span>
     </div>
     <div class="examples-grid" id="exJustIn"></div>
     <div class="flex-row" style="margin:18px 0 8px;">
-      <span>20 random objects <span style="color:var(--warn)">just below</span> the min cutoff (excluded):</span>
+      <span>20 random clips <span style="color:var(--warn)">just below</span> the min cutoff (excluded):</span>
     </div>
     <div class="examples-grid" id="exJustOut"></div>
     <div class="flex-row" style="margin:18px 0 8px;">
-      <span>20 random objects with median <span style="color:var(--warn)">above</span> the max cutoff (excluded as scale-runaway):</span>
+      <span>20 random clips <span style="color:var(--warn)">above</span> the max cutoff (excluded as scale-runaway):</span>
     </div>
     <div class="examples-grid" id="exTooHi"></div>
   </div>
@@ -180,46 +195,53 @@ function toggleTheme() {
   const t = document.documentElement.getAttribute('data-theme')==='light'?'':'light';
   document.documentElement.setAttribute('data-theme', t);
   localStorage.setItem('motion-theme', t);
-  if (window._chart) buildChart();   // re-skin
+  if (window._chart) buildChart();
 }
 (function(){ const t=localStorage.getItem('motion-theme'); if(t) document.documentElement.setAttribute('data-theme',t); })();
 
-// --- log slider mapping ---
-const LO = 0.001, HI = 20.0;
-const logLO = Math.log10(LO), logHI = Math.log10(HI);
-function slideToVal(s) { const t = s/1000; return Math.pow(10, logLO + t*(logHI-logLO)); }
-function valToSlide(v) { v = Math.max(LO, Math.min(HI, v)); return Math.round(((Math.log10(v)-logLO)/(logHI-logLO))*1000); }
-function fmt(v) { if(v < 0.01) return v.toExponential(2); if(v < 10) return v.toFixed(3); return v.toFixed(2); }
-
-let DATA = null;   // {items:[{clip,obj,median,max,n_frames}], n_clips, n_objects}
-let BINS = null;   // {edges:[...], counts:[...], midpoints:[...]}
+let DATA = null;
+let DATA_MAX = 1.0;
+let xMax = 0.5;
 let curMin = 0, curMax = 100;
+const NBINS = 100;
 
-const NBINS = 60;
+function fmt(v) { if(v < 0.0001) return v.toExponential(2); if(v < 0.01) return v.toFixed(5); if(v < 10) return v.toFixed(3); return v.toFixed(2); }
+
+function slideToVal(s, hi) { return (s/1000) * hi; }
+function valToSlide(v, hi) { v = Math.max(0, Math.min(hi, v)); return Math.round(v/hi*1000); }
 
 async function init() {
-  const r = await fetch('static/data/motion/ytvis/object_stats.json');
+  const r = await fetch('static/data/motion/mammalnet/object_stats.json');
   DATA = await r.json();
-  console.log('loaded', DATA.n_objects, 'objects across', DATA.n_clips, 'clips');
+  DATA_MAX = Math.max(...DATA.items.map(it => it.median));
+  console.log('loaded', DATA.n_objects, 'pairs across', DATA.n_clips, 'clips, max median=', DATA_MAX);
 
-  // log-spaced bins
-  const edges = [];
-  for (let i = 0; i <= NBINS; i++) edges.push(Math.pow(10, logLO + (i/NBINS)*(logHI-logLO)));
-  const counts = new Array(NBINS).fill(0);
-  for (const it of DATA.items) {
-    const v = it.median;
-    if (v < edges[0] || v >= edges[NBINS]) continue;
-    let lo = 0, hi = NBINS;
-    while (lo < hi-1) { const m=(lo+hi)>>1; if (edges[m] <= v) lo = m; else hi = m; }
-    counts[lo]++;
-  }
-  const mids = [];
-  for (let i = 0; i < NBINS; i++) mids.push(Math.sqrt(edges[i]*edges[i+1]));
-  BINS = {edges, counts, midpoints: mids};
+  // Set slider range based on data max
+  document.getElementById('minVal').max = DATA_MAX;
+  document.getElementById('maxVal').max = DATA_MAX;
+  document.getElementById('maxVal').value = DATA_MAX;
+  document.getElementById('xMax').max = DATA_MAX;
 
   buildChart();
   bindControls();
   applyRange();
+}
+
+function buildBins() {
+  const edges = [];
+  for (let i = 0; i <= NBINS; i++) edges.push((i/NBINS) * xMax);
+  const counts = new Array(NBINS).fill(0);
+  let above = 0;
+  for (const it of DATA.items) {
+    const v = it.median;
+    if (v >= xMax) { above++; continue; }
+    if (v < 0) continue;
+    let lo = Math.min(NBINS-1, Math.floor((v/xMax)*NBINS));
+    counts[lo]++;
+  }
+  const mids = [];
+  for (let i = 0; i < NBINS; i++) mids.push((edges[i]+edges[i+1])/2);
+  return {edges, counts, midpoints: mids, above};
 }
 
 function buildChart() {
@@ -227,17 +249,18 @@ function buildChart() {
   const ctx = document.getElementById('histChart').getContext('2d');
   if (window._chart) window._chart.destroy();
 
-  const labels = BINS.midpoints.map(v => fmt(v));
-  const inBand = BINS.midpoints.map(m => m >= curMin && m <= curMax);
+  const bins = buildBins();
+  window._bins = bins;
 
+  const labels = bins.midpoints.map(v => fmt(v));
   window._chart = new Chart(ctx, {
     type:'bar',
     data:{
       labels,
       datasets:[{
         label:'count',
-        data:BINS.counts,
-        backgroundColor: BINS.midpoints.map(m =>
+        data: bins.counts,
+        backgroundColor: bins.midpoints.map(m =>
           (m>=curMin && m<=curMax) ? 'rgba(74,158,255,0.85)' : 'rgba(150,150,150,0.35)'),
         borderWidth:0,
         barPercentage:1.0, categoryPercentage:1.0,
@@ -247,14 +270,15 @@ function buildChart() {
       animation:false, responsive:true, maintainAspectRatio:false,
       plugins:{ legend:{display:false},
         tooltip:{ callbacks:{
-          title: (items)=>`bin: ${fmt(BINS.edges[items[0].dataIndex])} – ${fmt(BINS.edges[items[0].dataIndex+1])}`,
-          label: (it)=>`${it.parsed.y} objects`
+          title: (items)=>`bin: ${fmt(bins.edges[items[0].dataIndex])} – ${fmt(bins.edges[items[0].dataIndex+1])}`,
+          label: (it)=>`${it.parsed.y} pairs`
         }}
       },
       scales:{
-        x:{ title:{display:true,text:'median magnitude (log bins, 60 bins, 0.001–20)', color:isDark?'#777':'#666'},
+        x:{ title:{display:true, text:`median magnitude  (linear, 0 → ${fmt(xMax)};  ${bins.above} pairs above off-chart)`,
+            color:isDark?'#777':'#666'},
             ticks:{ color:isDark?'#666':'#888', font:{size:9}, maxTicksLimit:12, autoSkip:true } },
-        y:{ title:{display:true,text:'# (video, object) pairs', color:isDark?'#777':'#666'},
+        y:{ title:{display:true,text:'# (clip, object) pairs', color:isDark?'#777':'#666'},
             ticks:{ color:isDark?'#666':'#888', font:{size:10} },
             grid:{color:isDark?'rgba(255,255,255,0.05)':'rgba(0,0,0,0.05)'} }
       }
@@ -267,23 +291,30 @@ function bindControls() {
   const maxSlide = document.getElementById('maxSlide');
   const minVal = document.getElementById('minVal');
   const maxVal = document.getElementById('maxVal');
+  const xMaxInput = document.getElementById('xMax');
 
-  minSlide.value = valToSlide(LO);
-  maxSlide.value = valToSlide(HI);
-  minVal.value = LO;
-  maxVal.value = HI;
+  minSlide.value = 0;
+  maxSlide.value = 1000;
+  minVal.value = 0;
+  maxVal.value = DATA_MAX;
+  xMaxInput.value = xMax;
 
-  minSlide.addEventListener('input', () => { const v = slideToVal(+minSlide.value); minVal.value = +v.toFixed(5); applyRange(); });
-  maxSlide.addEventListener('input', () => { const v = slideToVal(+maxSlide.value); maxVal.value = +v.toFixed(5); applyRange(); });
-  minVal.addEventListener('change', () => { minSlide.value = valToSlide(+minVal.value); applyRange(); });
-  maxVal.addEventListener('change', () => { maxSlide.value = valToSlide(+maxVal.value); applyRange(); });
+  minSlide.addEventListener('input', () => { const v = slideToVal(+minSlide.value, DATA_MAX); minVal.value = +v.toFixed(5); applyRange(); });
+  maxSlide.addEventListener('input', () => { const v = slideToVal(+maxSlide.value, DATA_MAX); maxVal.value = +v.toFixed(5); applyRange(); });
+  minVal.addEventListener('change', () => { minSlide.value = valToSlide(+minVal.value, DATA_MAX); applyRange(); });
+  maxVal.addEventListener('change', () => { maxSlide.value = valToSlide(+maxVal.value, DATA_MAX); applyRange(); });
 
-  document.querySelectorAll('.preset-btns button').forEach(b => {
+  xMaxInput.addEventListener('change', () => { xMax = Math.max(0.001, +xMaxInput.value); buildChart(); applyRange(); });
+  document.querySelectorAll('.preset-btns button[data-xmax]').forEach(b => {
+    b.addEventListener('click', () => { xMax = +b.dataset.xmax; xMaxInput.value = xMax; buildChart(); applyRange(); });
+  });
+
+  document.querySelectorAll('.preset-btns button[data-min]').forEach(b => {
     b.addEventListener('click', () => {
       minVal.value = b.dataset.min;
       maxVal.value = b.dataset.max;
-      minSlide.value = valToSlide(+b.dataset.min);
-      maxSlide.value = valToSlide(+b.dataset.max);
+      minSlide.value = valToSlide(+b.dataset.min, DATA_MAX);
+      maxSlide.value = valToSlide(+b.dataset.max, DATA_MAX);
       applyRange();
     });
   });
@@ -310,14 +341,12 @@ function applyRange() {
   document.getElementById('dlNote').textContent =
     `would export ${passing.length} (clip, obj) pairs covering ${passClips.size} clips`;
 
-  // re-skin chart bars and update presets state
-  if (window._chart) {
-    window._chart.data.datasets[0].backgroundColor = BINS.midpoints.map(m =>
+  if (window._chart && window._bins) {
+    window._chart.data.datasets[0].backgroundColor = window._bins.midpoints.map(m =>
       (m>=curMin && m<=curMax) ? 'rgba(74,158,255,0.85)' : 'rgba(150,150,150,0.35)');
     window._chart.update('none');
   }
 
-  // Sample at boundaries
   const sortedByMed = DATA.items.slice().sort((a,b)=>a.median-b.median);
   const justInPool = sortedByMed.filter(it => it.median >= curMin && it.median <= curMax).slice(0, 200);
   const justOutLowPool = sortedByMed.filter(it => it.median < curMin).slice(-200);
@@ -343,9 +372,10 @@ function fillExamples(elId, items) {
   for (const it of items) {
     const card = document.createElement('div');
     card.className = 'ex-card';
-    card.innerHTML = `<a href="index.html#${it.clip}" target="_blank">${it.clip}</a>
+    card.innerHTML = `<span class="id">${it.clip}</span>
       <span class="med">${fmt(it.median)}</span>
-      <div class="obj">${it.obj} · ${it.n_frames}f · max=${fmt(it.max)}</div>`;
+      <div class="obj">${it.obj} · ${it.n_frames}f · max=${fmt(it.max)}</div>
+      <div class="cap">${(it.caption||'').slice(0,140)}</div>`;
     el.appendChild(card);
   }
 }
@@ -362,7 +392,7 @@ function downloadPassing() {
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
-  a.download = `ytvis_passing_${curMin}_${curMax}.json`;
+  a.download = `mammalnet_passing_${curMin}_${curMax}.json`;
   document.body.appendChild(a); a.click(); document.body.removeChild(a);
   URL.revokeObjectURL(url);
 }
