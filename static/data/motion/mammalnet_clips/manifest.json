@@ -51,7 +51,7 @@
       ],
       "num_objects": 1,
       "num_frames": 137,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.00822401512414217,
       "rgb_url": "static/videos/mammalnet/clip_00134_-kEmvfjmWvo_chinchillas.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_00134_-kEmvfjmWvo_chinchillas.json"
@@ -65,7 +65,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.027400875464081764,
       "rgb_url": "static/videos/mammalnet/clip_00151_-pwWgX_iPCg_alpacas.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_00151_-pwWgX_iPCg_alpacas.json"
@@ -79,7 +79,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.004952684510499239,
       "rgb_url": "static/videos/mammalnet/clip_00170_-u4tlPZkz1M_chinchillas.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_00170_-u4tlPZkz1M_chinchillas.json"
@@ -93,7 +93,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 1,
       "median_magnitude": 0.011864851228892803,
       "rgb_url": "static/videos/mammalnet/clip_00201_0-QzCFs6-SY_wolves.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_00201_0-QzCFs6-SY_wolves.json"
@@ -107,7 +107,7 @@
       ],
       "num_objects": 1,
       "num_frames": 12,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.05800268054008484,
       "rgb_url": "static/videos/mammalnet/clip_00257_0FQOm7oL1rU_birds.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_00257_0FQOm7oL1rU_birds.json"
@@ -121,7 +121,7 @@
       ],
       "num_objects": 1,
       "num_frames": 75,
-      "num_clips": 2,
+      "num_clips": 1,
       "median_magnitude": 0.022523365914821625,
       "rgb_url": "static/videos/mammalnet/clip_00331_0fRoudlmqbw_hippos.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_00331_0fRoudlmqbw_hippos.json"
@@ -135,7 +135,7 @@
       ],
       "num_objects": 1,
       "num_frames": 75,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.022436439990997314,
       "rgb_url": "static/videos/mammalnet/clip_00443_1GzL8BKxNdg_zebras.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_00443_1GzL8BKxNdg_zebras.json"
@@ -149,7 +149,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.004614395555108786,
       "rgb_url": "static/videos/mammalnet/clip_00481_1T6jtf5TG44_servals.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_00481_1T6jtf5TG44_servals.json"
@@ -205,7 +205,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 3,
+      "num_clips": 2,
       "median_magnitude": 0.036473143845796585,
       "rgb_url": "static/videos/mammalnet/clip_00745_2cdCZZ1akRQ_baby_fur_seals.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_00745_2cdCZZ1akRQ_baby_fur_seals.json"
@@ -219,7 +219,7 @@
       ],
       "num_objects": 1,
       "num_frames": 81,
-      "num_clips": 2,
+      "num_clips": 1,
       "median_magnitude": 0.02424292080104351,
       "rgb_url": "static/videos/mammalnet/clip_00754_2fAlRP-61gk_buffaloes.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_00754_2fAlRP-61gk_buffaloes.json"
@@ -247,7 +247,7 @@
       ],
       "num_objects": 1,
       "num_frames": 81,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.0052526905201375484,
       "rgb_url": "static/videos/mammalnet/clip_00944_3RinpTt750I_malamutes.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_00944_3RinpTt750I_malamutes.json"
@@ -317,7 +317,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 3,
+      "num_clips": 0,
       "median_magnitude": 0.012027337215840816,
       "rgb_url": "static/videos/mammalnet/clip_01204_4e8x1hNl358_wolverines.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_01204_4e8x1hNl358_wolverines.json"
@@ -359,7 +359,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 1,
       "median_magnitude": 0.02022549696266651,
       "rgb_url": "static/videos/mammalnet/clip_01375_5Tgs1sMbAE4_pigs.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_01375_5Tgs1sMbAE4_pigs.json"
@@ -373,7 +373,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 3,
+      "num_clips": 1,
       "median_magnitude": 0.01889328844845295,
       "rgb_url": "static/videos/mammalnet/clip_01380_5UVmMvriyXU_red_foxes.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_01380_5UVmMvriyXU_red_foxes.json"
@@ -401,7 +401,7 @@
       ],
       "num_objects": 1,
       "num_frames": 98,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.009116638451814651,
       "rgb_url": "static/videos/mammalnet/clip_01412_5_YHqZUjfbE_terriers.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_01412_5_YHqZUjfbE_terriers.json"
@@ -415,7 +415,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.007923380471765995,
       "rgb_url": "static/videos/mammalnet/clip_01416_5aWTHTOg9dg_rams.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_01416_5aWTHTOg9dg_rams.json"
@@ -429,7 +429,7 @@
       ],
       "num_objects": 1,
       "num_frames": 132,
-      "num_clips": 2,
+      "num_clips": 1,
       "median_magnitude": 0.023873701691627502,
       "rgb_url": "static/videos/mammalnet/clip_01422_5ccscUZ5WkY_giraffes.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_01422_5ccscUZ5WkY_giraffes.json"
@@ -457,7 +457,7 @@
       ],
       "num_objects": 1,
       "num_frames": 77,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.03889981657266617,
       "rgb_url": "static/videos/mammalnet/clip_01464_5uZtidzeJx8_sea_lions.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_01464_5uZtidzeJx8_sea_lions.json"
@@ -471,7 +471,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 3,
+      "num_clips": 0,
       "median_magnitude": 0.012349694967269897,
       "rgb_url": "static/videos/mammalnet/clip_01521_6H0rRDacpTM_dogs.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_01521_6H0rRDacpTM_dogs.json"
@@ -499,7 +499,7 @@
       ],
       "num_objects": 1,
       "num_frames": 127,
-      "num_clips": 3,
+      "num_clips": 0,
       "median_magnitude": 0.01516941748559475,
       "rgb_url": "static/videos/mammalnet/clip_01585_6XyLe0iddtc_goats.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_01585_6XyLe0iddtc_goats.json"
@@ -555,7 +555,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 2,
       "median_magnitude": 0.05468226596713066,
       "rgb_url": "static/videos/mammalnet/clip_01641_6fxOWXee_Ks_harbor_seals.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_01641_6fxOWXee_Ks_harbor_seals.json"
@@ -569,7 +569,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 4,
+      "num_clips": 0,
       "median_magnitude": 0.0180352833122015,
       "rgb_url": "static/videos/mammalnet/clip_01649_6goPQpovF7c_japanese_macaques.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_01649_6goPQpovF7c_japanese_macaques.json"
@@ -597,7 +597,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 1,
       "median_magnitude": 0.06134897843003273,
       "rgb_url": "static/videos/mammalnet/clip_01686_6t2dHWhlY9U_shepherd_dogs.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_01686_6t2dHWhlY9U_shepherd_dogs.json"
@@ -667,7 +667,7 @@
       ],
       "num_objects": 1,
       "num_frames": 75,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.013820457737892866,
       "rgb_url": "static/videos/mammalnet/clip_01786_7Vz4X6TcG7o_seals.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_01786_7Vz4X6TcG7o_seals.json"
@@ -695,7 +695,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.0022283236030489206,
       "rgb_url": "static/videos/mammalnet/clip_01878_86hiK9qP7js_pigs.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_01878_86hiK9qP7js_pigs.json"
@@ -765,7 +765,7 @@
       ],
       "num_objects": 1,
       "num_frames": 97,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.004201308358460665,
       "rgb_url": "static/videos/mammalnet/clip_02078_9LP_s8VNXAY_chinchillas.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_02078_9LP_s8VNXAY_chinchillas.json"
@@ -793,7 +793,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.006565742660313845,
       "rgb_url": "static/videos/mammalnet/clip_02195_9sGZKCIwe_o_red_pandas.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_02195_9sGZKCIwe_o_red_pandas.json"
@@ -807,7 +807,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 4,
+      "num_clips": 1,
       "median_magnitude": 0.023691583424806595,
       "rgb_url": "static/videos/mammalnet/clip_02213_A-ZWmk8x5gU_arctic_foxes.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_02213_A-ZWmk8x5gU_arctic_foxes.json"
@@ -849,7 +849,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 1,
       "median_magnitude": 0.009612303227186203,
       "rgb_url": "static/videos/mammalnet/clip_02287_ANsXrhzi80Y_patas_monkeys.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_02287_ANsXrhzi80Y_patas_monkeys.json"
@@ -905,7 +905,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.003981652902439237,
       "rgb_url": "static/videos/mammalnet/clip_02363_Ag3K_iZPYSE_cheetahs.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_02363_Ag3K_iZPYSE_cheetahs.json"
@@ -919,7 +919,7 @@
       ],
       "num_objects": 1,
       "num_frames": 127,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.0067375656217336655,
       "rgb_url": "static/videos/mammalnet/clip_02388_AotoIuZ9Tp8_ferrets.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_02388_AotoIuZ9Tp8_ferrets.json"
@@ -933,7 +933,7 @@
       ],
       "num_objects": 1,
       "num_frames": 105,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.007937580347061157,
       "rgb_url": "static/videos/mammalnet/clip_02414_AtuC2la9R8Q_donkeys.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_02414_AtuC2la9R8Q_donkeys.json"
@@ -975,7 +975,7 @@
       ],
       "num_objects": 1,
       "num_frames": 142,
-      "num_clips": 2,
+      "num_clips": 1,
       "median_magnitude": 0.04547218978404999,
       "rgb_url": "static/videos/mammalnet/clip_02510_BUztvEAslHE_cheetahs.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_02510_BUztvEAslHE_cheetahs.json"
@@ -989,7 +989,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.008009511511772871,
       "rgb_url": "static/videos/mammalnet/clip_02574_Bm7C6uJHaWA_springboks.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_02574_Bm7C6uJHaWA_springboks.json"
@@ -1017,7 +1017,7 @@
       ],
       "num_objects": 1,
       "num_frames": 112,
-      "num_clips": 3,
+      "num_clips": 0,
       "median_magnitude": 0.016900965943932533,
       "rgb_url": "static/videos/mammalnet/clip_02618_C1-C5nRKxHs_manatees.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_02618_C1-C5nRKxHs_manatees.json"
@@ -1059,7 +1059,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 3,
+      "num_clips": 0,
       "median_magnitude": 0.013263426721096039,
       "rgb_url": "static/videos/mammalnet/clip_02696_CTBHTJv1v6g_deer.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_02696_CTBHTJv1v6g_deer.json"
@@ -1073,7 +1073,7 @@
       ],
       "num_objects": 1,
       "num_frames": 89,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.015069657936692238,
       "rgb_url": "static/videos/mammalnet/clip_02716_C_S3tBkVgm4_deer.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_02716_C_S3tBkVgm4_deer.json"
@@ -1101,7 +1101,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 3,
+      "num_clips": 0,
       "median_magnitude": 0.012643687427043915,
       "rgb_url": "static/videos/mammalnet/clip_02863_D9nUE3a2Ktg_capybaras.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_02863_D9nUE3a2Ktg_capybaras.json"
@@ -1115,7 +1115,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.031229913234710693,
       "rgb_url": "static/videos/mammalnet/clip_02954_DV-pWjUNuUQ_hippos.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_02954_DV-pWjUNuUQ_hippos.json"
@@ -1129,7 +1129,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.10279984027147293,
       "rgb_url": "static/videos/mammalnet/clip_02973_D_ZA5SemNjY_sheep.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_02973_D_ZA5SemNjY_sheep.json"
@@ -1143,7 +1143,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.019365206360816956,
       "rgb_url": "static/videos/mammalnet/clip_03032_Do3lbrYYkPM_skunks.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_03032_Do3lbrYYkPM_skunks.json"
@@ -1171,7 +1171,7 @@
       ],
       "num_objects": 1,
       "num_frames": 112,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.008253039792180061,
       "rgb_url": "static/videos/mammalnet/clip_03137_EUOkCaXGeHg_walruses.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_03137_EUOkCaXGeHg_walruses.json"
@@ -1199,7 +1199,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 1,
       "median_magnitude": 0.015072974376380444,
       "rgb_url": "static/videos/mammalnet/clip_03193_Er48SHbq770_ponies.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_03193_Er48SHbq770_ponies.json"
@@ -1213,7 +1213,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 3,
+      "num_clips": 0,
       "median_magnitude": 0.018984055146574974,
       "rgb_url": "static/videos/mammalnet/clip_03281_FH6CcB25oWQ_spotted_hyenas.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_03281_FH6CcB25oWQ_spotted_hyenas.json"
@@ -1227,7 +1227,7 @@
       ],
       "num_objects": 1,
       "num_frames": 120,
-      "num_clips": 3,
+      "num_clips": 0,
       "median_magnitude": 0.018555810675024986,
       "rgb_url": "static/videos/mammalnet/clip_03303_FPifUSrRGIE_meerkats.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_03303_FPifUSrRGIE_meerkats.json"
@@ -1241,7 +1241,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 3,
+      "num_clips": 0,
       "median_magnitude": 0.01646064966917038,
       "rgb_url": "static/videos/mammalnet/clip_03304_FPifUSrRGIE_dogs.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_03304_FPifUSrRGIE_dogs.json"
@@ -1269,7 +1269,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.007899395190179348,
       "rgb_url": "static/videos/mammalnet/clip_03376_FktswELv5Zc_martens.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_03376_FktswELv5Zc_martens.json"
@@ -1297,7 +1297,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.0075525459833443165,
       "rgb_url": "static/videos/mammalnet/clip_03668_HKPOItcd_bs_antelopes.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_03668_HKPOItcd_bs_antelopes.json"
@@ -1339,7 +1339,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.038660354912281036,
       "rgb_url": "static/videos/mammalnet/clip_03745_Hcn6qq86b1I_different_people_visibles_in_t.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_03745_Hcn6qq86b1I_different_people_visibles_in_t.json"
@@ -1367,7 +1367,7 @@
       ],
       "num_objects": 1,
       "num_frames": 97,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.012737907003611326,
       "rgb_url": "static/videos/mammalnet/clip_03794_Hsq2Hr1wiWI_baboons.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_03794_Hsq2Hr1wiWI_baboons.json"
@@ -1423,7 +1423,7 @@
       ],
       "num_objects": 1,
       "num_frames": 149,
-      "num_clips": 3,
+      "num_clips": 1,
       "median_magnitude": 0.016956954263150692,
       "rgb_url": "static/videos/mammalnet/clip_03872_IP-LPABnTPg_terriers.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_03872_IP-LPABnTPg_terriers.json"
@@ -1437,7 +1437,7 @@
       ],
       "num_objects": 1,
       "num_frames": 75,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.02371505182236433,
       "rgb_url": "static/videos/mammalnet/clip_03895_IWiME6Ffteo_salmon.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_03895_IWiME6Ffteo_salmon.json"
@@ -1465,7 +1465,7 @@
       ],
       "num_objects": 1,
       "num_frames": 97,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.012053349055349827,
       "rgb_url": "static/videos/mammalnet/clip_03934_IjH7syd-GSU_fallow_deer.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_03934_IjH7syd-GSU_fallow_deer.json"
@@ -1507,7 +1507,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.03001256100833416,
       "rgb_url": "static/videos/mammalnet/clip_04351_Kw51jUFZi70_orangutans.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_04351_Kw51jUFZi70_orangutans.json"
@@ -1521,7 +1521,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.007988398894667625,
       "rgb_url": "static/videos/mammalnet/clip_04416_LFxO7t0ri68_rabbits.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_04416_LFxO7t0ri68_rabbits.json"
@@ -1549,7 +1549,7 @@
       ],
       "num_objects": 1,
       "num_frames": 75,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.018905186094343662,
       "rgb_url": "static/videos/mammalnet/clip_04533_LpBKOQKOD38_golden_retriever_puppies.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_04533_LpBKOQKOD38_golden_retriever_puppies.json"
@@ -1591,7 +1591,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 3,
       "median_magnitude": 0.08759643882513046,
       "rgb_url": "static/videos/mammalnet/clip_04574_M74ZS9FfLtk_tigers.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_04574_M74ZS9FfLtk_tigers.json"
@@ -1647,7 +1647,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.006906487978994846,
       "rgb_url": "static/videos/mammalnet/clip_04861_NXIanKg-G1g_african_wild_dogs.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_04861_NXIanKg-G1g_african_wild_dogs.json"
@@ -1675,7 +1675,7 @@
       ],
       "num_objects": 1,
       "num_frames": 90,
-      "num_clips": 1,
+      "num_clips": 2,
       "median_magnitude": 0.050531428307294846,
       "rgb_url": "static/videos/mammalnet/clip_05016_OCDwny-R3JE_wild_boars.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_05016_OCDwny-R3JE_wild_boars.json"
@@ -1703,7 +1703,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 3,
       "median_magnitude": 0.05301263928413391,
       "rgb_url": "static/videos/mammalnet/clip_05051_ONrnvuydgn8_wildebeests.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_05051_ONrnvuydgn8_wildebeests.json"
@@ -1717,7 +1717,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.021567463874816895,
       "rgb_url": "static/videos/mammalnet/clip_05071_OXe0Uhuci0s_goats.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_05071_OXe0Uhuci0s_goats.json"
@@ -1731,7 +1731,7 @@
       ],
       "num_objects": 1,
       "num_frames": 120,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.005135201383382082,
       "rgb_url": "static/videos/mammalnet/clip_05090_Oe00xrRKr28_indian_rhinos.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_05090_Oe00xrRKr28_indian_rhinos.json"
@@ -1745,7 +1745,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.010158669203519821,
       "rgb_url": "static/videos/mammalnet/clip_05099_OfwgjSMY7Qg_raccoons.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_05099_OfwgjSMY7Qg_raccoons.json"
@@ -1773,7 +1773,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.033412545919418335,
       "rgb_url": "static/videos/mammalnet/clip_05184_OxDQ2Ki824g_kangaroos.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_05184_OxDQ2Ki824g_kangaroos.json"
@@ -1801,7 +1801,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 3,
+      "num_clips": 0,
       "median_magnitude": 0.012398960068821907,
       "rgb_url": "static/videos/mammalnet/clip_05219_P9zTF-rgcpA_camels.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_05219_P9zTF-rgcpA_camels.json"
@@ -1815,7 +1815,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 4,
+      "num_clips": 0,
       "median_magnitude": 0.017331989482045174,
       "rgb_url": "static/videos/mammalnet/clip_05226_PBJd-oHNHgE_rabbits.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_05226_PBJd-oHNHgE_rabbits.json"
@@ -1871,7 +1871,7 @@
       ],
       "num_objects": 1,
       "num_frames": 130,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.02033514715731144,
       "rgb_url": "static/videos/mammalnet/clip_05340_PmjS1gw_O5s_nyalas.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_05340_PmjS1gw_O5s_nyalas.json"
@@ -1885,7 +1885,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.006093708798289299,
       "rgb_url": "static/videos/mammalnet/clip_05422_QIVPia6bz-M_chinchillas.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_05422_QIVPia6bz-M_chinchillas.json"
@@ -1899,7 +1899,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 3,
+      "num_clips": 0,
       "median_magnitude": 0.019430723041296005,
       "rgb_url": "static/videos/mammalnet/clip_05447_QWuG5CIwGU8_hyenas.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_05447_QWuG5CIwGU8_hyenas.json"
@@ -1983,7 +1983,7 @@
       ],
       "num_objects": 1,
       "num_frames": 97,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.014229089953005314,
       "rgb_url": "static/videos/mammalnet/clip_05628_RWQxVVGBKKg_horses.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_05628_RWQxVVGBKKg_horses.json"
@@ -1997,7 +1997,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.023432977497577667,
       "rgb_url": "static/videos/mammalnet/clip_05665_Rfo233Q6aOg_polar_bears.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_05665_Rfo233Q6aOg_polar_bears.json"
@@ -2081,7 +2081,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 3,
+      "num_clips": 0,
       "median_magnitude": 0.026710009202361107,
       "rgb_url": "static/videos/mammalnet/clip_05815_SNaC5IqV9p8_ibexes.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_05815_SNaC5IqV9p8_ibexes.json"
@@ -2095,7 +2095,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.005788569804280996,
       "rgb_url": "static/videos/mammalnet/clip_05817_SO0z63RVn58_bulldogs.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_05817_SO0z63RVn58_bulldogs.json"
@@ -2109,7 +2109,7 @@
       ],
       "num_objects": 1,
       "num_frames": 104,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.044289179146289825,
       "rgb_url": "static/videos/mammalnet/clip_05852_SVIAijrsXRk_rhinoceroses.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_05852_SVIAijrsXRk_rhinoceroses.json"
@@ -2123,7 +2123,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 3,
+      "num_clips": 1,
       "median_magnitude": 0.022206110879778862,
       "rgb_url": "static/videos/mammalnet/clip_05862_SXW2E6ZEYj8_gorillas.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_05862_SXW2E6ZEYj8_gorillas.json"
@@ -2151,7 +2151,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 3,
+      "num_clips": 0,
       "median_magnitude": 0.015324767678976059,
       "rgb_url": "static/videos/mammalnet/clip_05911_Sksls8sncbY_muntjacs.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_05911_Sksls8sncbY_muntjacs.json"
@@ -2165,7 +2165,7 @@
       ],
       "num_objects": 1,
       "num_frames": 113,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.004217109177261591,
       "rgb_url": "static/videos/mammalnet/clip_05942_StMwsep520k_goats.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_05942_StMwsep520k_goats.json"
@@ -2179,7 +2179,7 @@
       ],
       "num_objects": 1,
       "num_frames": 128,
-      "num_clips": 3,
+      "num_clips": 0,
       "median_magnitude": 0.021949905902147293,
       "rgb_url": "static/videos/mammalnet/clip_05976_T1cChusfefM_ibexes.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_05976_T1cChusfefM_ibexes.json"
@@ -2193,7 +2193,7 @@
       ],
       "num_objects": 1,
       "num_frames": 58,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.014605516567826271,
       "rgb_url": "static/videos/mammalnet/clip_06189_TwhOQZFdoBE_sea_lions.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_06189_TwhOQZFdoBE_sea_lions.json"
@@ -2221,7 +2221,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 3,
+      "num_clips": 1,
       "median_magnitude": 0.021972831338644028,
       "rgb_url": "static/videos/mammalnet/clip_06251_UHk4sX8CBP0_sea_otters.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_06251_UHk4sX8CBP0_sea_otters.json"
@@ -2249,7 +2249,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.009193770587444305,
       "rgb_url": "static/videos/mammalnet/clip_06285_UUfxz0n4eTo_manatees.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_06285_UUfxz0n4eTo_manatees.json"
@@ -2263,7 +2263,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 5,
+      "num_clips": 0,
       "median_magnitude": 0.015653694048523903,
       "rgb_url": "static/videos/mammalnet/clip_06290_UYNuC6J10YE_donkeys.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_06290_UYNuC6J10YE_donkeys.json"
@@ -2291,7 +2291,7 @@
       ],
       "num_objects": 1,
       "num_frames": 99,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.018501264043152332,
       "rgb_url": "static/videos/mammalnet/clip_06306_Ub4stsOu2uo_hippos.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_06306_Ub4stsOu2uo_hippos.json"
@@ -2319,7 +2319,7 @@
       ],
       "num_objects": 1,
       "num_frames": 75,
-      "num_clips": 3,
+      "num_clips": 0,
       "median_magnitude": 0.01451747864484787,
       "rgb_url": "static/videos/mammalnet/clip_06348_UmEBmXdt_WY_raccoons.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_06348_UmEBmXdt_WY_raccoons.json"
@@ -2347,7 +2347,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.008980615064501762,
       "rgb_url": "static/videos/mammalnet/clip_06414_V0HVHf2HyhI_pigs.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_06414_V0HVHf2HyhI_pigs.json"
@@ -2417,7 +2417,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 1,
       "median_magnitude": 0.029406793415546417,
       "rgb_url": "static/videos/mammalnet/clip_06626_WEfHLxSyL4E_brown_bears.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_06626_WEfHLxSyL4E_brown_bears.json"
@@ -2431,7 +2431,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 3,
+      "num_clips": 0,
       "median_magnitude": 0.011076521128416061,
       "rgb_url": "static/videos/mammalnet/clip_06627_WEznm7g7THE_leopards.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_06627_WEznm7g7THE_leopards.json"
@@ -2459,7 +2459,7 @@
       ],
       "num_objects": 1,
       "num_frames": 120,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.007514780852943659,
       "rgb_url": "static/videos/mammalnet/clip_06779_X34yhILzwLA_hounds.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_06779_X34yhILzwLA_hounds.json"
@@ -2487,7 +2487,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 3,
       "median_magnitude": 0.1373484879732132,
       "rgb_url": "static/videos/mammalnet/clip_06973_XzPN0cAbikE_porcupines.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_06973_XzPN0cAbikE_porcupines.json"
@@ -2515,7 +2515,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 3,
+      "num_clips": 0,
       "median_magnitude": 0.016461515799164772,
       "rgb_url": "static/videos/mammalnet/clip_07060_YV6d1h3LiQw_warthogs.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_07060_YV6d1h3LiQw_warthogs.json"
@@ -2543,7 +2543,7 @@
       ],
       "num_objects": 1,
       "num_frames": 79,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.01706396508961916,
       "rgb_url": "static/videos/mammalnet/clip_07128_Yli0RasqF5I_sheep.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_07128_Yli0RasqF5I_sheep.json"
@@ -2599,7 +2599,7 @@
       ],
       "num_objects": 1,
       "num_frames": 107,
-      "num_clips": 2,
+      "num_clips": 3,
       "median_magnitude": 0.11497101560235023,
       "rgb_url": "static/videos/mammalnet/clip_07417__4HtL21bMek_leopards.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_07417__4HtL21bMek_leopards.json"
@@ -2627,7 +2627,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 4,
+      "num_clips": 1,
       "median_magnitude": 0.005774140357971191,
       "rgb_url": "static/videos/mammalnet/clip_07472__Oxne_rXdrU_manatees.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_07472__Oxne_rXdrU_manatees.json"
@@ -2641,7 +2641,7 @@
       ],
       "num_objects": 1,
       "num_frames": 103,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.015975330024957657,
       "rgb_url": "static/videos/mammalnet/clip_07482__TaTatjxqD8_raccoons.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_07482__TaTatjxqD8_raccoons.json"
@@ -2655,7 +2655,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 3,
+      "num_clips": 0,
       "median_magnitude": 0.02318769320845604,
       "rgb_url": "static/videos/mammalnet/clip_07497__YlytOdvURE_deer.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_07497__YlytOdvURE_deer.json"
@@ -2669,7 +2669,7 @@
       ],
       "num_objects": 1,
       "num_frames": 97,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.01041734404861927,
       "rgb_url": "static/videos/mammalnet/clip_07515__hCpAVjUKoY_asian_elephants.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_07515__hCpAVjUKoY_asian_elephants.json"
@@ -2683,7 +2683,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.00859155785292387,
       "rgb_url": "static/videos/mammalnet/clip_07521__hbKxrKGqyM_goats.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_07521__hbKxrKGqyM_goats.json"
@@ -2739,7 +2739,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.011423839256167412,
       "rgb_url": "static/videos/mammalnet/clip_08018_c-P3kDZjYNM_horses.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_08018_c-P3kDZjYNM_horses.json"
@@ -2767,7 +2767,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.015244383364915848,
       "rgb_url": "static/videos/mammalnet/clip_08101_cMham7UcdyE_wolves.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_08101_cMham7UcdyE_wolves.json"
@@ -2781,7 +2781,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.010706687346100807,
       "rgb_url": "static/videos/mammalnet/clip_08119_cS46v5fClh4_jaguars.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_08119_cS46v5fClh4_jaguars.json"
@@ -2795,7 +2795,7 @@
       ],
       "num_objects": 1,
       "num_frames": 131,
-      "num_clips": 2,
+      "num_clips": 1,
       "median_magnitude": 0.017534181475639343,
       "rgb_url": "static/videos/mammalnet/clip_08120_cSpxOrg_heg_sea_otters.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_08120_cSpxOrg_heg_sea_otters.json"
@@ -2809,7 +2809,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.010725029744207859,
       "rgb_url": "static/videos/mammalnet/clip_08207_cx2ggxxXObE_non-husky_dogs.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_08207_cx2ggxxXObE_non-husky_dogs.json"
@@ -2865,7 +2865,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.010940087027847767,
       "rgb_url": "static/videos/mammalnet/clip_08580_egaLfz95SEY_sea_lions.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_08580_egaLfz95SEY_sea_lions.json"
@@ -2893,7 +2893,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.027690589427947998,
       "rgb_url": "static/videos/mammalnet/clip_08662_f1aHY1BKEV4_llamas.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_08662_f1aHY1BKEV4_llamas.json"
@@ -2907,7 +2907,7 @@
       ],
       "num_objects": 1,
       "num_frames": 105,
-      "num_clips": 2,
+      "num_clips": 1,
       "median_magnitude": 0.03664730302989483,
       "rgb_url": "static/videos/mammalnet/clip_08684_f91ruQQKqgE_hyenas.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_08684_f91ruQQKqgE_hyenas.json"
@@ -2921,7 +2921,7 @@
       ],
       "num_objects": 1,
       "num_frames": 135,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.005136402091011405,
       "rgb_url": "static/videos/mammalnet/clip_08722_fIod2nhNMk8_deer.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_08722_fIod2nhNMk8_deer.json"
@@ -2935,7 +2935,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 2,
       "median_magnitude": 0.04683057591319084,
       "rgb_url": "static/videos/mammalnet/clip_08846_fpjBMaG1Oi0_leopard_seals.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_08846_fpjBMaG1Oi0_leopard_seals.json"
@@ -2949,7 +2949,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 1,
       "median_magnitude": 0.021605180576443672,
       "rgb_url": "static/videos/mammalnet/clip_08862_fsJ2bT7-PyY_monkeys.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_08862_fsJ2bT7-PyY_monkeys.json"
@@ -2991,7 +2991,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 3,
+      "num_clips": 0,
       "median_magnitude": 0.009670828934758902,
       "rgb_url": "static/videos/mammalnet/clip_09055_gkL8YQWBpRI_deer.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_09055_gkL8YQWBpRI_deer.json"
@@ -3005,7 +3005,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.006937163416296244,
       "rgb_url": "static/videos/mammalnet/clip_09080_gr7VcVWjjHE_hyenas.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_09080_gr7VcVWjjHE_hyenas.json"
@@ -3019,7 +3019,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 1,
       "median_magnitude": 0.028219114989042282,
       "rgb_url": "static/videos/mammalnet/clip_09088_gs-ZVW7RMkc_raccoons.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_09088_gs-ZVW7RMkc_raccoons.json"
@@ -3103,7 +3103,7 @@
       ],
       "num_objects": 1,
       "num_frames": 90,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.017408257350325584,
       "rgb_url": "static/videos/mammalnet/clip_09456_iZz7lPqkM88_hamsters.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_09456_iZz7lPqkM88_hamsters.json"
@@ -3159,7 +3159,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.007201049011200666,
       "rgb_url": "static/videos/mammalnet/clip_09581_jFapMfWDe5Y_hamsters.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_09581_jFapMfWDe5Y_hamsters.json"
@@ -3173,7 +3173,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 4,
+      "num_clips": 0,
       "median_magnitude": 0.01809314265847206,
       "rgb_url": "static/videos/mammalnet/clip_09583_jGyI2vjbgxQ_ermines.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_09583_jGyI2vjbgxQ_ermines.json"
@@ -3187,7 +3187,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.010204372927546501,
       "rgb_url": "static/videos/mammalnet/clip_09617_jUt0sc-qkwA_hyenas.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_09617_jUt0sc-qkwA_hyenas.json"
@@ -3229,7 +3229,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.0036474030930548906,
       "rgb_url": "static/videos/mammalnet/clip_09736_k1FjcXpXjSo_giraffes.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_09736_k1FjcXpXjSo_giraffes.json"
@@ -3243,7 +3243,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 3,
+      "num_clips": 0,
       "median_magnitude": 0.011067994870245457,
       "rgb_url": "static/videos/mammalnet/clip_09825_kM47UNigcDo_humpback_whales.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_09825_kM47UNigcDo_humpback_whales.json"
@@ -3257,7 +3257,7 @@
       ],
       "num_objects": 1,
       "num_frames": 102,
-      "num_clips": 3,
+      "num_clips": 0,
       "median_magnitude": 0.016470713540911674,
       "rgb_url": "static/videos/mammalnet/clip_10004_l3uXN6hS4Dg_chimpanzees.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_10004_l3uXN6hS4Dg_chimpanzees.json"
@@ -3271,7 +3271,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 1,
       "median_magnitude": 0.03359385207295418,
       "rgb_url": "static/videos/mammalnet/clip_10018_l664viyCytw_gorillas.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_10018_l664viyCytw_gorillas.json"
@@ -3285,7 +3285,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.011825302615761757,
       "rgb_url": "static/videos/mammalnet/clip_10065_lGjPr_wQ_QU_lions.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_10065_lGjPr_wQ_QU_lions.json"
@@ -3355,7 +3355,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 1,
       "median_magnitude": 0.030964456498622894,
       "rgb_url": "static/videos/mammalnet/clip_10100_lPcpP4Y7THU_cheetahs.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_10100_lPcpP4Y7THU_cheetahs.json"
@@ -3383,7 +3383,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.008113774470984936,
       "rgb_url": "static/videos/mammalnet/clip_10261_mLaqlS2GUW0_polar_bears.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_10261_mLaqlS2GUW0_polar_bears.json"
@@ -3411,7 +3411,7 @@
       ],
       "num_objects": 1,
       "num_frames": 128,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.010781645774841309,
       "rgb_url": "static/videos/mammalnet/clip_10409_n5EGBAE5_bQ_gibbons.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_10409_n5EGBAE5_bQ_gibbons.json"
@@ -3425,7 +3425,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.007924092933535576,
       "rgb_url": "static/videos/mammalnet/clip_10413_n75VbvMewCw_brown_bears.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_10413_n75VbvMewCw_brown_bears.json"
@@ -3495,7 +3495,7 @@
       ],
       "num_objects": 1,
       "num_frames": 138,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.020330751314759254,
       "rgb_url": "static/videos/mammalnet/clip_10767_oqxxxAXMbFA_deer.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_10767_oqxxxAXMbFA_deer.json"
@@ -3509,7 +3509,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.00976896658539772,
       "rgb_url": "static/videos/mammalnet/clip_10773_oth8NSZWFkQ_cows.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_10773_oth8NSZWFkQ_cows.json"
@@ -3523,7 +3523,7 @@
       ],
       "num_objects": 1,
       "num_frames": 137,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.01794185023754835,
       "rgb_url": "static/videos/mammalnet/clip_10796_p1zejD-poPI_marmots.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_10796_p1zejD-poPI_marmots.json"
@@ -3551,7 +3551,7 @@
       ],
       "num_objects": 1,
       "num_frames": 75,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.029394879937171936,
       "rgb_url": "static/videos/mammalnet/clip_10870_pM1Od8PuPW8_hyenas.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_10870_pM1Od8PuPW8_hyenas.json"
@@ -3579,7 +3579,7 @@
       ],
       "num_objects": 1,
       "num_frames": 120,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.0031488933600485325,
       "rgb_url": "static/videos/mammalnet/clip_10900_pPSFGyXTZG0_wallabies.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_10900_pPSFGyXTZG0_wallabies.json"
@@ -3607,7 +3607,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 1,
       "median_magnitude": 0.1818876415491104,
       "rgb_url": "static/videos/mammalnet/clip_10986_pngF59v9Cfc_giraffes.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_10986_pngF59v9Cfc_giraffes.json"
@@ -3621,7 +3621,7 @@
       ],
       "num_objects": 1,
       "num_frames": 75,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.010310801211744547,
       "rgb_url": "static/videos/mammalnet/clip_11094_qIw2IxR7wTA_bulldogs.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_11094_qIw2IxR7wTA_bulldogs.json"
@@ -3649,7 +3649,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.012877390719950199,
       "rgb_url": "static/videos/mammalnet/clip_11224_qpww7YHA-og_lynxes.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_11224_qpww7YHA-og_lynxes.json"
@@ -3663,7 +3663,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.01603776216506958,
       "rgb_url": "static/videos/mammalnet/clip_11231_qsCLnA_P5uo_brown_bears.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_11231_qsCLnA_P5uo_brown_bears.json"
@@ -3677,7 +3677,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.04995844140648842,
       "rgb_url": "static/videos/mammalnet/clip_11282_r739Qfc6k8E_giraffes.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_11282_r739Qfc6k8E_giraffes.json"
@@ -3691,7 +3691,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.008005430921912193,
       "rgb_url": "static/videos/mammalnet/clip_11315_rJAG6PpOI_M_squirrels.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_11315_rJAG6PpOI_M_squirrels.json"
@@ -3705,7 +3705,7 @@
       ],
       "num_objects": 1,
       "num_frames": 149,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.004209933103993535,
       "rgb_url": "static/videos/mammalnet/clip_11428_rihTzgSSkN4_dogs.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_11428_rihTzgSSkN4_dogs.json"
@@ -3761,7 +3761,7 @@
       ],
       "num_objects": 1,
       "num_frames": 79,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.016191251575946808,
       "rgb_url": "static/videos/mammalnet/clip_11578_sWbTcNEsIcw_chimpanzees.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_11578_sWbTcNEsIcw_chimpanzees.json"
@@ -3803,7 +3803,7 @@
       ],
       "num_objects": 1,
       "num_frames": 135,
-      "num_clips": 1,
+      "num_clips": 2,
       "median_magnitude": 0.13023916631937027,
       "rgb_url": "static/videos/mammalnet/clip_11880_tupJwvfAyWg_brown_hyenas.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_11880_tupJwvfAyWg_brown_hyenas.json"
@@ -3831,7 +3831,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 2,
       "median_magnitude": 0.04580814018845558,
       "rgb_url": "static/videos/mammalnet/clip_11966_uUxzLc0Jxv4_wolves.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_11966_uUxzLc0Jxv4_wolves.json"
@@ -3845,7 +3845,7 @@
       ],
       "num_objects": 1,
       "num_frames": 83,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.012720274738967419,
       "rgb_url": "static/videos/mammalnet/clip_12035_urwo8QcCMgA_jaguars.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_12035_urwo8QcCMgA_jaguars.json"
@@ -3859,7 +3859,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.009382070042192936,
       "rgb_url": "static/videos/mammalnet/clip_12048_uwNYujp67Fk_amur_leopards.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_12048_uwNYujp67Fk_amur_leopards.json"
@@ -3901,7 +3901,7 @@
       ],
       "num_objects": 1,
       "num_frames": 75,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.01879596058279276,
       "rgb_url": "static/videos/mammalnet/clip_12132_vUEwF6WRPXI_golden_retrievers.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_12132_vUEwF6WRPXI_golden_retrievers.json"
@@ -3929,7 +3929,7 @@
       ],
       "num_objects": 1,
       "num_frames": 75,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.009834634140133858,
       "rgb_url": "static/videos/mammalnet/clip_12317_wVSKetde4a8_small_fish.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_12317_wVSKetde4a8_small_fish.json"
@@ -3957,7 +3957,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 3,
+      "num_clips": 1,
       "median_magnitude": 0.02028832770884037,
       "rgb_url": "static/videos/mammalnet/clip_12559_xubxz3Wb9p4_sheep.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_12559_xubxz3Wb9p4_sheep.json"
@@ -3971,7 +3971,7 @@
       ],
       "num_objects": 1,
       "num_frames": 90,
-      "num_clips": 2,
+      "num_clips": 1,
       "median_magnitude": 0.028574589639902115,
       "rgb_url": "static/videos/mammalnet/clip_12595_y5v0FpKfAzQ_beavers.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_12595_y5v0FpKfAzQ_beavers.json"
@@ -4041,7 +4041,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.004357974510639906,
       "rgb_url": "static/videos/mammalnet/clip_12711_yeuGqGK0xLI_kangaroos.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_12711_yeuGqGK0xLI_kangaroos.json"
@@ -4055,7 +4055,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 2,
+      "num_clips": 0,
       "median_magnitude": 0.013299795798957348,
       "rgb_url": "static/videos/mammalnet/clip_12762_yz9zWQtDqi8_bulldogs.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_12762_yz9zWQtDqi8_bulldogs.json"
@@ -4069,7 +4069,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.013229434378445148,
       "rgb_url": "static/videos/mammalnet/clip_12763_yzBqFDdmqao_raccoons.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_12763_yzBqFDdmqao_raccoons.json"
@@ -4083,7 +4083,7 @@
       ],
       "num_objects": 1,
       "num_frames": 113,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.04290755279362202,
       "rgb_url": "static/videos/mammalnet/clip_12782_z2PAbAPIQfA_manatees.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_12782_z2PAbAPIQfA_manatees.json"
@@ -4097,7 +4097,7 @@
       ],
       "num_objects": 1,
       "num_frames": 109,
-      "num_clips": 1,
+      "num_clips": 0,
       "median_magnitude": 0.006311099976301193,
       "rgb_url": "static/videos/mammalnet/clip_12795_z5HfXRaSwtY_cheetahs.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_12795_z5HfXRaSwtY_cheetahs.json"
@@ -4125,7 +4125,7 @@
       ],
       "num_objects": 1,
       "num_frames": 150,
-      "num_clips": 3,
+      "num_clips": 1,
       "median_magnitude": 0.020059662871062756,
       "rgb_url": "static/videos/mammalnet/clip_12827_zCTgWjbgXT8_dogs.mp4",
       "motion_url": "static/data/motion/mammalnet_clips/clip_12827_zCTgWjbgXT8_dogs.json"
