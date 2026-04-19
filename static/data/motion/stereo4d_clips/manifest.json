@@ -1,0 +1,5245 @@
+{
+  "stereo4d": [
+    {
+      "id": "-6R40KeF9V8_41775108",
+      "split": "train",
+      "text": "two cyclists ride bicycles on a black asphalt path",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 7,
+      "median_magnitude": 0.17040640115737915,
+      "rgb_url": "static/videos/stereo4d/-6R40KeF9V8_41775108.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/-6R40KeF9V8_41775108.json"
+    },
+    {
+      "id": "-BsUHxMW5PM_440507174",
+      "split": "train",
+      "text": "a silver train with green stripes moves to the right",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 187,
+      "num_clips": 3,
+      "median_magnitude": 0.03971344046294689,
+      "rgb_url": "static/videos/stereo4d/-BsUHxMW5PM_440507174.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/-BsUHxMW5PM_440507174.json"
+    },
+    {
+      "id": "-JyofFDasK0_125658992",
+      "split": "train",
+      "text": "a person rotates the bike and inspects it carefully",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 41,
+      "num_clips": 4,
+      "median_magnitude": 0.09843983501195908,
+      "rgb_url": "static/videos/stereo4d/-JyofFDasK0_125658992.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/-JyofFDasK0_125658992.json"
+    },
+    {
+      "id": "-V1TK-oVUZI_362595929",
+      "split": "train",
+      "text": "a woman walks to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 39,
+      "num_clips": 3,
+      "median_magnitude": 0.0548966471105814,
+      "rgb_url": "static/videos/stereo4d/-V1TK-oVUZI_362595929.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/-V1TK-oVUZI_362595929.json"
+    },
+    {
+      "id": "-XlKQHfYHIU_121855189",
+      "split": "train",
+      "text": "a man plays the drums",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 0,
+      "median_magnitude": 0.003527280525304377,
+      "rgb_url": "static/videos/stereo4d/-XlKQHfYHIU_121855189.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/-XlKQHfYHIU_121855189.json"
+    },
+    {
+      "id": "-r3jv-uXmw0_135201869",
+      "split": "train",
+      "text": "a man walks to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 3,
+      "median_magnitude": 0.046833742409944534,
+      "rgb_url": "static/videos/stereo4d/-r3jv-uXmw0_135201869.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/-r3jv-uXmw0_135201869.json"
+    },
+    {
+      "id": "095lTwvBT8Q_386319653",
+      "split": "test",
+      "text": "a dark gray car drives through a roundabout",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 8,
+      "median_magnitude": 0.02430544700473547,
+      "rgb_url": "static/videos/stereo4d/095lTwvBT8Q_386319653.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/095lTwvBT8Q_386319653.json"
+    },
+    {
+      "id": "0KgFAjUrqsk_97797798",
+      "split": "train",
+      "text": "a person rotates the bike and inspects it carefully",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7",
+        "obj8"
+      ],
+      "num_objects": 9,
+      "num_frames": 120,
+      "num_clips": 10,
+      "median_magnitude": 0.056229984387755394,
+      "rgb_url": "static/videos/stereo4d/0KgFAjUrqsk_97797798.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/0KgFAjUrqsk_97797798.json"
+    },
+    {
+      "id": "0Zvb3zGw4Nw_41775108",
+      "split": "train",
+      "text": "a silver car drives to the left",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 2,
+      "median_magnitude": 0.054153429344296455,
+      "rgb_url": "static/videos/stereo4d/0Zvb3zGw4Nw_41775108.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/0Zvb3zGw4Nw_41775108.json"
+    },
+    {
+      "id": "0rCUKDUrTRo_574374374",
+      "split": "train",
+      "text": "a person walks on a sidewalk",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.03833550214767456,
+      "rgb_url": "static/videos/stereo4d/0rCUKDUrTRo_574374374.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/0rCUKDUrTRo_574374374.json"
+    },
+    {
+      "id": "13hUz0WnAK4_249249249",
+      "split": "train",
+      "text": "a person walks along a path",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 4,
+      "median_magnitude": 0.08535633236169815,
+      "rgb_url": "static/videos/stereo4d/13hUz0WnAK4_249249249.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/13hUz0WnAK4_249249249.json"
+    },
+    {
+      "id": "1IWvrva5gzM_15081748",
+      "split": "train",
+      "text": "a train travels to the left",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 2,
+      "median_magnitude": 0.2508104145526886,
+      "rgb_url": "static/videos/stereo4d/1IWvrva5gzM_15081748.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/1IWvrva5gzM_15081748.json"
+    },
+    {
+      "id": "1VdUviActdc_15081748",
+      "split": "train",
+      "text": "a woman walks to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 199,
+      "num_clips": 7,
+      "median_magnitude": 0.02463015355169773,
+      "rgb_url": "static/videos/stereo4d/1VdUviActdc_15081748.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/1VdUviActdc_15081748.json"
+    },
+    {
+      "id": "1Wl60uIpHB8_255321989",
+      "split": "train",
+      "text": "cars drive on the road",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 4,
+      "median_magnitude": 0.01580581907182932,
+      "rgb_url": "static/videos/stereo4d/1Wl60uIpHB8_255321989.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/1Wl60uIpHB8_255321989.json"
+    },
+    {
+      "id": "1Wl60uIpHB8_41775108",
+      "split": "train",
+      "text": "cars drive through a city intersection",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.1846424639225006,
+      "rgb_url": "static/videos/stereo4d/1Wl60uIpHB8_41775108.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/1Wl60uIpHB8_41775108.json"
+    },
+    {
+      "id": "2mEuxrkClzk_815882549",
+      "split": "train",
+      "text": "a person rides a bicycle on a concrete path",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 3,
+      "median_magnitude": 0.05871761590242386,
+      "rgb_url": "static/videos/stereo4d/2mEuxrkClzk_815882549.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/2mEuxrkClzk_815882549.json"
+    },
+    {
+      "id": "2omYselTshY_582315649",
+      "split": "train",
+      "text": "a person in a yellow jacket walks to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 3,
+      "median_magnitude": 0.02748430334031582,
+      "rgb_url": "static/videos/stereo4d/2omYselTshY_582315649.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/2omYselTshY_582315649.json"
+    },
+    {
+      "id": "2xqr1_ZWrl4_28428428",
+      "split": "train",
+      "text": "a boat sails to the left along the river",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 199,
+      "num_clips": 9,
+      "median_magnitude": 0.13468427956104279,
+      "rgb_url": "static/videos/stereo4d/2xqr1_ZWrl4_28428428.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/2xqr1_ZWrl4_28428428.json"
+    },
+    {
+      "id": "3GI7ugXNpVk_82282282",
+      "split": "train",
+      "text": "a person walks along a sidewalk",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7",
+        "obj8"
+      ],
+      "num_objects": 9,
+      "num_frames": 199,
+      "num_clips": 16,
+      "median_magnitude": 0.12266262620687485,
+      "rgb_url": "static/videos/stereo4d/3GI7ugXNpVk_82282282.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/3GI7ugXNpVk_82282282.json"
+    },
+    {
+      "id": "3TExl3yoQ7Q_144944945",
+      "split": "test",
+      "text": "a person walks along a path",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7"
+      ],
+      "num_objects": 8,
+      "num_frames": 199,
+      "num_clips": 15,
+      "median_magnitude": 0.06848835945129395,
+      "rgb_url": "static/videos/stereo4d/3TExl3yoQ7Q_144944945.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/3TExl3yoQ7Q_144944945.json"
+    },
+    {
+      "id": "3bvyQcInbSo_110443777",
+      "split": "train",
+      "text": "a girl throws a pink ball to a man",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7",
+        "obj8",
+        "obj9",
+        "obj10",
+        "obj11"
+      ],
+      "num_objects": 12,
+      "num_frames": 199,
+      "num_clips": 29,
+      "median_magnitude": 0.05767638422548771,
+      "rgb_url": "static/videos/stereo4d/3bvyQcInbSo_110443777.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/3bvyQcInbSo_110443777.json"
+    },
+    {
+      "id": "3rl9-hwJ0iI_567200534",
+      "split": "train",
+      "text": "a person snowboards on a snowy slope",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 41,
+      "num_clips": 2,
+      "median_magnitude": 0.19619419425725937,
+      "rgb_url": "static/videos/stereo4d/3rl9-hwJ0iI_567200534.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/3rl9-hwJ0iI_567200534.json"
+    },
+    {
+      "id": "4-50xpuvZbE_294440000",
+      "split": "train",
+      "text": "a group of people walk in different directions",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 50,
+      "num_clips": 4,
+      "median_magnitude": 0.08838725835084915,
+      "rgb_url": "static/videos/stereo4d/4-50xpuvZbE_294440000.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/4-50xpuvZbE_294440000.json"
+    },
+    {
+      "id": "45pOCKf5aBM_168568569",
+      "split": "train",
+      "text": "a penguin walks to the left",
+      "object_names": [
+        "obj0"
+      ],
+      "num_objects": 1,
+      "num_frames": 199,
+      "num_clips": 1,
+      "median_magnitude": 0.01578761450946331,
+      "rgb_url": "static/videos/stereo4d/45pOCKf5aBM_168568569.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/45pOCKf5aBM_168568569.json"
+    },
+    {
+      "id": "4FK2ogcgf4A_15066667",
+      "split": "train",
+      "text": "a person walks forward through a church",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7",
+        "obj8",
+        "obj9"
+      ],
+      "num_objects": 10,
+      "num_frames": 199,
+      "num_clips": 4,
+      "median_magnitude": 0.01453400868922472,
+      "rgb_url": "static/videos/stereo4d/4FK2ogcgf4A_15066667.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/4FK2ogcgf4A_15066667.json"
+    },
+    {
+      "id": "4JGcNJdd0iE_813780447",
+      "split": "train",
+      "text": "a black car drives away from the camera",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 72,
+      "num_clips": 3,
+      "median_magnitude": 0.14400837570428848,
+      "rgb_url": "static/videos/stereo4d/4JGcNJdd0iE_813780447.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/4JGcNJdd0iE_813780447.json"
+    },
+    {
+      "id": "4NK78-XUOW0_59626293",
+      "split": "train",
+      "text": "a decorated float moves forward with people playing drums inside",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 199,
+      "num_clips": 13,
+      "median_magnitude": 0.09756810963153839,
+      "rgb_url": "static/videos/stereo4d/4NK78-XUOW0_59626293.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/4NK78-XUOW0_59626293.json"
+    },
+    {
+      "id": "4XmI-Fmn3ms_1105805806",
+      "split": "test",
+      "text": "a person runs to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 102,
+      "num_clips": 5,
+      "median_magnitude": 0.04731228947639465,
+      "rgb_url": "static/videos/stereo4d/4XmI-Fmn3ms_1105805806.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/4XmI-Fmn3ms_1105805806.json"
+    },
+    {
+      "id": "4Zx69pwaLuw_184150817",
+      "split": "train",
+      "text": "a train moves to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 3,
+      "median_magnitude": 0.2311774641275406,
+      "rgb_url": "static/videos/stereo4d/4Zx69pwaLuw_184150817.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/4Zx69pwaLuw_184150817.json"
+    },
+    {
+      "id": "4fG4heRHk04_333566900",
+      "split": "train",
+      "text": "a group of people walk in different directions",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 9,
+      "median_magnitude": 0.07808244228363037,
+      "rgb_url": "static/videos/stereo4d/4fG4heRHk04_333566900.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/4fG4heRHk04_333566900.json"
+    },
+    {
+      "id": "4lDHxEZ4BsI_15081748",
+      "split": "train",
+      "text": "two dogs play in a grassy field",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 2,
+      "median_magnitude": 0.0160402599722147,
+      "rgb_url": "static/videos/stereo4d/4lDHxEZ4BsI_15081748.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/4lDHxEZ4BsI_15081748.json"
+    },
+    {
+      "id": "4qVmP5JDa7U_456690023",
+      "split": "train",
+      "text": "a person on a snowboard glides down a snowy slope",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.032618097960948944,
+      "rgb_url": "static/videos/stereo4d/4qVmP5JDa7U_456690023.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/4qVmP5JDa7U_456690023.json"
+    },
+    {
+      "id": "4qVmP5JDa7U_544144144",
+      "split": "train",
+      "text": "a person rotates the bike and inspects it carefully",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 33,
+      "num_clips": 3,
+      "median_magnitude": 0.14087247103452682,
+      "rgb_url": "static/videos/stereo4d/4qVmP5JDa7U_544144144.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/4qVmP5JDa7U_544144144.json"
+    },
+    {
+      "id": "4rzwFR-prqk_102469136",
+      "split": "train",
+      "text": "a boat sails to the left along the river",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 8,
+      "median_magnitude": 0.01941842958331108,
+      "rgb_url": "static/videos/stereo4d/4rzwFR-prqk_102469136.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/4rzwFR-prqk_102469136.json"
+    },
+    {
+      "id": "57dJ15xYThU_61795128",
+      "split": "train",
+      "text": "a person plays the drums",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.5521183907985687,
+      "rgb_url": "static/videos/stereo4d/57dJ15xYThU_61795128.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/57dJ15xYThU_61795128.json"
+    },
+    {
+      "id": "5NXMXujg_bw_202502503",
+      "split": "train",
+      "text": "a boat sails to the left along the river",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 163,
+      "num_clips": 7,
+      "median_magnitude": 0.09721758589148521,
+      "rgb_url": "static/videos/stereo4d/5NXMXujg_bw_202502503.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/5NXMXujg_bw_202502503.json"
+    },
+    {
+      "id": "5NXMXujg_bw_31731732",
+      "split": "train",
+      "text": "a boat sails to the left along the river",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6"
+      ],
+      "num_objects": 7,
+      "num_frames": 199,
+      "num_clips": 0,
+      "median_magnitude": 0.004895953927189112,
+      "rgb_url": "static/videos/stereo4d/5NXMXujg_bw_31731732.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/5NXMXujg_bw_31731732.json"
+    },
+    {
+      "id": "5U9sG_i21HE_29929930",
+      "split": "train",
+      "text": "a white airplane flies to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 146,
+      "num_clips": 5,
+      "median_magnitude": 0.14356784522533417,
+      "rgb_url": "static/videos/stereo4d/5U9sG_i21HE_29929930.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/5U9sG_i21HE_29929930.json"
+    },
+    {
+      "id": "63N0xv-ahjM_28428428",
+      "split": "train",
+      "text": "a white car drives to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 199,
+      "num_clips": 13,
+      "median_magnitude": 0.026184256188571453,
+      "rgb_url": "static/videos/stereo4d/63N0xv-ahjM_28428428.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/63N0xv-ahjM_28428428.json"
+    },
+    {
+      "id": "6GdVdg4R-7c_522889556",
+      "split": "train",
+      "text": "a person walks along a dirt path in a forest",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7",
+        "obj8"
+      ],
+      "num_objects": 9,
+      "num_frames": 199,
+      "num_clips": 16,
+      "median_magnitude": 0.08140366524457932,
+      "rgb_url": "static/videos/stereo4d/6GdVdg4R-7c_522889556.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/6GdVdg4R-7c_522889556.json"
+    },
+    {
+      "id": "6e47E_PiSIM_515582249",
+      "split": "train",
+      "text": "a white robot with red and yellow accents moves its head and arm",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 199,
+      "num_clips": 8,
+      "median_magnitude": 0.07995986193418503,
+      "rgb_url": "static/videos/stereo4d/6e47E_PiSIM_515582249.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/6e47E_PiSIM_515582249.json"
+    },
+    {
+      "id": "6mtuJiMPvYM_529429429",
+      "split": "train",
+      "text": "a dark gray car drives on a highway",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 48,
+      "num_clips": 2,
+      "median_magnitude": 0.5954615473747253,
+      "rgb_url": "static/videos/stereo4d/6mtuJiMPvYM_529429429.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/6mtuJiMPvYM_529429429.json"
+    },
+    {
+      "id": "6vGlg4tcSk8_292425759",
+      "split": "train",
+      "text": "a dark gray car drives through a roundabout",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 151,
+      "num_clips": 7,
+      "median_magnitude": 0.040845612064003944,
+      "rgb_url": "static/videos/stereo4d/6vGlg4tcSk8_292425759.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/6vGlg4tcSk8_292425759.json"
+    },
+    {
+      "id": "6wE6ozkqz_8_188588589",
+      "split": "train",
+      "text": "a dark gray car drives through a roundabout",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7"
+      ],
+      "num_objects": 8,
+      "num_frames": 199,
+      "num_clips": 17,
+      "median_magnitude": 0.09058735519647598,
+      "rgb_url": "static/videos/stereo4d/6wE6ozkqz_8_188588589.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/6wE6ozkqz_8_188588589.json"
+    },
+    {
+      "id": "6wE6ozkqz_8_611044378",
+      "split": "train",
+      "text": "a person rides a bicycle on a road",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6"
+      ],
+      "num_objects": 7,
+      "num_frames": 199,
+      "num_clips": 16,
+      "median_magnitude": 0.048771634697914124,
+      "rgb_url": "static/videos/stereo4d/6wE6ozkqz_8_611044378.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/6wE6ozkqz_8_611044378.json"
+    },
+    {
+      "id": "7OxFCzT11M0_614914915",
+      "split": "train",
+      "text": "a person runs through a forest",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 57,
+      "num_clips": 3,
+      "median_magnitude": 0.17425735294818878,
+      "rgb_url": "static/videos/stereo4d/7OxFCzT11M0_614914915.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/7OxFCzT11M0_614914915.json"
+    },
+    {
+      "id": "7P5MEQEfZm8_353653654",
+      "split": "train",
+      "text": "a woman sits on a seesaw and moves up and down",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.019870039075613022,
+      "rgb_url": "static/videos/stereo4d/7P5MEQEfZm8_353653654.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/7P5MEQEfZm8_353653654.json"
+    },
+    {
+      "id": "7YAIbIXy67Y_164064064",
+      "split": "train",
+      "text": "tourists walk around the arch",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 1,
+      "median_magnitude": 0.019640423357486725,
+      "rgb_url": "static/videos/stereo4d/7YAIbIXy67Y_164064064.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/7YAIbIXy67Y_164064064.json"
+    },
+    {
+      "id": "7aSq7BJqq9Y_191624958",
+      "split": "train",
+      "text": "a boat sails to the left along the river",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 57,
+      "num_clips": 2,
+      "median_magnitude": 0.1656426340341568,
+      "rgb_url": "static/videos/stereo4d/7aSq7BJqq9Y_191624958.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/7aSq7BJqq9Y_191624958.json"
+    },
+    {
+      "id": "7kSVAnxbsq4_44400000",
+      "split": "train",
+      "text": "a group of people walk towards the camera",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 49,
+      "num_clips": 3,
+      "median_magnitude": 0.05973335728049278,
+      "rgb_url": "static/videos/stereo4d/7kSVAnxbsq4_44400000.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/7kSVAnxbsq4_44400000.json"
+    },
+    {
+      "id": "7thep44_zto_249366033",
+      "split": "train",
+      "text": "a man speaks and gestures with his hands",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 181,
+      "num_clips": 6,
+      "median_magnitude": 0.08662731200456619,
+      "rgb_url": "static/videos/stereo4d/7thep44_zto_249366033.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/7thep44_zto_249366033.json"
+    },
+    {
+      "id": "7u9i5VKYVLk_152952953",
+      "split": "train",
+      "text": "a man walks towards the camera",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 40,
+      "num_clips": 2,
+      "median_magnitude": 0.0475754551589489,
+      "rgb_url": "static/videos/stereo4d/7u9i5VKYVLk_152952953.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/7u9i5VKYVLk_152952953.json"
+    },
+    {
+      "id": "8Dje3B0fEH0_81815148",
+      "split": "train",
+      "text": "a boat sails to the left along the river",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 6,
+      "median_magnitude": 0.07189052924513817,
+      "rgb_url": "static/videos/stereo4d/8Dje3B0fEH0_81815148.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/8Dje3B0fEH0_81815148.json"
+    },
+    {
+      "id": "8Phgu1gBn90_288688689",
+      "split": "train",
+      "text": "a boat sails to the left along the river",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 199,
+      "num_clips": 8,
+      "median_magnitude": 0.03429415822029114,
+      "rgb_url": "static/videos/stereo4d/8Phgu1gBn90_288688689.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/8Phgu1gBn90_288688689.json"
+    },
+    {
+      "id": "8SnnhUiubNo_405305305",
+      "split": "train",
+      "text": "a person walks up the stairs",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 198,
+      "num_clips": 8,
+      "median_magnitude": 0.1433461382985115,
+      "rgb_url": "static/videos/stereo4d/8SnnhUiubNo_405305305.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/8SnnhUiubNo_405305305.json"
+    },
+    {
+      "id": "8gaJZU61psE_41775108",
+      "split": "train",
+      "text": "a llama walks to the right and then bends down to eat",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 4,
+      "median_magnitude": 0.016471587121486664,
+      "rgb_url": "static/videos/stereo4d/8gaJZU61psE_41775108.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/8gaJZU61psE_41775108.json"
+    },
+    {
+      "id": "8ha9wkos7E0_35101768",
+      "split": "train",
+      "text": "a group of people walk on a bridge",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7",
+        "obj8",
+        "obj9"
+      ],
+      "num_objects": 10,
+      "num_frames": 199,
+      "num_clips": 18,
+      "median_magnitude": 0.08430160582065582,
+      "rgb_url": "static/videos/stereo4d/8ha9wkos7E0_35101768.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/8ha9wkos7E0_35101768.json"
+    },
+    {
+      "id": "8j8d1E0XB4E_48448448",
+      "split": "train",
+      "text": "a person walks down the street",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 199,
+      "num_clips": 9,
+      "median_magnitude": 0.10457456856966019,
+      "rgb_url": "static/videos/stereo4d/8j8d1E0XB4E_48448448.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/8j8d1E0XB4E_48448448.json"
+    },
+    {
+      "id": "8z501XLjXUI_455522189",
+      "split": "train",
+      "text": "a white bus drives to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 3,
+      "median_magnitude": 0.06149265542626381,
+      "rgb_url": "static/videos/stereo4d/8z501XLjXUI_455522189.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/8z501XLjXUI_455522189.json"
+    },
+    {
+      "id": "9R6BIhH0kuM_301134468",
+      "split": "train",
+      "text": "a person walks along a walkway",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 0,
+      "median_magnitude": 0.004472835920751095,
+      "rgb_url": "static/videos/stereo4d/9R6BIhH0kuM_301134468.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/9R6BIhH0kuM_301134468.json"
+    },
+    {
+      "id": "9zHTFQkU-hQ_113120000",
+      "split": "train",
+      "text": "a traffic light hangs from a pole and then falls down",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 65,
+      "num_clips": 2,
+      "median_magnitude": 0.2412216067314148,
+      "rgb_url": "static/videos/stereo4d/9zHTFQkU-hQ_113120000.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/9zHTFQkU-hQ_113120000.json"
+    },
+    {
+      "id": "AJHom9zVJ6Y_62295629",
+      "split": "train",
+      "text": "a train moves to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 7,
+      "median_magnitude": 0.055506883189082146,
+      "rgb_url": "static/videos/stereo4d/AJHom9zVJ6Y_62295629.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/AJHom9zVJ6Y_62295629.json"
+    },
+    {
+      "id": "AWz0LqOPER0_141875209",
+      "split": "test",
+      "text": "a woman in a white dress waves and smiles",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 0,
+      "median_magnitude": 0.0038367705419659615,
+      "rgb_url": "static/videos/stereo4d/AWz0LqOPER0_141875209.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/AWz0LqOPER0_141875209.json"
+    },
+    {
+      "id": "AoOmzlWxP20_108508509",
+      "split": "train",
+      "text": "a group of people walk around a building",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 0,
+      "median_magnitude": 0.015194432344287634,
+      "rgb_url": "static/videos/stereo4d/AoOmzlWxP20_108508509.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/AoOmzlWxP20_108508509.json"
+    },
+    {
+      "id": "BnIrHCG8tDU_49716383",
+      "split": "train",
+      "text": "a dark gray car drives through a roundabout",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 135,
+      "num_clips": 8,
+      "median_magnitude": 0.04708314873278141,
+      "rgb_url": "static/videos/stereo4d/BnIrHCG8tDU_49716383.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/BnIrHCG8tDU_49716383.json"
+    },
+    {
+      "id": "Bv3LKGwlW0U_115181849",
+      "split": "train",
+      "text": "a person walks to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7",
+        "obj8",
+        "obj9"
+      ],
+      "num_objects": 10,
+      "num_frames": 199,
+      "num_clips": 24,
+      "median_magnitude": 0.06940187513828278,
+      "rgb_url": "static/videos/stereo4d/Bv3LKGwlW0U_115181849.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/Bv3LKGwlW0U_115181849.json"
+    },
+    {
+      "id": "Bv3LKGwlW0U_162295629",
+      "split": "train",
+      "text": "a person rides a bicycle on a dirt road",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7",
+        "obj8",
+        "obj9",
+        "obj10"
+      ],
+      "num_objects": 11,
+      "num_frames": 187,
+      "num_clips": 20,
+      "median_magnitude": 0.0529100876301527,
+      "rgb_url": "static/videos/stereo4d/Bv3LKGwlW0U_162295629.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/Bv3LKGwlW0U_162295629.json"
+    },
+    {
+      "id": "Bx-c4wicnxY_211444778",
+      "split": "train",
+      "text": "a river flows to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.032929129898548126,
+      "rgb_url": "static/videos/stereo4d/Bx-c4wicnxY_211444778.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/Bx-c4wicnxY_211444778.json"
+    },
+    {
+      "id": "CIEkAgZf-w0_121855189",
+      "split": "train",
+      "text": "a red car drives to the right",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 2,
+      "median_magnitude": 0.049768853932619095,
+      "rgb_url": "static/videos/stereo4d/CIEkAgZf-w0_121855189.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/CIEkAgZf-w0_121855189.json"
+    },
+    {
+      "id": "DbUEpQwDDfw_442175509",
+      "split": "train",
+      "text": "a parade float moves to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 3,
+      "median_magnitude": 0.016998068429529667,
+      "rgb_url": "static/videos/stereo4d/DbUEpQwDDfw_442175509.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/DbUEpQwDDfw_442175509.json"
+    },
+    {
+      "id": "DvJyepBjHLY_213000000",
+      "split": "train",
+      "text": "a person wearing a VR headset holds two white controllers and moves their arms",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 3,
+      "median_magnitude": 0.007294873241335154,
+      "rgb_url": "static/videos/stereo4d/DvJyepBjHLY_213000000.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/DvJyepBjHLY_213000000.json"
+    },
+    {
+      "id": "E57HSPR7zrs_512512513",
+      "split": "train",
+      "text": "a person rides a bike on a path",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6"
+      ],
+      "num_objects": 7,
+      "num_frames": 186,
+      "num_clips": 17,
+      "median_magnitude": 0.033827804028987885,
+      "rgb_url": "static/videos/stereo4d/E57HSPR7zrs_512512513.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/E57HSPR7zrs_512512513.json"
+    },
+    {
+      "id": "E7OWr9V4CI0_273940607",
+      "split": "train",
+      "text": "a yellow bus drives to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 154,
+      "num_clips": 5,
+      "median_magnitude": 0.01852523908019066,
+      "rgb_url": "static/videos/stereo4d/E7OWr9V4CI0_273940607.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/E7OWr9V4CI0_273940607.json"
+    },
+    {
+      "id": "E7OWr9V4CI0_68802135",
+      "split": "train",
+      "text": "a black car drives to the left",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 189,
+      "num_clips": 6,
+      "median_magnitude": 0.4343462288379669,
+      "rgb_url": "static/videos/stereo4d/E7OWr9V4CI0_68802135.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/E7OWr9V4CI0_68802135.json"
+    },
+    {
+      "id": "EQqMkxJCynk_405972639",
+      "split": "train",
+      "text": "a dark gray car drives through a roundabout",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 55,
+      "num_clips": 3,
+      "median_magnitude": 0.058234069496393204,
+      "rgb_url": "static/videos/stereo4d/EQqMkxJCynk_405972639.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/EQqMkxJCynk_405972639.json"
+    },
+    {
+      "id": "ESxUw3yyyMY_41775108",
+      "split": "train",
+      "text": "a woman walks to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.02247314155101776,
+      "rgb_url": "static/videos/stereo4d/ESxUw3yyyMY_41775108.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/ESxUw3yyyMY_41775108.json"
+    },
+    {
+      "id": "EUSB0dVKOOY_58280000",
+      "split": "train",
+      "text": "a person walks to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 0,
+      "median_magnitude": 0.010645429138094187,
+      "rgb_url": "static/videos/stereo4d/EUSB0dVKOOY_58280000.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/EUSB0dVKOOY_58280000.json"
+    },
+    {
+      "id": "Ebl7P16puNQ_21755088",
+      "split": "train",
+      "text": "a motorcycle drives to the right",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 2,
+      "median_magnitude": 0.04865192994475365,
+      "rgb_url": "static/videos/stereo4d/Ebl7P16puNQ_21755088.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/Ebl7P16puNQ_21755088.json"
+    },
+    {
+      "id": "EekjjV6HzQQ_17550884",
+      "split": "train",
+      "text": "a person walks to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 125,
+      "num_clips": 3,
+      "median_magnitude": 0.028133459389209747,
+      "rgb_url": "static/videos/stereo4d/EekjjV6HzQQ_17550884.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/EekjjV6HzQQ_17550884.json"
+    },
+    {
+      "id": "EhE-UdT9zEo_31047714",
+      "split": "train",
+      "text": "a dark gray car drives through a roundabout",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 186,
+      "num_clips": 2,
+      "median_magnitude": 0.09929968416690826,
+      "rgb_url": "static/videos/stereo4d/EhE-UdT9zEo_31047714.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/EhE-UdT9zEo_31047714.json"
+    },
+    {
+      "id": "FHljMyQUPoE_282582583",
+      "split": "train",
+      "text": "a group of people walk away from the camera",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 87,
+      "num_clips": 2,
+      "median_magnitude": 0.02616091910749674,
+      "rgb_url": "static/videos/stereo4d/FHljMyQUPoE_282582583.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/FHljMyQUPoE_282582583.json"
+    },
+    {
+      "id": "G58h3VJWrdk_34720000",
+      "split": "train",
+      "text": "a person walks to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 8,
+      "median_magnitude": 0.032462090253829956,
+      "rgb_url": "static/videos/stereo4d/G58h3VJWrdk_34720000.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/G58h3VJWrdk_34720000.json"
+    },
+    {
+      "id": "GgWtxmOjaEw_143810477",
+      "split": "train",
+      "text": "a person walks away from the camera",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 44,
+      "num_clips": 3,
+      "median_magnitude": 0.13957300782203674,
+      "rgb_url": "static/videos/stereo4d/GgWtxmOjaEw_143810477.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/GgWtxmOjaEw_143810477.json"
+    },
+    {
+      "id": "HPsLh0ISiQU_644411078",
+      "split": "train",
+      "text": "a person walks down a street",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 68,
+      "num_clips": 5,
+      "median_magnitude": 0.15535074472427368,
+      "rgb_url": "static/videos/stereo4d/HPsLh0ISiQU_644411078.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/HPsLh0ISiQU_644411078.json"
+    },
+    {
+      "id": "HS6D_0hQyfQ_31731732",
+      "split": "train",
+      "text": "a car drives on a road",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 8,
+      "median_magnitude": 0.06985326111316681,
+      "rgb_url": "static/videos/stereo4d/HS6D_0hQyfQ_31731732.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/HS6D_0hQyfQ_31731732.json"
+    },
+    {
+      "id": "HT5Wpq7yK8g_800400400",
+      "split": "train",
+      "text": "a woman in a white dress walks to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 199,
+      "num_clips": 3,
+      "median_magnitude": 0.016385406255722046,
+      "rgb_url": "static/videos/stereo4d/HT5Wpq7yK8g_800400400.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/HT5Wpq7yK8g_800400400.json"
+    },
+    {
+      "id": "HY-2i5QuxYM_34968302",
+      "split": "train",
+      "text": "a dog runs to the left and then stops",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 199,
+      "num_clips": 6,
+      "median_magnitude": 0.1124214455485344,
+      "rgb_url": "static/videos/stereo4d/HY-2i5QuxYM_34968302.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/HY-2i5QuxYM_34968302.json"
+    },
+    {
+      "id": "INw0bmy7koA_475542209",
+      "split": "train",
+      "text": "a chef cooks food on a grill",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 4,
+      "median_magnitude": 0.029580953530967236,
+      "rgb_url": "static/videos/stereo4d/INw0bmy7koA_475542209.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/INw0bmy7koA_475542209.json"
+    },
+    {
+      "id": "INw0bmy7koA_502235569",
+      "split": "train",
+      "text": "a chef cooks food on a grill",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 6,
+      "median_magnitude": 0.051689039915800095,
+      "rgb_url": "static/videos/stereo4d/INw0bmy7koA_502235569.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/INw0bmy7koA_502235569.json"
+    },
+    {
+      "id": "I_jzfddZt3Q_141875209",
+      "split": "train",
+      "text": "a person rides a bicycle on a road",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 199,
+      "num_clips": 9,
+      "median_magnitude": 0.05683708190917969,
+      "rgb_url": "static/videos/stereo4d/I_jzfddZt3Q_141875209.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/I_jzfddZt3Q_141875209.json"
+    },
+    {
+      "id": "JI08QFNPrLE_269903237",
+      "split": "train",
+      "text": "a person operates a water pump by pulling and pushing the handle",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6"
+      ],
+      "num_objects": 7,
+      "num_frames": 199,
+      "num_clips": 7,
+      "median_magnitude": 0.03873584605753422,
+      "rgb_url": "static/videos/stereo4d/JI08QFNPrLE_269903237.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/JI08QFNPrLE_269903237.json"
+    },
+    {
+      "id": "JMIcmLexxjA_479045712",
+      "split": "test",
+      "text": "two motorcyclists ride their bikes on the street",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.09754670783877373,
+      "rgb_url": "static/videos/stereo4d/JMIcmLexxjA_479045712.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/JMIcmLexxjA_479045712.json"
+    },
+    {
+      "id": "JNPfON6PxH0_240106773",
+      "split": "train",
+      "text": "a person walks to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 186,
+      "num_clips": 4,
+      "median_magnitude": 0.03754263371229172,
+      "rgb_url": "static/videos/stereo4d/JNPfON6PxH0_240106773.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/JNPfON6PxH0_240106773.json"
+    },
+    {
+      "id": "JQ-_2P25hIk_106940274",
+      "split": "train",
+      "text": "a woman and a child walk towards the camera",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 7,
+      "median_magnitude": 0.033432114869356155,
+      "rgb_url": "static/videos/stereo4d/JQ-_2P25hIk_106940274.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/JQ-_2P25hIk_106940274.json"
+    },
+    {
+      "id": "JSHkappWGZ8_155221889",
+      "split": "train",
+      "text": "a person walks down a street",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7",
+        "obj8"
+      ],
+      "num_objects": 9,
+      "num_frames": 199,
+      "num_clips": 18,
+      "median_magnitude": 0.060997143387794495,
+      "rgb_url": "static/videos/stereo4d/JSHkappWGZ8_155221889.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/JSHkappWGZ8_155221889.json"
+    },
+    {
+      "id": "JSh0FhlrtfY_95128462",
+      "split": "train",
+      "text": "a boat sails to the left along the river",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 3,
+      "median_magnitude": 0.05430340766906738,
+      "rgb_url": "static/videos/stereo4d/JSh0FhlrtfY_95128462.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/JSh0FhlrtfY_95128462.json"
+    },
+    {
+      "id": "JXQS9yZ5WLY_353286620",
+      "split": "test",
+      "text": "a person rides a bike on a wet road",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 37,
+      "num_clips": 3,
+      "median_magnitude": 0.05956421233713627,
+      "rgb_url": "static/videos/stereo4d/JXQS9yZ5WLY_353286620.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/JXQS9yZ5WLY_353286620.json"
+    },
+    {
+      "id": "Jvg_rbBtLCo_108641975",
+      "split": "train",
+      "text": "a white van drives to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6"
+      ],
+      "num_objects": 7,
+      "num_frames": 199,
+      "num_clips": 11,
+      "median_magnitude": 0.04180155321955681,
+      "rgb_url": "static/videos/stereo4d/Jvg_rbBtLCo_108641975.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/Jvg_rbBtLCo_108641975.json"
+    },
+    {
+      "id": "JzMwh0a64kQ_288688689",
+      "split": "train",
+      "text": "a white car drives to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.03337944857776165,
+      "rgb_url": "static/videos/stereo4d/JzMwh0a64kQ_288688689.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/JzMwh0a64kQ_288688689.json"
+    },
+    {
+      "id": "K3PI7sjGH6M_116216216",
+      "split": "train",
+      "text": "a person walks on a dirt path",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 167,
+      "num_clips": 8,
+      "median_magnitude": 0.03999513015151024,
+      "rgb_url": "static/videos/stereo4d/K3PI7sjGH6M_116216216.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/K3PI7sjGH6M_116216216.json"
+    },
+    {
+      "id": "K4QFUNOwuDw_419753086",
+      "split": "train",
+      "text": "a boat sails to the right along the river",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 33,
+      "num_clips": 2,
+      "median_magnitude": 0.09748376905918121,
+      "rgb_url": "static/videos/stereo4d/K4QFUNOwuDw_419753086.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/K4QFUNOwuDw_419753086.json"
+    },
+    {
+      "id": "K68XpUV4ULg_189489489",
+      "split": "train",
+      "text": "a white car drives to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 43,
+      "num_clips": 3,
+      "median_magnitude": 0.050060754641890526,
+      "rgb_url": "static/videos/stereo4d/K68XpUV4ULg_189489489.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/K68XpUV4ULg_189489489.json"
+    },
+    {
+      "id": "KJT53RWeBSM_15081748",
+      "split": "train",
+      "text": "a person runs on a sidewalk",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 4,
+      "median_magnitude": 0.11140713095664978,
+      "rgb_url": "static/videos/stereo4d/KJT53RWeBSM_15081748.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/KJT53RWeBSM_15081748.json"
+    },
+    {
+      "id": "KRUvYxHb3rE_121855189",
+      "split": "train",
+      "text": "a large gray airplane with an open door is parked on a runway with people boarding",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7"
+      ],
+      "num_objects": 8,
+      "num_frames": 195,
+      "num_clips": 14,
+      "median_magnitude": 0.1767183095216751,
+      "rgb_url": "static/videos/stereo4d/KRUvYxHb3rE_121855189.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/KRUvYxHb3rE_121855189.json"
+    },
+    {
+      "id": "KpAH0uAhzNk_318251585",
+      "split": "train",
+      "text": "a person wearing a VR headset plays a VR game",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 3,
+      "median_magnitude": 0.019510097801685333,
+      "rgb_url": "static/videos/stereo4d/KpAH0uAhzNk_318251585.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/KpAH0uAhzNk_318251585.json"
+    },
+    {
+      "id": "KqOUFTPM7mc_92392392",
+      "split": "test",
+      "text": "a dragon head floats in the air",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 63,
+      "num_clips": 5,
+      "median_magnitude": 0.07624686881899834,
+      "rgb_url": "static/videos/stereo4d/KqOUFTPM7mc_92392392.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/KqOUFTPM7mc_92392392.json"
+    },
+    {
+      "id": "KqVz1An8G_s_40520000",
+      "split": "train",
+      "text": "a black car drives to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 150,
+      "num_clips": 9,
+      "median_magnitude": 0.04216862842440605,
+      "rgb_url": "static/videos/stereo4d/KqVz1An8G_s_40520000.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/KqVz1An8G_s_40520000.json"
+    },
+    {
+      "id": "Ky_KXx7OBv4_46146146",
+      "split": "train",
+      "text": "a woman walks to the left",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 87,
+      "num_clips": 2,
+      "median_magnitude": 0.0463675819337368,
+      "rgb_url": "static/videos/stereo4d/Ky_KXx7OBv4_46146146.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/Ky_KXx7OBv4_46146146.json"
+    },
+    {
+      "id": "L7iP4zRD3cY_41741742",
+      "split": "train",
+      "text": "a man stands behind a bar and points at the camera",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 1,
+      "median_magnitude": 0.01716080866754055,
+      "rgb_url": "static/videos/stereo4d/L7iP4zRD3cY_41741742.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/L7iP4zRD3cY_41741742.json"
+    },
+    {
+      "id": "L8qxFG2CHy8_28658744",
+      "split": "train",
+      "text": "a person walks through a cornfield",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.030649677850306034,
+      "rgb_url": "static/videos/stereo4d/L8qxFG2CHy8_28658744.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/L8qxFG2CHy8_28658744.json"
+    },
+    {
+      "id": "LRYdwT5zfqs_484217551",
+      "split": "train",
+      "text": "a dark gray car drives through a roundabout",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 193,
+      "num_clips": 8,
+      "median_magnitude": 0.02989193517714739,
+      "rgb_url": "static/videos/stereo4d/LRYdwT5zfqs_484217551.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/LRYdwT5zfqs_484217551.json"
+    },
+    {
+      "id": "LWheosMBIwU_491524858",
+      "split": "train",
+      "text": "a marching band walks to the left",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 2,
+      "median_magnitude": 0.048853661864995956,
+      "rgb_url": "static/videos/stereo4d/LWheosMBIwU_491524858.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/LWheosMBIwU_491524858.json"
+    },
+    {
+      "id": "LYcSus4gGoQ_48415082",
+      "split": "test",
+      "text": "a dragon sits on a sword and opens its mouth",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 199,
+      "num_clips": 2,
+      "median_magnitude": 0.007269490975886583,
+      "rgb_url": "static/videos/stereo4d/LYcSus4gGoQ_48415082.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/LYcSus4gGoQ_48415082.json"
+    },
+    {
+      "id": "Lc0RWV0j-nw_155221889",
+      "split": "test",
+      "text": "people walk in different directions",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6"
+      ],
+      "num_objects": 7,
+      "num_frames": 199,
+      "num_clips": 4,
+      "median_magnitude": 0.016038941219449043,
+      "rgb_url": "static/videos/stereo4d/Lc0RWV0j-nw_155221889.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/Lc0RWV0j-nw_155221889.json"
+    },
+    {
+      "id": "LnrNLffl6w4_382115449",
+      "split": "train",
+      "text": "a person walks to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 199,
+      "num_clips": 7,
+      "median_magnitude": 0.01969523634761572,
+      "rgb_url": "static/videos/stereo4d/LnrNLffl6w4_382115449.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/LnrNLffl6w4_382115449.json"
+    },
+    {
+      "id": "LvZyTVR8Bjg_936936937",
+      "split": "train",
+      "text": "a boat sails to the left along the river",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7",
+        "obj8",
+        "obj9"
+      ],
+      "num_objects": 10,
+      "num_frames": 199,
+      "num_clips": 20,
+      "median_magnitude": 0.051560426130890846,
+      "rgb_url": "static/videos/stereo4d/LvZyTVR8Bjg_936936937.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/LvZyTVR8Bjg_936936937.json"
+    },
+    {
+      "id": "LxefwScxbuE_15081748",
+      "split": "train",
+      "text": "two donkeys walk to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 6,
+      "median_magnitude": 0.025273947045207024,
+      "rgb_url": "static/videos/stereo4d/LxefwScxbuE_15081748.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/LxefwScxbuE_15081748.json"
+    },
+    {
+      "id": "MGGc9eKmKHA_161895229",
+      "split": "train",
+      "text": "a person rotates the camera and inspects the statues carefully",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 199,
+      "num_clips": 1,
+      "median_magnitude": 0.008767842315137386,
+      "rgb_url": "static/videos/stereo4d/MGGc9eKmKHA_161895229.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/MGGc9eKmKHA_161895229.json"
+    },
+    {
+      "id": "MHl4cCS2BR0_18385052",
+      "split": "test",
+      "text": "a person walks to the left while holding a lantern",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 199,
+      "num_clips": 15,
+      "median_magnitude": 0.0836387574672699,
+      "rgb_url": "static/videos/stereo4d/MHl4cCS2BR0_18385052.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/MHl4cCS2BR0_18385052.json"
+    },
+    {
+      "id": "MKt5nLjvyAc_115181849",
+      "split": "train",
+      "text": "a person walks to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 199,
+      "num_clips": 3,
+      "median_magnitude": 0.014250379987061024,
+      "rgb_url": "static/videos/stereo4d/MKt5nLjvyAc_115181849.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/MKt5nLjvyAc_115181849.json"
+    },
+    {
+      "id": "MO8OWK_yBAs_78845512",
+      "split": "train",
+      "text": "two people walk to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 88,
+      "num_clips": 4,
+      "median_magnitude": 0.026168519631028175,
+      "rgb_url": "static/videos/stereo4d/MO8OWK_yBAs_78845512.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/MO8OWK_yBAs_78845512.json"
+    },
+    {
+      "id": "MVpv2xvrAsA_77243911",
+      "split": "test",
+      "text": "a person rotates the car and inspects it carefully",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 0,
+      "median_magnitude": 0.006090072914958,
+      "rgb_url": "static/videos/stereo4d/MVpv2xvrAsA_77243911.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/MVpv2xvrAsA_77243911.json"
+    },
+    {
+      "id": "NNO6LQYf--U_749149149",
+      "split": "test",
+      "text": "a float moves to the right along the street",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7",
+        "obj8",
+        "obj9",
+        "obj10",
+        "obj11",
+        "obj12",
+        "obj13",
+        "obj14",
+        "obj15",
+        "obj16",
+        "obj17",
+        "obj18",
+        "obj19",
+        "obj20",
+        "obj21",
+        "obj22",
+        "obj23"
+      ],
+      "num_objects": 24,
+      "num_frames": 199,
+      "num_clips": 0,
+      "median_magnitude": 0.007590070366859436,
+      "rgb_url": "static/videos/stereo4d/NNO6LQYf--U_749149149.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/NNO6LQYf--U_749149149.json"
+    },
+    {
+      "id": "NPkc-6tcACs_589556223",
+      "split": "train",
+      "text": "a bus drives to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 1,
+      "median_magnitude": 0.17270290106534958,
+      "rgb_url": "static/videos/stereo4d/NPkc-6tcACs_589556223.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/NPkc-6tcACs_589556223.json"
+    },
+    {
+      "id": "NVDLtByAKMs_75141808",
+      "split": "train",
+      "text": "a person walks away on a paved path",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 187,
+      "num_clips": 6,
+      "median_magnitude": 0.022001194767653942,
+      "rgb_url": "static/videos/stereo4d/NVDLtByAKMs_75141808.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/NVDLtByAKMs_75141808.json"
+    },
+    {
+      "id": "NVIrSaRyLDE_591825158",
+      "split": "train",
+      "text": "a person runs on a road",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 42,
+      "num_clips": 4,
+      "median_magnitude": 0.10436911880970001,
+      "rgb_url": "static/videos/stereo4d/NVIrSaRyLDE_591825158.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/NVIrSaRyLDE_591825158.json"
+    },
+    {
+      "id": "NVIrSaRyLDE_813680347",
+      "split": "train",
+      "text": "a dark gray car drives through a roundabout",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7",
+        "obj8"
+      ],
+      "num_objects": 9,
+      "num_frames": 199,
+      "num_clips": 17,
+      "median_magnitude": 0.07933691889047623,
+      "rgb_url": "static/videos/stereo4d/NVIrSaRyLDE_813680347.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/NVIrSaRyLDE_813680347.json"
+    },
+    {
+      "id": "NaAZ7PJVs6g_315382049",
+      "split": "train",
+      "text": "a man walks towards the camera while holding a child's hand",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.05218100920319557,
+      "rgb_url": "static/videos/stereo4d/NaAZ7PJVs6g_315382049.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/NaAZ7PJVs6g_315382049.json"
+    },
+    {
+      "id": "NaAZ7PJVs6g_413713714",
+      "split": "train",
+      "text": "a black drone flies in the sky",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 52,
+      "num_clips": 4,
+      "median_magnitude": 0.12167251855134964,
+      "rgb_url": "static/videos/stereo4d/NaAZ7PJVs6g_413713714.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/NaAZ7PJVs6g_413713714.json"
+    },
+    {
+      "id": "NaMsTfmDfkk_88488488",
+      "split": "train",
+      "text": "tourists walk along a stone pathway in a historical site",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 4,
+      "median_magnitude": 0.03564520180225372,
+      "rgb_url": "static/videos/stereo4d/NaMsTfmDfkk_88488488.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/NaMsTfmDfkk_88488488.json"
+    },
+    {
+      "id": "Ns9aMmQha0s_48448448",
+      "split": "train",
+      "text": "a black car drives to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 199,
+      "num_clips": 11,
+      "median_magnitude": 0.11119387298822403,
+      "rgb_url": "static/videos/stereo4d/Ns9aMmQha0s_48448448.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/Ns9aMmQha0s_48448448.json"
+    },
+    {
+      "id": "O7YoBWxSYCM_15081748",
+      "split": "train",
+      "text": "a person walks along a dirt path",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 199,
+      "num_clips": 9,
+      "median_magnitude": 0.17113326489925385,
+      "rgb_url": "static/videos/stereo4d/O7YoBWxSYCM_15081748.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/O7YoBWxSYCM_15081748.json"
+    },
+    {
+      "id": "OPCFaD0NV38_35101768",
+      "split": "train",
+      "text": "a red car drives to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.08802585676312447,
+      "rgb_url": "static/videos/stereo4d/OPCFaD0NV38_35101768.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/OPCFaD0NV38_35101768.json"
+    },
+    {
+      "id": "OSHAtWkUZXo_26760093",
+      "split": "train",
+      "text": "a white airplane flies to the left",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 45,
+      "num_clips": 2,
+      "median_magnitude": 0.04433263838291168,
+      "rgb_url": "static/videos/stereo4d/OSHAtWkUZXo_26760093.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/OSHAtWkUZXo_26760093.json"
+    },
+    {
+      "id": "OSHAtWkUZXo_436670003",
+      "split": "train",
+      "text": "a black car drives on a road",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 32,
+      "num_clips": 2,
+      "median_magnitude": 0.22100558876991272,
+      "rgb_url": "static/videos/stereo4d/OSHAtWkUZXo_436670003.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/OSHAtWkUZXo_436670003.json"
+    },
+    {
+      "id": "OSHAtWkUZXo_722622623",
+      "split": "train",
+      "text": "a man walks across the road with a baby",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 3,
+      "median_magnitude": 0.30577555298805237,
+      "rgb_url": "static/videos/stereo4d/OSHAtWkUZXo_722622623.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/OSHAtWkUZXo_722622623.json"
+    },
+    {
+      "id": "OSl8RXTnC50_35101768",
+      "split": "test",
+      "text": "a woman walks to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6"
+      ],
+      "num_objects": 7,
+      "num_frames": 199,
+      "num_clips": 11,
+      "median_magnitude": 0.11436278745532036,
+      "rgb_url": "static/videos/stereo4d/OSl8RXTnC50_35101768.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/OSl8RXTnC50_35101768.json"
+    },
+    {
+      "id": "PJ5clqQuUnU_308675342",
+      "split": "train",
+      "text": "a person walks on a boat",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7",
+        "obj8",
+        "obj9",
+        "obj10"
+      ],
+      "num_objects": 11,
+      "num_frames": 199,
+      "num_clips": 17,
+      "median_magnitude": 0.03190311789512634,
+      "rgb_url": "static/videos/stereo4d/PJ5clqQuUnU_308675342.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/PJ5clqQuUnU_308675342.json"
+    },
+    {
+      "id": "Phqa2RPlXS0_90857524",
+      "split": "test",
+      "text": "a dark gray car drives through a roundabout",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.3703899383544922,
+      "rgb_url": "static/videos/stereo4d/Phqa2RPlXS0_90857524.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/Phqa2RPlXS0_90857524.json"
+    },
+    {
+      "id": "PqJRfYRaOqg_368601935",
+      "split": "train",
+      "text": "a bike rider rides a bmx bike on a dirt track",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 67,
+      "num_clips": 6,
+      "median_magnitude": 0.07435370981693268,
+      "rgb_url": "static/videos/stereo4d/PqJRfYRaOqg_368601935.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/PqJRfYRaOqg_368601935.json"
+    },
+    {
+      "id": "QMWKhGC16VM_61795128",
+      "split": "test",
+      "text": "a school of fish swims in different directions",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 199,
+      "num_clips": 9,
+      "median_magnitude": 0.1290631890296936,
+      "rgb_url": "static/videos/stereo4d/QMWKhGC16VM_61795128.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/QMWKhGC16VM_61795128.json"
+    },
+    {
+      "id": "R0E_bGd-lr8_22255589",
+      "split": "train",
+      "text": "a person walks on a stone bridge",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 54,
+      "num_clips": 2,
+      "median_magnitude": 0.046526651829481125,
+      "rgb_url": "static/videos/stereo4d/R0E_bGd-lr8_22255589.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/R0E_bGd-lr8_22255589.json"
+    },
+    {
+      "id": "Rb-Xkxvnq08_244844845",
+      "split": "train",
+      "text": "a white van drives away on a road",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 166,
+      "num_clips": 5,
+      "median_magnitude": 0.16334181278944016,
+      "rgb_url": "static/videos/stereo4d/Rb-Xkxvnq08_244844845.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/Rb-Xkxvnq08_244844845.json"
+    },
+    {
+      "id": "RrR609UGQAU_701201201",
+      "split": "train",
+      "text": "a dark gray car drives through a roundabout",
+      "object_names": [
+        "obj0"
+      ],
+      "num_objects": 1,
+      "num_frames": 41,
+      "num_clips": 1,
+      "median_magnitude": 0.2041701078414917,
+      "rgb_url": "static/videos/stereo4d/RrR609UGQAU_701201201.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/RrR609UGQAU_701201201.json"
+    },
+    {
+      "id": "RtdgX9u-rQQ_477711044",
+      "split": "train",
+      "text": "two people walk to the left",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 30,
+      "num_clips": 2,
+      "median_magnitude": 0.14728187024593353,
+      "rgb_url": "static/videos/stereo4d/RtdgX9u-rQQ_477711044.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/RtdgX9u-rQQ_477711044.json"
+    },
+    {
+      "id": "SRXBxadKyJo_61795128",
+      "split": "train",
+      "text": "a man walks to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 2,
+      "median_magnitude": 0.023513524793088436,
+      "rgb_url": "static/videos/stereo4d/SRXBxadKyJo_61795128.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/SRXBxadKyJo_61795128.json"
+    },
+    {
+      "id": "SVbY7RB_G7E_22122122",
+      "split": "train",
+      "text": "a white car drives to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 188,
+      "num_clips": 6,
+      "median_magnitude": 0.09081113338470459,
+      "rgb_url": "static/videos/stereo4d/SVbY7RB_G7E_22122122.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/SVbY7RB_G7E_22122122.json"
+    },
+    {
+      "id": "T6Kb2zUpoeA_345278612",
+      "split": "train",
+      "text": "a boy walks to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 1,
+      "median_magnitude": 0.018548419699072838,
+      "rgb_url": "static/videos/stereo4d/T6Kb2zUpoeA_345278612.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/T6Kb2zUpoeA_345278612.json"
+    },
+    {
+      "id": "TWbehVE-b4o_41775108",
+      "split": "train",
+      "text": "a person walks to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 199,
+      "num_clips": 6,
+      "median_magnitude": 0.033813025802373886,
+      "rgb_url": "static/videos/stereo4d/TWbehVE-b4o_41775108.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/TWbehVE-b4o_41775108.json"
+    },
+    {
+      "id": "Tb5MjpsmVyI_21755088",
+      "split": "train",
+      "text": "a brown duck walks to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 3,
+      "median_magnitude": 0.029628648422658443,
+      "rgb_url": "static/videos/stereo4d/Tb5MjpsmVyI_21755088.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/Tb5MjpsmVyI_21755088.json"
+    },
+    {
+      "id": "Tfuo6G3MZXM_520453787",
+      "split": "train",
+      "text": "a man sits on a sofa",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 6,
+      "median_magnitude": 0.030374635942280293,
+      "rgb_url": "static/videos/stereo4d/Tfuo6G3MZXM_520453787.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/Tfuo6G3MZXM_520453787.json"
+    },
+    {
+      "id": "Ti5mBFs0nXo_83483483",
+      "split": "train",
+      "text": "a red train moves to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 147,
+      "num_clips": 7,
+      "median_magnitude": 0.02263304777443409,
+      "rgb_url": "static/videos/stereo4d/Ti5mBFs0nXo_83483483.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/Ti5mBFs0nXo_83483483.json"
+    },
+    {
+      "id": "Tk7GSJpmp98_21755088",
+      "split": "train",
+      "text": "a group of people walk in different directions",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 4,
+      "median_magnitude": 0.03561704233288765,
+      "rgb_url": "static/videos/stereo4d/Tk7GSJpmp98_21755088.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/Tk7GSJpmp98_21755088.json"
+    },
+    {
+      "id": "U2wL-11brxY_936236236",
+      "split": "train",
+      "text": "a person walks up a staircase",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 0,
+      "median_magnitude": 0.003584823338314891,
+      "rgb_url": "static/videos/stereo4d/U2wL-11brxY_936236236.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/U2wL-11brxY_936236236.json"
+    },
+    {
+      "id": "V3b5N8ACpV0_135602269",
+      "split": "train",
+      "text": "a person walks on a sidewalk",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 187,
+      "num_clips": 5,
+      "median_magnitude": 0.03472888469696045,
+      "rgb_url": "static/videos/stereo4d/V3b5N8ACpV0_135602269.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/V3b5N8ACpV0_135602269.json"
+    },
+    {
+      "id": "VBw3nCJnzMw_168568569",
+      "split": "train",
+      "text": "a person walks down a gravel path",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 199,
+      "num_clips": 8,
+      "median_magnitude": 0.05410940386354923,
+      "rgb_url": "static/videos/stereo4d/VBw3nCJnzMw_168568569.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/VBw3nCJnzMw_168568569.json"
+    },
+    {
+      "id": "VPVTjnXx0dI_937771104",
+      "split": "train",
+      "text": "a person walks to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7",
+        "obj8"
+      ],
+      "num_objects": 9,
+      "num_frames": 199,
+      "num_clips": 11,
+      "median_magnitude": 0.04719860665500164,
+      "rgb_url": "static/videos/stereo4d/VPVTjnXx0dI_937771104.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/VPVTjnXx0dI_937771104.json"
+    },
+    {
+      "id": "VloMz0MyFAQ_587420754",
+      "split": "train",
+      "text": "a white car drives to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 199,
+      "num_clips": 10,
+      "median_magnitude": 0.10700415074825287,
+      "rgb_url": "static/videos/stereo4d/VloMz0MyFAQ_587420754.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/VloMz0MyFAQ_587420754.json"
+    },
+    {
+      "id": "VmLPazCdAxQ_35101768",
+      "split": "train",
+      "text": "a person walks to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6"
+      ],
+      "num_objects": 7,
+      "num_frames": 199,
+      "num_clips": 6,
+      "median_magnitude": 0.018094630911946297,
+      "rgb_url": "static/videos/stereo4d/VmLPazCdAxQ_35101768.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/VmLPazCdAxQ_35101768.json"
+    },
+    {
+      "id": "Vmg-z_ypK6k_951051051",
+      "split": "train",
+      "text": "a white car drives to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6"
+      ],
+      "num_objects": 7,
+      "num_frames": 199,
+      "num_clips": 16,
+      "median_magnitude": 0.06986838579177856,
+      "rgb_url": "static/videos/stereo4d/Vmg-z_ypK6k_951051051.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/Vmg-z_ypK6k_951051051.json"
+    },
+    {
+      "id": "VyNXWT_oP1A_457157157",
+      "split": "train",
+      "text": "a person walks along a path",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 199,
+      "num_clips": 9,
+      "median_magnitude": 0.07567879930138588,
+      "rgb_url": "static/videos/stereo4d/VyNXWT_oP1A_457157157.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/VyNXWT_oP1A_457157157.json"
+    },
+    {
+      "id": "WWdorMyLg3M_176109443",
+      "split": "train",
+      "text": "a person walks on a sidewalk",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6"
+      ],
+      "num_objects": 7,
+      "num_frames": 199,
+      "num_clips": 10,
+      "median_magnitude": 0.04131102189421654,
+      "rgb_url": "static/videos/stereo4d/WWdorMyLg3M_176109443.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/WWdorMyLg3M_176109443.json"
+    },
+    {
+      "id": "WnDFLIEHf1A_146579913",
+      "split": "train",
+      "text": "a boat sails to the right along the river",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 4,
+      "median_magnitude": 0.060693565756082535,
+      "rgb_url": "static/videos/stereo4d/WnDFLIEHf1A_146579913.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/WnDFLIEHf1A_146579913.json"
+    },
+    {
+      "id": "Wo9fq5Z-8q4_71404738",
+      "split": "train",
+      "text": "a person walks on a stone path",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 42,
+      "num_clips": 2,
+      "median_magnitude": 0.07491213083267212,
+      "rgb_url": "static/videos/stereo4d/Wo9fq5Z-8q4_71404738.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/Wo9fq5Z-8q4_71404738.json"
+    },
+    {
+      "id": "XV6aaLCieMY_175066667",
+      "split": "train",
+      "text": "a person walks through a forest",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 199,
+      "num_clips": 12,
+      "median_magnitude": 0.1534915566444397,
+      "rgb_url": "static/videos/stereo4d/XV6aaLCieMY_175066667.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/XV6aaLCieMY_175066667.json"
+    },
+    {
+      "id": "XV7FiKFuNcw_241975309",
+      "split": "train",
+      "text": "a dark gray car drives through a roundabout",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 4,
+      "median_magnitude": 0.06345691531896591,
+      "rgb_url": "static/videos/stereo4d/XV7FiKFuNcw_241975309.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/XV7FiKFuNcw_241975309.json"
+    },
+    {
+      "id": "XWsO9POjgGU_28428428",
+      "split": "train",
+      "text": "a man sits on a cliff",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.0848781019449234,
+      "rgb_url": "static/videos/stereo4d/XWsO9POjgGU_28428428.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/XWsO9POjgGU_28428428.json"
+    },
+    {
+      "id": "Xe3hmWN3Qp8_115181849",
+      "split": "train",
+      "text": "a person rides a bike on a road",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 199,
+      "num_clips": 10,
+      "median_magnitude": 0.02656914573162794,
+      "rgb_url": "static/videos/stereo4d/Xe3hmWN3Qp8_115181849.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/Xe3hmWN3Qp8_115181849.json"
+    },
+    {
+      "id": "Xe3hmWN3Qp8_435502169",
+      "split": "train",
+      "text": "a person rides a bicycle on a road",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 53,
+      "num_clips": 1,
+      "median_magnitude": 0.09972579032182693,
+      "rgb_url": "static/videos/stereo4d/Xe3hmWN3Qp8_435502169.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/Xe3hmWN3Qp8_435502169.json"
+    },
+    {
+      "id": "Xm59ozqsBzM_391825158",
+      "split": "train",
+      "text": "a person walks to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 3,
+      "median_magnitude": 0.01416317280381918,
+      "rgb_url": "static/videos/stereo4d/Xm59ozqsBzM_391825158.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/Xm59ozqsBzM_391825158.json"
+    },
+    {
+      "id": "Xx_1Dta2SD8_168568569",
+      "split": "train",
+      "text": "a person walks along a muddy path",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 199,
+      "num_clips": 16,
+      "median_magnitude": 0.03164376877248287,
+      "rgb_url": "static/videos/stereo4d/Xx_1Dta2SD8_168568569.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/Xx_1Dta2SD8_168568569.json"
+    },
+    {
+      "id": "YUcW9k295M0_199199199",
+      "split": "train",
+      "text": "a boat sails to the left along the river",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 199,
+      "num_clips": 10,
+      "median_magnitude": 0.076106708496809,
+      "rgb_url": "static/videos/stereo4d/YUcW9k295M0_199199199.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/YUcW9k295M0_199199199.json"
+    },
+    {
+      "id": "Ys9RAne9rTQ_145178512",
+      "split": "train",
+      "text": "a person walks through a garden",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7",
+        "obj8",
+        "obj9",
+        "obj10",
+        "obj11",
+        "obj12"
+      ],
+      "num_objects": 13,
+      "num_frames": 199,
+      "num_clips": 18,
+      "median_magnitude": 0.05915951728820801,
+      "rgb_url": "static/videos/stereo4d/Ys9RAne9rTQ_145178512.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/Ys9RAne9rTQ_145178512.json"
+    },
+    {
+      "id": "ZLOeiMcj8Ao_625525526",
+      "split": "train",
+      "text": "three people play a virtual reality shooting game while holding guns",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.03602708503603935,
+      "rgb_url": "static/videos/stereo4d/ZLOeiMcj8Ao_625525526.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/ZLOeiMcj8Ao_625525526.json"
+    },
+    {
+      "id": "ZMh_ciiQSuc_108508509",
+      "split": "train",
+      "text": "a person rides a bike on a path",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 6,
+      "median_magnitude": 0.0356819536536932,
+      "rgb_url": "static/videos/stereo4d/ZMh_ciiQSuc_108508509.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/ZMh_ciiQSuc_108508509.json"
+    },
+    {
+      "id": "ZRUs1_lDkl0_677677678",
+      "split": "train",
+      "text": "a person walks down a hill",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 166,
+      "num_clips": 6,
+      "median_magnitude": 0.05700676888227463,
+      "rgb_url": "static/videos/stereo4d/ZRUs1_lDkl0_677677678.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/ZRUs1_lDkl0_677677678.json"
+    },
+    {
+      "id": "ZRqnemjcGzE_28428428",
+      "split": "test",
+      "text": "a boat sails to the left along the river",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 10,
+      "median_magnitude": 0.024060174822807312,
+      "rgb_url": "static/videos/stereo4d/ZRqnemjcGzE_28428428.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/ZRqnemjcGzE_28428428.json"
+    },
+    {
+      "id": "ZkiS2upBQKo_104137471",
+      "split": "train",
+      "text": "water flows down from the rocks into a stream",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 0,
+      "median_magnitude": 0.010176789946854115,
+      "rgb_url": "static/videos/stereo4d/ZkiS2upBQKo_104137471.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/ZkiS2upBQKo_104137471.json"
+    },
+    {
+      "id": "_4iTjyzwJ8A_178211545",
+      "split": "train",
+      "text": "a group of people dance in a circle",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 175,
+      "num_clips": 7,
+      "median_magnitude": 0.12171581014990807,
+      "rgb_url": "static/videos/stereo4d/_4iTjyzwJ8A_178211545.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/_4iTjyzwJ8A_178211545.json"
+    },
+    {
+      "id": "_8ebXnKNs54_157924591",
+      "split": "train",
+      "text": "a boat sails to the left along the river",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 199,
+      "num_clips": 16,
+      "median_magnitude": 0.034305211156606674,
+      "rgb_url": "static/videos/stereo4d/_8ebXnKNs54_157924591.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/_8ebXnKNs54_157924591.json"
+    },
+    {
+      "id": "_KDrl59mv-Y_28428428",
+      "split": "train",
+      "text": "a woman holds a microphone and sings",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 199,
+      "num_clips": 11,
+      "median_magnitude": 0.01213014917448163,
+      "rgb_url": "static/videos/stereo4d/_KDrl59mv-Y_28428428.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/_KDrl59mv-Y_28428428.json"
+    },
+    {
+      "id": "a7aQ6v9y8eg_41775108",
+      "split": "train",
+      "text": "a person walks to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 2,
+      "median_magnitude": 0.012724211439490318,
+      "rgb_url": "static/videos/stereo4d/a7aQ6v9y8eg_41775108.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/a7aQ6v9y8eg_41775108.json"
+    },
+    {
+      "id": "aUiIl9tsGHI_238538539",
+      "split": "train",
+      "text": "a boat sails to the left along the river",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 80,
+      "num_clips": 2,
+      "median_magnitude": 0.25649967789649963,
+      "rgb_url": "static/videos/stereo4d/aUiIl9tsGHI_238538539.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/aUiIl9tsGHI_238538539.json"
+    },
+    {
+      "id": "aUiIl9tsGHI_316182850",
+      "split": "train",
+      "text": "a person walks up a hill",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 7,
+      "median_magnitude": 0.15626081824302673,
+      "rgb_url": "static/videos/stereo4d/aUiIl9tsGHI_316182850.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/aUiIl9tsGHI_316182850.json"
+    },
+    {
+      "id": "aUiIl9tsGHI_82248916",
+      "split": "train",
+      "text": "a train travels from right to left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 185,
+      "num_clips": 9,
+      "median_magnitude": 0.022594653069972992,
+      "rgb_url": "static/videos/stereo4d/aUiIl9tsGHI_82248916.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/aUiIl9tsGHI_82248916.json"
+    },
+    {
+      "id": "a_gdpE0AJRQ_129829830",
+      "split": "train",
+      "text": "a white truck drives to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 8,
+      "median_magnitude": 0.024094942957162857,
+      "rgb_url": "static/videos/stereo4d/a_gdpE0AJRQ_129829830.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/a_gdpE0AJRQ_129829830.json"
+    },
+    {
+      "id": "a_wQtm4WMHA_175241909",
+      "split": "train",
+      "text": "a woman in a black dress walks to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 2,
+      "median_magnitude": 0.01799547579139471,
+      "rgb_url": "static/videos/stereo4d/a_wQtm4WMHA_175241909.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/a_wQtm4WMHA_175241909.json"
+    },
+    {
+      "id": "ab-K-vudXbc_121821822",
+      "split": "train",
+      "text": "a band plays music on a stage",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.028821004554629326,
+      "rgb_url": "static/videos/stereo4d/ab-K-vudXbc_121821822.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/ab-K-vudXbc_121821822.json"
+    },
+    {
+      "id": "b0xEIN3pojA_41775108",
+      "split": "train",
+      "text": "a group of people walk and ride bicycles on a street",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7"
+      ],
+      "num_objects": 8,
+      "num_frames": 199,
+      "num_clips": 6,
+      "median_magnitude": 0.059987690299749374,
+      "rgb_url": "static/videos/stereo4d/b0xEIN3pojA_41775108.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/b0xEIN3pojA_41775108.json"
+    },
+    {
+      "id": "bCPUyL0DAYA_95395395",
+      "split": "train",
+      "text": "a black gate opens to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6"
+      ],
+      "num_objects": 7,
+      "num_frames": 192,
+      "num_clips": 17,
+      "median_magnitude": 0.047369688749313354,
+      "rgb_url": "static/videos/stereo4d/bCPUyL0DAYA_95395395.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/bCPUyL0DAYA_95395395.json"
+    },
+    {
+      "id": "b_k9rfhv1pw_442175509",
+      "split": "train",
+      "text": "four people walk to the right along a stone walkway",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.04327618330717087,
+      "rgb_url": "static/videos/stereo4d/b_k9rfhv1pw_442175509.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/b_k9rfhv1pw_442175509.json"
+    },
+    {
+      "id": "buWiOd2lnwk_107320000",
+      "split": "train",
+      "text": "a man in a red shirt walks to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 93,
+      "num_clips": 3,
+      "median_magnitude": 0.06611897796392441,
+      "rgb_url": "static/videos/stereo4d/buWiOd2lnwk_107320000.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/buWiOd2lnwk_107320000.json"
+    },
+    {
+      "id": "chKzGbCJltw_142400000",
+      "split": "train",
+      "text": "a woman in a costume stands and poses",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 4,
+      "median_magnitude": 0.02372281439602375,
+      "rgb_url": "static/videos/stereo4d/chKzGbCJltw_142400000.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/chKzGbCJltw_142400000.json"
+    },
+    {
+      "id": "d7P4fAEKqho_86753420",
+      "split": "train",
+      "text": "a person walks on a stone bridge",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 149,
+      "num_clips": 7,
+      "median_magnitude": 0.07166067510843277,
+      "rgb_url": "static/videos/stereo4d/d7P4fAEKqho_86753420.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/d7P4fAEKqho_86753420.json"
+    },
+    {
+      "id": "dAqODktml3U_706039373",
+      "split": "train",
+      "text": "a person walks along a brick walkway",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 8,
+      "median_magnitude": 0.02252574823796749,
+      "rgb_url": "static/videos/stereo4d/dAqODktml3U_706039373.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/dAqODktml3U_706039373.json"
+    },
+    {
+      "id": "dHt5uQT_Kfs_217550884",
+      "split": "train",
+      "text": "a person walks through a church",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7",
+        "obj8",
+        "obj9",
+        "obj10",
+        "obj11"
+      ],
+      "num_objects": 12,
+      "num_frames": 130,
+      "num_clips": 20,
+      "median_magnitude": 0.08107230812311172,
+      "rgb_url": "static/videos/stereo4d/dHt5uQT_Kfs_217550884.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/dHt5uQT_Kfs_217550884.json"
+    },
+    {
+      "id": "dRIIoFqsftU_21755088",
+      "split": "train",
+      "text": "a man and a woman walk together on a sidewalk",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 3,
+      "median_magnitude": 0.0466802604496479,
+      "rgb_url": "static/videos/stereo4d/dRIIoFqsftU_21755088.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/dRIIoFqsftU_21755088.json"
+    },
+    {
+      "id": "dZy-L8kF3Ig_95161828",
+      "split": "train",
+      "text": "a green and white tram travels from right to left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 4,
+      "median_magnitude": 0.11175988614559174,
+      "rgb_url": "static/videos/stereo4d/dZy-L8kF3Ig_95161828.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/dZy-L8kF3Ig_95161828.json"
+    },
+    {
+      "id": "eRQ70tTnSFg_137504171",
+      "split": "train",
+      "text": "a woman in a red dress walks to the left",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 0,
+      "median_magnitude": 0.014665051829069853,
+      "rgb_url": "static/videos/stereo4d/eRQ70tTnSFg_137504171.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/eRQ70tTnSFg_137504171.json"
+    },
+    {
+      "id": "eYkEeMVH4B0_204637971",
+      "split": "train",
+      "text": "a red fire truck drives to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 69,
+      "num_clips": 4,
+      "median_magnitude": 0.08161554485559464,
+      "rgb_url": "static/videos/stereo4d/eYkEeMVH4B0_204637971.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/eYkEeMVH4B0_204637971.json"
+    },
+    {
+      "id": "ehGx7vyOsuQ_90607274",
+      "split": "train",
+      "text": "a subway train stops at the station",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 3,
+      "median_magnitude": 0.02212909795343876,
+      "rgb_url": "static/videos/stereo4d/ehGx7vyOsuQ_90607274.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/ehGx7vyOsuQ_90607274.json"
+    },
+    {
+      "id": "elgXFV_RZ6U_376810143",
+      "split": "train",
+      "text": "a person walks on a dirt path",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 63,
+      "num_clips": 7,
+      "median_magnitude": 0.08589007705450058,
+      "rgb_url": "static/videos/stereo4d/elgXFV_RZ6U_376810143.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/elgXFV_RZ6U_376810143.json"
+    },
+    {
+      "id": "fErGXroswjU_180146813",
+      "split": "train",
+      "text": "a man in a red shirt walks to the left",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 2,
+      "median_magnitude": 0.015980400145053864,
+      "rgb_url": "static/videos/stereo4d/fErGXroswjU_180146813.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/fErGXroswjU_180146813.json"
+    },
+    {
+      "id": "fSaElSLEb8M_103003003",
+      "split": "train",
+      "text": "a person rides a bike on a dirt path",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6"
+      ],
+      "num_objects": 7,
+      "num_frames": 199,
+      "num_clips": 6,
+      "median_magnitude": 0.0804906114935875,
+      "rgb_url": "static/videos/stereo4d/fSaElSLEb8M_103003003.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/fSaElSLEb8M_103003003.json"
+    },
+    {
+      "id": "fnhMw91f_gE_75942609",
+      "split": "test",
+      "text": "a man and a woman walk towards the camera",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 175,
+      "num_clips": 4,
+      "median_magnitude": 0.024036899209022522,
+      "rgb_url": "static/videos/stereo4d/fnhMw91f_gE_75942609.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/fnhMw91f_gE_75942609.json"
+    },
+    {
+      "id": "fu1YUzzS-qs_15081748",
+      "split": "train",
+      "text": "a person walks to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 199,
+      "num_clips": 11,
+      "median_magnitude": 0.13485486060380936,
+      "rgb_url": "static/videos/stereo4d/fu1YUzzS-qs_15081748.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/fu1YUzzS-qs_15081748.json"
+    },
+    {
+      "id": "gHGoKZqPjuQ_112612613",
+      "split": "train",
+      "text": "a group of people push a cart with a golden bird on it",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 50,
+      "num_clips": 2,
+      "median_magnitude": 0.09601764380931854,
+      "rgb_url": "static/videos/stereo4d/gHGoKZqPjuQ_112612613.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/gHGoKZqPjuQ_112612613.json"
+    },
+    {
+      "id": "glKh-CdiEfM_35101768",
+      "split": "train",
+      "text": "a person walks on a bridge",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 197,
+      "num_clips": 12,
+      "median_magnitude": 0.05320534482598305,
+      "rgb_url": "static/videos/stereo4d/glKh-CdiEfM_35101768.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/glKh-CdiEfM_35101768.json"
+    },
+    {
+      "id": "gyYzc-OEKo0_745945946",
+      "split": "train",
+      "text": "a person pushes a baby stroller to the right",
+      "object_names": [
+        "obj0"
+      ],
+      "num_objects": 1,
+      "num_frames": 199,
+      "num_clips": 1,
+      "median_magnitude": 0.09961846098303795,
+      "rgb_url": "static/videos/stereo4d/gyYzc-OEKo0_745945946.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/gyYzc-OEKo0_745945946.json"
+    },
+    {
+      "id": "h5dSe1xWMFM_34668001",
+      "split": "train",
+      "text": "a man in a black suit stands on a red carpet",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 41,
+      "num_clips": 2,
+      "median_magnitude": 0.04621104709804058,
+      "rgb_url": "static/videos/stereo4d/h5dSe1xWMFM_34668001.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/h5dSe1xWMFM_34668001.json"
+    },
+    {
+      "id": "h8uqVl4FXlc_48448448",
+      "split": "train",
+      "text": "a woman walks away from the camera",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.04216991551220417,
+      "rgb_url": "static/videos/stereo4d/h8uqVl4FXlc_48448448.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/h8uqVl4FXlc_48448448.json"
+    },
+    {
+      "id": "hQ6xDzDijrI_297097097",
+      "split": "train",
+      "text": "a group of fish swim to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6"
+      ],
+      "num_objects": 7,
+      "num_frames": 199,
+      "num_clips": 18,
+      "median_magnitude": 0.09639814496040344,
+      "rgb_url": "static/videos/stereo4d/hQ6xDzDijrI_297097097.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/hQ6xDzDijrI_297097097.json"
+    },
+    {
+      "id": "hr-0u3WEGZg_208341675",
+      "split": "test",
+      "text": "a boat sails to the left along the river",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 131,
+      "num_clips": 6,
+      "median_magnitude": 0.12697716057300568,
+      "rgb_url": "static/videos/stereo4d/hr-0u3WEGZg_208341675.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/hr-0u3WEGZg_208341675.json"
+    },
+    {
+      "id": "iF8a2aiK4lA_75241909",
+      "split": "test",
+      "text": "a person walks through a grassy field",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7",
+        "obj8",
+        "obj9"
+      ],
+      "num_objects": 10,
+      "num_frames": 199,
+      "num_clips": 3,
+      "median_magnitude": 0.015871820971369743,
+      "rgb_url": "static/videos/stereo4d/iF8a2aiK4lA_75241909.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/iF8a2aiK4lA_75241909.json"
+    },
+    {
+      "id": "iM_0VpBrm8g_968068068",
+      "split": "train",
+      "text": "two people walk on a bridge",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 44,
+      "num_clips": 2,
+      "median_magnitude": 0.05341816693544388,
+      "rgb_url": "static/videos/stereo4d/iM_0VpBrm8g_968068068.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/iM_0VpBrm8g_968068068.json"
+    },
+    {
+      "id": "imEBp-d2ePE_35101768",
+      "split": "train",
+      "text": "a group of people dance on the street",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 2,
+      "median_magnitude": 0.01268688589334488,
+      "rgb_url": "static/videos/stereo4d/imEBp-d2ePE_35101768.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/imEBp-d2ePE_35101768.json"
+    },
+    {
+      "id": "ivKIgrkrl_M_508908909",
+      "split": "train",
+      "text": "a black bird swims to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 4,
+      "median_magnitude": 0.027439992874860764,
+      "rgb_url": "static/videos/stereo4d/ivKIgrkrl_M_508908909.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/ivKIgrkrl_M_508908909.json"
+    },
+    {
+      "id": "ivKIgrkrl_M_515582249",
+      "split": "train",
+      "text": "a person rotates the bike and inspects it carefully",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 9,
+      "median_magnitude": 0.03361515514552593,
+      "rgb_url": "static/videos/stereo4d/ivKIgrkrl_M_515582249.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/ivKIgrkrl_M_515582249.json"
+    },
+    {
+      "id": "j2aWcWP-M9E_221488155",
+      "split": "train",
+      "text": "a person rotates the bike and inspects it carefully",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 159,
+      "num_clips": 8,
+      "median_magnitude": 0.09010510891675949,
+      "rgb_url": "static/videos/stereo4d/j2aWcWP-M9E_221488155.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/j2aWcWP-M9E_221488155.json"
+    },
+    {
+      "id": "jQJNS-Ubd5U_161895229",
+      "split": "train",
+      "text": "a man walks to the left and then stops",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 7,
+      "median_magnitude": 0.029417095705866814,
+      "rgb_url": "static/videos/stereo4d/jQJNS-Ubd5U_161895229.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/jQJNS-Ubd5U_161895229.json"
+    },
+    {
+      "id": "jXs2X4tdGpE_68400000",
+      "split": "train",
+      "text": "a boat sails to the left along the river",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 199,
+      "num_clips": 12,
+      "median_magnitude": 0.030839664861559868,
+      "rgb_url": "static/videos/stereo4d/jXs2X4tdGpE_68400000.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/jXs2X4tdGpE_68400000.json"
+    },
+    {
+      "id": "km94Jd0GlFA_43910577",
+      "split": "train",
+      "text": "a person walks on a path",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 199,
+      "num_clips": 6,
+      "median_magnitude": 0.036723848432302475,
+      "rgb_url": "static/videos/stereo4d/km94Jd0GlFA_43910577.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/km94Jd0GlFA_43910577.json"
+    },
+    {
+      "id": "kwc2WRiVud4_319419419",
+      "split": "train",
+      "text": "a person walks to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6"
+      ],
+      "num_objects": 7,
+      "num_frames": 199,
+      "num_clips": 9,
+      "median_magnitude": 0.04614194482564926,
+      "rgb_url": "static/videos/stereo4d/kwc2WRiVud4_319419419.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/kwc2WRiVud4_319419419.json"
+    },
+    {
+      "id": "l3fCdeyEMyI_273940607",
+      "split": "train",
+      "text": "a white van drives on a road",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7"
+      ],
+      "num_objects": 8,
+      "num_frames": 156,
+      "num_clips": 12,
+      "median_magnitude": 0.05762474238872528,
+      "rgb_url": "static/videos/stereo4d/l3fCdeyEMyI_273940607.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/l3fCdeyEMyI_273940607.json"
+    },
+    {
+      "id": "lGD0mGXd2yU_48448448",
+      "split": "train",
+      "text": "a person runs along a path",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.0180066991597414,
+      "rgb_url": "static/videos/stereo4d/lGD0mGXd2yU_48448448.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/lGD0mGXd2yU_48448448.json"
+    },
+    {
+      "id": "lPsfe5ekKAw_21755088",
+      "split": "train",
+      "text": "a train travels to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 3,
+      "median_magnitude": 0.06259988993406296,
+      "rgb_url": "static/videos/stereo4d/lPsfe5ekKAw_21755088.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/lPsfe5ekKAw_21755088.json"
+    },
+    {
+      "id": "lZfeom99mxs_75909243",
+      "split": "train",
+      "text": "a white car drives to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 197,
+      "num_clips": 4,
+      "median_magnitude": 0.08239544555544853,
+      "rgb_url": "static/videos/stereo4d/lZfeom99mxs_75909243.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/lZfeom99mxs_75909243.json"
+    },
+    {
+      "id": "laDVW0cqZVA_41720000",
+      "split": "train",
+      "text": "a man in a black coat walks away while pulling a suitcase",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 124,
+      "num_clips": 3,
+      "median_magnitude": 0.0573880635201931,
+      "rgb_url": "static/videos/stereo4d/laDVW0cqZVA_41720000.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/laDVW0cqZVA_41720000.json"
+    },
+    {
+      "id": "lefUXutX9OQ_171916667",
+      "split": "train",
+      "text": "a boat sails to the left along the river",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7"
+      ],
+      "num_objects": 8,
+      "num_frames": 199,
+      "num_clips": 17,
+      "median_magnitude": 0.08047673851251602,
+      "rgb_url": "static/videos/stereo4d/lefUXutX9OQ_171916667.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/lefUXutX9OQ_171916667.json"
+    },
+    {
+      "id": "lnSj7Nma6l8_115248582",
+      "split": "train",
+      "text": "A person walks down the stairs",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7"
+      ],
+      "num_objects": 8,
+      "num_frames": 167,
+      "num_clips": 13,
+      "median_magnitude": 0.19652801752090454,
+      "rgb_url": "static/videos/stereo4d/lnSj7Nma6l8_115248582.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/lnSj7Nma6l8_115248582.json"
+    },
+    {
+      "id": "lo6wn-EqRu4_32565899",
+      "split": "train",
+      "text": "a red float moves to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 75,
+      "num_clips": 3,
+      "median_magnitude": 0.06170717440545559,
+      "rgb_url": "static/videos/stereo4d/lo6wn-EqRu4_32565899.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/lo6wn-EqRu4_32565899.json"
+    },
+    {
+      "id": "lo6wn-EqRu4_68468468",
+      "split": "train",
+      "text": "a man in a white jumpsuit pushes a green cart with a blonde woman inside",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.05871646851301193,
+      "rgb_url": "static/videos/stereo4d/lo6wn-EqRu4_68468468.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/lo6wn-EqRu4_68468468.json"
+    },
+    {
+      "id": "lqji6K1-iig_1018920000",
+      "split": "train",
+      "text": "a boat sails to the left along the river",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7",
+        "obj8",
+        "obj9"
+      ],
+      "num_objects": 10,
+      "num_frames": 199,
+      "num_clips": 25,
+      "median_magnitude": 0.0766473039984703,
+      "rgb_url": "static/videos/stereo4d/lqji6K1-iig_1018920000.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/lqji6K1-iig_1018920000.json"
+    },
+    {
+      "id": "lsgrh1PVNmE_48448448",
+      "split": "test",
+      "text": "a blue car drives away from the camera",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6"
+      ],
+      "num_objects": 7,
+      "num_frames": 199,
+      "num_clips": 13,
+      "median_magnitude": 0.029257051646709442,
+      "rgb_url": "static/videos/stereo4d/lsgrh1PVNmE_48448448.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/lsgrh1PVNmE_48448448.json"
+    },
+    {
+      "id": "mBI_TYEef7U_15081748",
+      "split": "train",
+      "text": "a person rides a bicycle on a paved path",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7",
+        "obj8",
+        "obj9",
+        "obj10",
+        "obj11",
+        "obj12"
+      ],
+      "num_objects": 13,
+      "num_frames": 199,
+      "num_clips": 25,
+      "median_magnitude": 0.035959091037511826,
+      "rgb_url": "static/videos/stereo4d/mBI_TYEef7U_15081748.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/mBI_TYEef7U_15081748.json"
+    },
+    {
+      "id": "mC_v4K9CkGM_115181849",
+      "split": "train",
+      "text": "a spaceship flies to the right",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 3,
+      "median_magnitude": 0.03956166096031666,
+      "rgb_url": "static/videos/stereo4d/mC_v4K9CkGM_115181849.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/mC_v4K9CkGM_115181849.json"
+    },
+    {
+      "id": "mm2s1g6ygT0_278178178",
+      "split": "train",
+      "text": "a white car drives to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 73,
+      "num_clips": 5,
+      "median_magnitude": 0.051391419023275375,
+      "rgb_url": "static/videos/stereo4d/mm2s1g6ygT0_278178178.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/mm2s1g6ygT0_278178178.json"
+    },
+    {
+      "id": "modtW3nkWHU_141875209",
+      "split": "train",
+      "text": "a person walks on a sidewalk",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7",
+        "obj8"
+      ],
+      "num_objects": 9,
+      "num_frames": 199,
+      "num_clips": 22,
+      "median_magnitude": 0.04252873361110687,
+      "rgb_url": "static/videos/stereo4d/modtW3nkWHU_141875209.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/modtW3nkWHU_141875209.json"
+    },
+    {
+      "id": "mzGE0tGlQp8_199733066",
+      "split": "train",
+      "text": "a person rotates the bike and inspects it carefully",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 199,
+      "num_clips": 7,
+      "median_magnitude": 0.037741949781775475,
+      "rgb_url": "static/videos/stereo4d/mzGE0tGlQp8_199733066.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/mzGE0tGlQp8_199733066.json"
+    },
+    {
+      "id": "n8HO3IL-s4c_68868869",
+      "split": "train",
+      "text": "a red cart moves to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 187,
+      "num_clips": 7,
+      "median_magnitude": 0.04509294405579567,
+      "rgb_url": "static/videos/stereo4d/n8HO3IL-s4c_68868869.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/n8HO3IL-s4c_68868869.json"
+    },
+    {
+      "id": "nK9_XYZDmTM_101835169",
+      "split": "train",
+      "text": "a horse walks to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.04892373085021973,
+      "rgb_url": "static/videos/stereo4d/nK9_XYZDmTM_101835169.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/nK9_XYZDmTM_101835169.json"
+    },
+    {
+      "id": "nl3xPiaSWL4_168601935",
+      "split": "train",
+      "text": "a woman pushes a baby stroller to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 199,
+      "num_clips": 16,
+      "median_magnitude": 0.06904926151037216,
+      "rgb_url": "static/videos/stereo4d/nl3xPiaSWL4_168601935.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/nl3xPiaSWL4_168601935.json"
+    },
+    {
+      "id": "o7sEi8kD5qk_35101768",
+      "split": "train",
+      "text": "a person rotates the bike and inspects it carefully",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 0,
+      "median_magnitude": 0.0035848901607096195,
+      "rgb_url": "static/videos/stereo4d/o7sEi8kD5qk_35101768.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/o7sEi8kD5qk_35101768.json"
+    },
+    {
+      "id": "oAlYnTWBVHg_115181849",
+      "split": "train",
+      "text": "a man walks to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6"
+      ],
+      "num_objects": 7,
+      "num_frames": 199,
+      "num_clips": 10,
+      "median_magnitude": 0.046647753566503525,
+      "rgb_url": "static/videos/stereo4d/oAlYnTWBVHg_115181849.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/oAlYnTWBVHg_115181849.json"
+    },
+    {
+      "id": "okA8DaH0JI8_201267935",
+      "split": "train",
+      "text": "a group of people stand and take pictures",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 4,
+      "median_magnitude": 0.018298781476914883,
+      "rgb_url": "static/videos/stereo4d/okA8DaH0JI8_201267935.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/okA8DaH0JI8_201267935.json"
+    },
+    {
+      "id": "okA8DaH0JI8_325892559",
+      "split": "train",
+      "text": "a person walks on a bridge",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.04969858191907406,
+      "rgb_url": "static/videos/stereo4d/okA8DaH0JI8_325892559.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/okA8DaH0JI8_325892559.json"
+    },
+    {
+      "id": "p0RyMEnk-z0_19560000",
+      "split": "train",
+      "text": "a woman in a white dress walks away from the camera",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 87,
+      "num_clips": 2,
+      "median_magnitude": 0.09188295155763626,
+      "rgb_url": "static/videos/stereo4d/p0RyMEnk-z0_19560000.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/p0RyMEnk-z0_19560000.json"
+    },
+    {
+      "id": "pJbIE60H5mQ_543643644",
+      "split": "test",
+      "text": "a person rotates the camera and inspects it carefully",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 8,
+      "median_magnitude": 0.15543319284915924,
+      "rgb_url": "static/videos/stereo4d/pJbIE60H5mQ_543643644.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/pJbIE60H5mQ_543643644.json"
+    },
+    {
+      "id": "pJn4kWZOOZY_295362029",
+      "split": "train",
+      "text": "a white truck drives to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 173,
+      "num_clips": 4,
+      "median_magnitude": 0.06736988201737404,
+      "rgb_url": "static/videos/stereo4d/pJn4kWZOOZY_295362029.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/pJn4kWZOOZY_295362029.json"
+    },
+    {
+      "id": "ppg9V8JMo1E_498932266",
+      "split": "test",
+      "text": "people walk in different directions on the ground floor",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 2,
+      "median_magnitude": 0.02345388475805521,
+      "rgb_url": "static/videos/stereo4d/ppg9V8JMo1E_498932266.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/ppg9V8JMo1E_498932266.json"
+    },
+    {
+      "id": "pwBorgoDJh0_148548549",
+      "split": "test",
+      "text": "a man walks towards the camera",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 4,
+      "median_magnitude": 0.06013884022831917,
+      "rgb_url": "static/videos/stereo4d/pwBorgoDJh0_148548549.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/pwBorgoDJh0_148548549.json"
+    },
+    {
+      "id": "qB4MSnQUptc_75141808",
+      "split": "train",
+      "text": "fish swim in different directions",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 0,
+      "median_magnitude": 0.0075999293476343155,
+      "rgb_url": "static/videos/stereo4d/qB4MSnQUptc_75141808.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/qB4MSnQUptc_75141808.json"
+    },
+    {
+      "id": "qI2pMpJHoAA_162662663",
+      "split": "train",
+      "text": "a person walks along a dirt path",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 2,
+      "median_magnitude": 0.02685653045773506,
+      "rgb_url": "static/videos/stereo4d/qI2pMpJHoAA_162662663.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/qI2pMpJHoAA_162662663.json"
+    },
+    {
+      "id": "qJ8UKiQY5P0_81815148",
+      "split": "train",
+      "text": "a woman walks to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 3,
+      "median_magnitude": 0.016520747914910316,
+      "rgb_url": "static/videos/stereo4d/qJ8UKiQY5P0_81815148.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/qJ8UKiQY5P0_81815148.json"
+    },
+    {
+      "id": "qW8o0UyGnF0_642342342",
+      "split": "train",
+      "text": "a man stands at a podium and speaks while gesturing with his hands",
+      "object_names": [
+        "obj0"
+      ],
+      "num_objects": 1,
+      "num_frames": 199,
+      "num_clips": 1,
+      "median_magnitude": 0.020530826412141323,
+      "rgb_url": "static/videos/stereo4d/qW8o0UyGnF0_642342342.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/qW8o0UyGnF0_642342342.json"
+    },
+    {
+      "id": "r25PWH56d2s_177911245",
+      "split": "train",
+      "text": "a group of people walk to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 199,
+      "num_clips": 7,
+      "median_magnitude": 0.042787592858076096,
+      "rgb_url": "static/videos/stereo4d/r25PWH56d2s_177911245.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/r25PWH56d2s_177911245.json"
+    },
+    {
+      "id": "r7hQYzFjV0I_295362029",
+      "split": "train",
+      "text": "a woman in a blue shirt walks to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 199,
+      "num_clips": 9,
+      "median_magnitude": 0.034015173092484474,
+      "rgb_url": "static/videos/stereo4d/r7hQYzFjV0I_295362029.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/r7hQYzFjV0I_295362029.json"
+    },
+    {
+      "id": "rEwR6KXmhcM_428828829",
+      "split": "train",
+      "text": "a white van drives to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7"
+      ],
+      "num_objects": 8,
+      "num_frames": 199,
+      "num_clips": 17,
+      "median_magnitude": 0.12721018493175507,
+      "rgb_url": "static/videos/stereo4d/rEwR6KXmhcM_428828829.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/rEwR6KXmhcM_428828829.json"
+    },
+    {
+      "id": "rWAzypBGu8Y_669169169",
+      "split": "train",
+      "text": "a person walks on a sidewalk",
+      "object_names": [
+        "obj0"
+      ],
+      "num_objects": 1,
+      "num_frames": 54,
+      "num_clips": 1,
+      "median_magnitude": 0.036716002970933914,
+      "rgb_url": "static/videos/stereo4d/rWAzypBGu8Y_669169169.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/rWAzypBGu8Y_669169169.json"
+    },
+    {
+      "id": "raFwMM9ZepM_28428428",
+      "split": "train",
+      "text": "a person runs to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 199,
+      "num_clips": 9,
+      "median_magnitude": 0.049781737849116325,
+      "rgb_url": "static/videos/stereo4d/raFwMM9ZepM_28428428.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/raFwMM9ZepM_28428428.json"
+    },
+    {
+      "id": "rhwrd2cdcq8_128094761",
+      "split": "train",
+      "text": "a dark gray car drives through a roundabout",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 199,
+      "num_clips": 14,
+      "median_magnitude": 0.027921359986066818,
+      "rgb_url": "static/videos/stereo4d/rhwrd2cdcq8_128094761.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/rhwrd2cdcq8_128094761.json"
+    },
+    {
+      "id": "rxB3kaMBcPM_136469803",
+      "split": "train",
+      "text": "a family of four walks to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7"
+      ],
+      "num_objects": 8,
+      "num_frames": 155,
+      "num_clips": 12,
+      "median_magnitude": 0.047745028510689735,
+      "rgb_url": "static/videos/stereo4d/rxB3kaMBcPM_136469803.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/rxB3kaMBcPM_136469803.json"
+    },
+    {
+      "id": "rxB3kaMBcPM_215081748",
+      "split": "train",
+      "text": "a person rides a bicycle on a street",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 199,
+      "num_clips": 7,
+      "median_magnitude": 0.044091083109378815,
+      "rgb_url": "static/videos/stereo4d/rxB3kaMBcPM_215081748.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/rxB3kaMBcPM_215081748.json"
+    },
+    {
+      "id": "sbcUC3xaXfE_188588589",
+      "split": "train",
+      "text": "two people walk to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 2,
+      "median_magnitude": 0.018263081554323435,
+      "rgb_url": "static/videos/stereo4d/sbcUC3xaXfE_188588589.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/sbcUC3xaXfE_188588589.json"
+    },
+    {
+      "id": "tOO0fqeumzs_735101768",
+      "split": "train",
+      "text": "a bike rider rides a bmx bike on a dirt track",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 166,
+      "num_clips": 4,
+      "median_magnitude": 0.023564312607049942,
+      "rgb_url": "static/videos/stereo4d/tOO0fqeumzs_735101768.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/tOO0fqeumzs_735101768.json"
+    },
+    {
+      "id": "tTlVc7QSD3c_824958292",
+      "split": "train",
+      "text": "a person rides a bike on a dirt road",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 171,
+      "num_clips": 6,
+      "median_magnitude": 0.04950748570263386,
+      "rgb_url": "static/videos/stereo4d/tTlVc7QSD3c_824958292.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/tTlVc7QSD3c_824958292.json"
+    },
+    {
+      "id": "thaW-ZeQHgY_41775108",
+      "split": "train",
+      "text": "four men in yellow and white striped suits walk in a circle on a stage",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6"
+      ],
+      "num_objects": 7,
+      "num_frames": 199,
+      "num_clips": 3,
+      "median_magnitude": 0.00899526383727789,
+      "rgb_url": "static/videos/stereo4d/thaW-ZeQHgY_41775108.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/thaW-ZeQHgY_41775108.json"
+    },
+    {
+      "id": "tyySapX6dh4_15081748",
+      "split": "train",
+      "text": "a white car drives to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 199,
+      "num_clips": 10,
+      "median_magnitude": 0.0444916021078825,
+      "rgb_url": "static/videos/stereo4d/tyySapX6dh4_15081748.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/tyySapX6dh4_15081748.json"
+    },
+    {
+      "id": "u3UgsriWI24_383416750",
+      "split": "train",
+      "text": "a group of runners starts a race on a dirt path",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 3,
+      "median_magnitude": 0.06198621727526188,
+      "rgb_url": "static/videos/stereo4d/u3UgsriWI24_383416750.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/u3UgsriWI24_383416750.json"
+    },
+    {
+      "id": "u7Yz03ArSRI_215281949",
+      "split": "train",
+      "text": "a dark gray car drives through a roundabout",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 2,
+      "median_magnitude": 0.11507903411984444,
+      "rgb_url": "static/videos/stereo4d/u7Yz03ArSRI_215281949.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/u7Yz03ArSRI_215281949.json"
+    },
+    {
+      "id": "uIioHD3J5uA_142075409",
+      "split": "train",
+      "text": "a person walks up a hill",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 193,
+      "num_clips": 8,
+      "median_magnitude": 0.017627593129873276,
+      "rgb_url": "static/videos/stereo4d/uIioHD3J5uA_142075409.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/uIioHD3J5uA_142075409.json"
+    },
+    {
+      "id": "uIioHD3J5uA_632532533",
+      "split": "train",
+      "text": "a person walks to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 98,
+      "num_clips": 3,
+      "median_magnitude": 0.08861905336380005,
+      "rgb_url": "static/videos/stereo4d/uIioHD3J5uA_632532533.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/uIioHD3J5uA_632532533.json"
+    },
+    {
+      "id": "uLbNyzbHnZs_41775108",
+      "split": "train",
+      "text": "two women walk towards the camera",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 2,
+      "median_magnitude": 0.015356957912445068,
+      "rgb_url": "static/videos/stereo4d/uLbNyzbHnZs_41775108.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/uLbNyzbHnZs_41775108.json"
+    },
+    {
+      "id": "uNOj-Zvq-u0_515615616",
+      "split": "train",
+      "text": "a brown bear walks to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 0,
+      "median_magnitude": 0.0014004071708768606,
+      "rgb_url": "static/videos/stereo4d/uNOj-Zvq-u0_515615616.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/uNOj-Zvq-u0_515615616.json"
+    },
+    {
+      "id": "uamnLtVdxsg_282015349",
+      "split": "train",
+      "text": "a person runs on a path",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 199,
+      "num_clips": 14,
+      "median_magnitude": 0.04027534835040569,
+      "rgb_url": "static/videos/stereo4d/uamnLtVdxsg_282015349.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/uamnLtVdxsg_282015349.json"
+    },
+    {
+      "id": "untiV8bcrZc_155221889",
+      "split": "train",
+      "text": "a group of people walk to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 1,
+      "median_magnitude": 0.012441700790077448,
+      "rgb_url": "static/videos/stereo4d/untiV8bcrZc_155221889.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/untiV8bcrZc_155221889.json"
+    },
+    {
+      "id": "uv9a3S6ZAjg_281781782",
+      "split": "train",
+      "text": "a silver car drives to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 10,
+      "median_magnitude": 0.030679993331432343,
+      "rgb_url": "static/videos/stereo4d/uv9a3S6ZAjg_281781782.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/uv9a3S6ZAjg_281781782.json"
+    },
+    {
+      "id": "uySnLlKOsFo_653153153",
+      "split": "train",
+      "text": "a white boat moves to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 1,
+      "median_magnitude": 0.010860692709684372,
+      "rgb_url": "static/videos/stereo4d/uySnLlKOsFo_653153153.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/uySnLlKOsFo_653153153.json"
+    },
+    {
+      "id": "vDbrrDiHuFQ_403336670",
+      "split": "train",
+      "text": "a person rotates the bike and inspects it carefully",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 43,
+      "num_clips": 2,
+      "median_magnitude": 0.07589574158191681,
+      "rgb_url": "static/videos/stereo4d/vDbrrDiHuFQ_403336670.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/vDbrrDiHuFQ_403336670.json"
+    },
+    {
+      "id": "vOSoDlkTfyU_47200000",
+      "split": "train",
+      "text": "a bus drives to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 196,
+      "num_clips": 5,
+      "median_magnitude": 0.05341670289635658,
+      "rgb_url": "static/videos/stereo4d/vOSoDlkTfyU_47200000.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/vOSoDlkTfyU_47200000.json"
+    },
+    {
+      "id": "vbH-mJjp1as_125266667",
+      "split": "train",
+      "text": "a woman in a superhero costume holds a glowing stick and moves her body",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 1,
+      "median_magnitude": 0.026277744211256504,
+      "rgb_url": "static/videos/stereo4d/vbH-mJjp1as_125266667.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/vbH-mJjp1as_125266667.json"
+    },
+    {
+      "id": "vqem1CAAZvI_88488488",
+      "split": "train",
+      "text": "a person walks to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 9,
+      "median_magnitude": 0.022469310089945793,
+      "rgb_url": "static/videos/stereo4d/vqem1CAAZvI_88488488.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/vqem1CAAZvI_88488488.json"
+    },
+    {
+      "id": "vrcwa5dEKG8_534834835",
+      "split": "train",
+      "text": "a silver van drives to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 199,
+      "num_clips": 13,
+      "median_magnitude": 0.03352888487279415,
+      "rgb_url": "static/videos/stereo4d/vrcwa5dEKG8_534834835.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/vrcwa5dEKG8_534834835.json"
+    },
+    {
+      "id": "w87MKcDXKyA_35101768",
+      "split": "train",
+      "text": "a blue train travels to the right along the tracks",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 8,
+      "median_magnitude": 0.4948774576187134,
+      "rgb_url": "static/videos/stereo4d/w87MKcDXKyA_35101768.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/w87MKcDXKyA_35101768.json"
+    },
+    {
+      "id": "x38pAouTF7g_101835169",
+      "split": "train",
+      "text": "a blue train travels to the left",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.02240016683936119,
+      "rgb_url": "static/videos/stereo4d/x38pAouTF7g_101835169.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/x38pAouTF7g_101835169.json"
+    },
+    {
+      "id": "x6g8GAM7vVw_402135469",
+      "split": "train",
+      "text": "a person wearing a black t-shirt walks to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.06286182999610901,
+      "rgb_url": "static/videos/stereo4d/x6g8GAM7vVw_402135469.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/x6g8GAM7vVw_402135469.json"
+    },
+    {
+      "id": "xBVhNGESeOU_361094428",
+      "split": "train",
+      "text": "a bike rider rides a bmx bike on a dirt track",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 55,
+      "num_clips": 2,
+      "median_magnitude": 0.04121570289134979,
+      "rgb_url": "static/videos/stereo4d/xBVhNGESeOU_361094428.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/xBVhNGESeOU_361094428.json"
+    },
+    {
+      "id": "xJG9U2KJwyA_168568569",
+      "split": "train",
+      "text": "a white car drives to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7",
+        "obj8"
+      ],
+      "num_objects": 9,
+      "num_frames": 199,
+      "num_clips": 13,
+      "median_magnitude": 0.08489827811717987,
+      "rgb_url": "static/videos/stereo4d/xJG9U2KJwyA_168568569.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/xJG9U2KJwyA_168568569.json"
+    },
+    {
+      "id": "xeU0DN7x8Bw_181915249",
+      "split": "train",
+      "text": "a boat sails to the left along the river",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5"
+      ],
+      "num_objects": 6,
+      "num_frames": 199,
+      "num_clips": 9,
+      "median_magnitude": 0.14814241230487823,
+      "rgb_url": "static/videos/stereo4d/xeU0DN7x8Bw_181915249.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/xeU0DN7x8Bw_181915249.json"
+    },
+    {
+      "id": "xrR-9vOsEtU_61795128",
+      "split": "test",
+      "text": "a white truck drives to the right",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.5043610036373138,
+      "rgb_url": "static/videos/stereo4d/xrR-9vOsEtU_61795128.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/xrR-9vOsEtU_61795128.json"
+    },
+    {
+      "id": "xyGpRps8AbA_121855189",
+      "split": "test",
+      "text": "a rhinoceros walks to the left",
+      "object_names": [
+        "obj0"
+      ],
+      "num_objects": 1,
+      "num_frames": 199,
+      "num_clips": 0,
+      "median_magnitude": 0.007492078468203545,
+      "rgb_url": "static/videos/stereo4d/xyGpRps8AbA_121855189.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/xyGpRps8AbA_121855189.json"
+    },
+    {
+      "id": "y3QArSrqhOw_108508509",
+      "split": "test",
+      "text": "a man rides a scooter to the right",
+      "object_names": [
+        "obj0",
+        "obj1"
+      ],
+      "num_objects": 2,
+      "num_frames": 199,
+      "num_clips": 1,
+      "median_magnitude": 0.022183840163052082,
+      "rgb_url": "static/videos/stereo4d/y3QArSrqhOw_108508509.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/y3QArSrqhOw_108508509.json"
+    },
+    {
+      "id": "yCWKQEdtdXI_81815148",
+      "split": "train",
+      "text": "a person rides a bicycle on a road",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 5,
+      "median_magnitude": 0.09004782140254974,
+      "rgb_url": "static/videos/stereo4d/yCWKQEdtdXI_81815148.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/yCWKQEdtdXI_81815148.json"
+    },
+    {
+      "id": "yIkGujjUZaA_28428428",
+      "split": "train",
+      "text": "a woman walks to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4"
+      ],
+      "num_objects": 5,
+      "num_frames": 199,
+      "num_clips": 11,
+      "median_magnitude": 0.04310697875916958,
+      "rgb_url": "static/videos/stereo4d/yIkGujjUZaA_28428428.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/yIkGujjUZaA_28428428.json"
+    },
+    {
+      "id": "yZYndYwCTd4_321580000",
+      "split": "train",
+      "text": "a person walks to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 77,
+      "num_clips": 3,
+      "median_magnitude": 0.060850292444229126,
+      "rgb_url": "static/videos/stereo4d/yZYndYwCTd4_321580000.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/yZYndYwCTd4_321580000.json"
+    },
+    {
+      "id": "ycV8gBYMOT8_802669336",
+      "split": "train",
+      "text": "a white car drives to the left",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2"
+      ],
+      "num_objects": 3,
+      "num_frames": 199,
+      "num_clips": 8,
+      "median_magnitude": 0.12541606277227402,
+      "rgb_url": "static/videos/stereo4d/ycV8gBYMOT8_802669336.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/ycV8gBYMOT8_802669336.json"
+    },
+    {
+      "id": "zM8YwEMZuWs_41775108",
+      "split": "train",
+      "text": "a person walks along a dirt path",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7"
+      ],
+      "num_objects": 8,
+      "num_frames": 199,
+      "num_clips": 17,
+      "median_magnitude": 0.03813948109745979,
+      "rgb_url": "static/videos/stereo4d/zM8YwEMZuWs_41775108.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/zM8YwEMZuWs_41775108.json"
+    },
+    {
+      "id": "zWi0Ur-KdiA_555622289",
+      "split": "train",
+      "text": "three people play a game of throwing water balloons at each other",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 199,
+      "num_clips": 7,
+      "median_magnitude": 0.048634616658091545,
+      "rgb_url": "static/videos/stereo4d/zWi0Ur-KdiA_555622289.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/zWi0Ur-KdiA_555622289.json"
+    },
+    {
+      "id": "zWi0Ur-KdiA_773506840",
+      "split": "train",
+      "text": "a person runs to the right",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3",
+        "obj4",
+        "obj5",
+        "obj6",
+        "obj7"
+      ],
+      "num_objects": 8,
+      "num_frames": 199,
+      "num_clips": 8,
+      "median_magnitude": 0.07019692286849022,
+      "rgb_url": "static/videos/stereo4d/zWi0Ur-KdiA_773506840.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/zWi0Ur-KdiA_773506840.json"
+    },
+    {
+      "id": "zsncwjWNObQ_64698031",
+      "split": "test",
+      "text": "water flows down the waterfall and into the pond below",
+      "object_names": [
+        "obj0",
+        "obj1",
+        "obj2",
+        "obj3"
+      ],
+      "num_objects": 4,
+      "num_frames": 195,
+      "num_clips": 6,
+      "median_magnitude": 0.05656261183321476,
+      "rgb_url": "static/videos/stereo4d/zsncwjWNObQ_64698031.mp4",
+      "motion_url": "static/data/motion/stereo4d_clips/zsncwjWNObQ_64698031.json"
+    }
+  ]
+}
