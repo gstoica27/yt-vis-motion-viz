@@ -67,8 +67,12 @@ body { font-family:'Inter',sans-serif; background:var(--bg); color:var(--text); 
 .timeline-label .obj-name { font-family:monospace; }
 .timeline-label .obj-clips { font-size:0.62rem; color:var(--text-muted); font-family:monospace; }
 .timeline-bar { position:relative; height:20px; background:var(--track-bg); border-radius:3px; border:1px solid var(--border); overflow:hidden; }
-.clip-range { position:absolute; top:0; bottom:0; opacity:0.85; cursor:pointer; }
+.clip-range { position:absolute; top:0; bottom:0; opacity:0.85; cursor:pointer; transition:outline 0.1s, opacity 0.1s; }
+.clip-range:hover { opacity:1.0; outline:1px solid var(--cursor); }
+.clip-range.active { outline:2px solid var(--cursor); outline-offset:1px; z-index:5; }
 .cursor-line { position:absolute; top:-2px; bottom:-2px; width:2px; background:var(--cursor); z-index:10; pointer-events:none; }
+.timeline-row { transition:opacity 0.15s; }
+.timeline-row.dim { opacity:0.25; }
 
 .scrub-row { display:flex; align-items:center; gap:8px; padding:6px 14px; border-top:1px solid var(--border); }
 .play-btn { background:none; border:1px solid var(--border); color:var(--text); padding:2px 9px; border-radius:4px; cursor:pointer; font-size:0.75rem; font-family:inherit; }
@@ -346,10 +350,55 @@ function buildTimelines(id, md) {
   for(const[name,ranges]of Object.entries(clips)){
     const color=colorForObject(name);
     const totalF=ranges.reduce((s,[a,b])=>s+(b-a+1),0);
-    const row=document.createElement('div'); row.className='timeline-row';
+    const row=document.createElement('div'); row.className='timeline-row'; row.dataset.obj=name;
     row.innerHTML=`<div class="timeline-label"><span class="obj-name" style="color:${color}">■ ${escapeHtml(name)}</span><span class="obj-clips">${ranges.length} clip${ranges.length===1?'':'s'} · ${totalF}f</span></div>
-      <div class="timeline-bar">${ranges.map(([s,e])=>`<div class="clip-range" style="left:${s/(T-1)*100}%;width:${(e-s+1)/T*100}%;background:${color};"></div>`).join('')}<div class="cursor-line"></div></div>`;
+      <div class="timeline-bar">${ranges.map(([s,e])=>`<div class="clip-range" data-obj="${escapeHtml(name)}" data-start="${s}" data-end="${e}" title="${escapeHtml(name)} · frames ${s}-${e} · click to focus" style="left:${s/(T-1)*100}%;width:${(e-s+1)/T*100}%;background:${color};"></div>`).join('')}<div class="cursor-line"></div></div>`;
     panel.appendChild(row);
+  }
+  panel.addEventListener('click', (ev) => {
+    const target = ev.target;
+    if (!target.classList.contains('clip-range')) return;
+    const obj = target.dataset.obj;
+    const start = +target.dataset.start;
+    const st = cardState[id];
+    const isActive = st.highlightObj === obj && st.highlightStart === start;
+    if (isActive) {
+      st.highlightObj = null;
+      st.highlightStart = null;
+    } else {
+      st.highlightObj = obj;
+      st.highlightStart = start;
+      const vid = document.getElementById(id+'_vid');
+      if (vid && vid.duration && md.num_frames > 1) {
+        vid.currentTime = (start / (md.num_frames - 1)) * vid.duration;
+        if (vid.paused) vid.play();
+      }
+    }
+    applyHighlight(id);
+  });
+}
+
+function applyHighlight(id) {
+  const st = cardState[id];
+  const card = document.getElementById(id);
+  if (!card) return;
+  const hi = st.highlightObj;
+  card.querySelectorAll('.timeline-row').forEach(row => {
+    row.classList.toggle('dim', !!hi && row.dataset.obj !== hi);
+  });
+  card.querySelectorAll('.clip-range').forEach(el => {
+    el.classList.toggle('active', !!hi && el.dataset.obj === hi && +el.dataset.start === st.highlightStart);
+  });
+  if (st.chart) {
+    st.chart.data.datasets.forEach(ds => { ds.hidden = !!hi && ds.label !== hi; });
+    st.chart.update('none');
+  }
+  if (st.draw3DFrame) {
+    const vid = document.getElementById(id+'_vid');
+    const T = (st.motionData && st.motionData.num_frames) || 1;
+    let fi = 0;
+    if (vid && vid.duration) fi = Math.min(Math.round((vid.currentTime/vid.duration)*(T-1)), T-1);
+    st.draw3DFrame(fi);
   }
 }
 
@@ -369,6 +418,7 @@ function start2DOverlay(id, md, vid) {
     ctx.clearRect(0,0,cssW,cssH);
     const T=md.num_frames,fi=Math.min(Math.round((vid.currentTime/vid.duration)*(T-1)),T-1),ts=Math.max(0,fi-TRAIL_LEN);
     for(const[name,td]of Object.entries(md.tracks_by_object)){
+      if (cardState[id].highlightObj && cardState[id].highlightObj !== name) continue;
       const color=colorForObject(name),tracks=td.tracks,vis=td.visibility,P=tracks.length;
       for(let p=0;p<P;p++){
         ctx.strokeStyle=color;ctx.lineWidth=1.5;ctx.beginPath();let started=false;
@@ -463,6 +513,7 @@ function init3DViewer(id, md){
   function draw3DFrame(fi){
     while(dynGroup.children.length) dynGroup.remove(dynGroup.children[0]);
     for(const[name,od] of objEntries){
+      if (cardState[id].highlightObj && cardState[id].highlightObj !== name) continue;
       const N=od.N, T=od.T, data=od.pts3d, vis=od.vis3d;
       const colors=hsvPaletteRGB(N);
       const trailStart=Math.max(0,fi-TRAIL);
