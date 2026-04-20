@@ -94,11 +94,14 @@ body { font-family:'Inter',sans-serif; background:var(--bg); color:var(--text); 
     <div>
       <h1>Stereo4D — Motion Patterns</h1>
       <div class="subtitle">
-        Random 300 of the 46,224 captioned Stereo4D clips. Each card shows the
-        left-rectified RGB with 2D track overlay (left), animated 3D world-frame tracks (right),
-        per-object motion-magnitude curve (in <strong>real meters</strong>, world frame), and
-        threshold-segmented clip ranges. Tracks are clustered into objects via velocity-similarity;
-        chart cutoff line at 0.02 m/frame ≈ 0.6 m/s. Native 30 fps, T≈199 frames.
+        Random 300 of the <strong>24,193 strict-GOOD</strong> Stereo4D clips
+        (clips whose tracks all survive <code>max_jump &lt; 0.3 m</code> and
+        re-cluster into ≤ 3 objects — the noisy clips are now filtered out).
+        Each card shows the left-rectified RGB with 2D track overlay (left),
+        animated 3D world-frame tracks (right), per-object motion-magnitude
+        curve (in <strong>real meters</strong>), and threshold-segmented clip
+        ranges. Chart cutoff line at 0.02 m/frame ≈ 0.6 m/s. Native 30 fps, T≈199 frames.
+        Click any colored clip-range in the timeline to jump to its start and focus on that one object.
       </div>
     </div>
     <div class="masthead-right">

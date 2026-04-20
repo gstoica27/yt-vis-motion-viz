@@ -102,12 +102,13 @@ body { font-family:'Inter',sans-serif; background:var(--bg); color:var(--text); 
     <div>
       <h1>Stereo4D — Per-(clip, object) median magnitude</h1>
       <div class="subtitle">
-        Distribution of the median frame-to-frame motion magnitude for every
-        moving-object cluster across all 46,224 captioned Stereo4D clips
-        (209k pairs). <strong>Coordinates are real metric meters</strong>
-        (origin = left-eye camera at frame 0; tracks pre-filtered for
-        ≥1.5 m world displacement). Median magnitudes range 6e-5 → 1.27 m/frame
-        (≈ 2 mm/s → 38 m/s at 30 fps). Use min / max to pick a magnitude band.
+        Distribution of the median frame-to-frame motion magnitude across all
+        <strong>24,193 strict-GOOD</strong> Stereo4D clips (the ones that survive
+        the <code>max_jump &lt; 0.3 m</code> coherence gate and have ≤ 3
+        re-clustered objects; 22,031 bundles are dropped as BAD).
+        <strong>Coordinates are real metric meters</strong>
+        (origin = left-eye camera at frame 0). Median magnitudes range from ~0
+        to ~0.3 m/frame (≈ 9 m/s at 30 fps). Use min / max to pick a magnitude band.
       </div>
     </div>
     <div class="masthead-right">
