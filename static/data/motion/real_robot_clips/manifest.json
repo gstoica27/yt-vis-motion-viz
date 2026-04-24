@@ -12,7 +12,7 @@
       ],
       "num_objects": 1,
       "num_frames": 879,
-      "num_clips": 2,
+      "num_clips": 6,
       "median_magnitude": 0.003069,
       "rgb_url": "static/videos/real_robot/real_robot__bedroom_v1__ball_basket__MolmoBot-Img__3.mp4",
       "motion_url": "static/data/motion/real_robot_clips/real_robot__bedroom_v1__ball_basket__MolmoBot-Img__3.json"
@@ -29,7 +29,7 @@
       ],
       "num_objects": 1,
       "num_frames": 912,
-      "num_clips": 1,
+      "num_clips": 10,
       "median_magnitude": 0.003218,
       "rgb_url": "static/videos/real_robot/real_robot__bedroom_v1__ball_basket__MolmoBot__1.mp4",
       "motion_url": "static/data/motion/real_robot_clips/real_robot__bedroom_v1__ball_basket__MolmoBot__1.json"
@@ -46,7 +46,7 @@
       ],
       "num_objects": 1,
       "num_frames": 501,
-      "num_clips": 1,
+      "num_clips": 7,
       "median_magnitude": 0.004451,
       "rgb_url": "static/videos/real_robot/real_robot__bedroom_v1__ball_basket__MolmoBot__2.mp4",
       "motion_url": "static/data/motion/real_robot_clips/real_robot__bedroom_v1__ball_basket__MolmoBot__2.json"
@@ -63,10 +63,27 @@
       ],
       "num_objects": 1,
       "num_frames": 1250,
-      "num_clips": 1,
+      "num_clips": 6,
       "median_magnitude": 0.002796,
       "rgb_url": "static/videos/real_robot/real_robot__bedroom_v1__ball_towel__MolmoBot-Img__1.mp4",
       "motion_url": "static/data/motion/real_robot_clips/real_robot__bedroom_v1__ball_towel__MolmoBot-Img__1.json"
+    },
+    {
+      "id": "real_robot__bedroom_v1__ball_towel__MolmoBot__2",
+      "benchmark": "bedroom_v1",
+      "task": "ball_towel",
+      "policy": "MolmoBot",
+      "trial": 2,
+      "text": "",
+      "object_names": [
+        "obj0"
+      ],
+      "num_objects": 1,
+      "num_frames": 1362,
+      "num_clips": 3,
+      "median_magnitude": 0.002171,
+      "rgb_url": "static/videos/real_robot/real_robot__bedroom_v1__ball_towel__MolmoBot__2.mp4",
+      "motion_url": "static/data/motion/real_robot_clips/real_robot__bedroom_v1__ball_towel__MolmoBot__2.json"
     },
     {
       "id": "real_robot__bedroom_v1__banana_basket__MolmoBot-Img__1",
@@ -80,7 +97,7 @@
       ],
       "num_objects": 1,
       "num_frames": 524,
-      "num_clips": 5,
+      "num_clips": 4,
       "median_magnitude": 0.011795,
       "rgb_url": "static/videos/real_robot/real_robot__bedroom_v1__banana_basket__MolmoBot-Img__1.mp4",
       "motion_url": "static/data/motion/real_robot_clips/real_robot__bedroom_v1__banana_basket__MolmoBot-Img__1.json"
@@ -97,7 +114,7 @@
       ],
       "num_objects": 1,
       "num_frames": 552,
-      "num_clips": 6,
+      "num_clips": 3,
       "median_magnitude": 0.009783,
       "rgb_url": "static/videos/real_robot/real_robot__bedroom_v1__banana_basket__MolmoBot-Img__2.mp4",
       "motion_url": "static/data/motion/real_robot_clips/real_robot__bedroom_v1__banana_basket__MolmoBot-Img__2.json"
@@ -114,7 +131,7 @@
       ],
       "num_objects": 1,
       "num_frames": 612,
-      "num_clips": 1,
+      "num_clips": 3,
       "median_magnitude": 0.001687,
       "rgb_url": "static/videos/real_robot/real_robot__bedroom_v1__banana_towel__MolmoBot__1.mp4",
       "motion_url": "static/data/motion/real_robot_clips/real_robot__bedroom_v1__banana_towel__MolmoBot__1.json"
@@ -131,7 +148,7 @@
       ],
       "num_objects": 1,
       "num_frames": 915,
-      "num_clips": 2,
+      "num_clips": 3,
       "median_magnitude": 0.001835,
       "rgb_url": "static/videos/real_robot/real_robot__bedroom_v1__banana_towel__MolmoBot__2.mp4",
       "motion_url": "static/data/motion/real_robot_clips/real_robot__bedroom_v1__banana_towel__MolmoBot__2.json"
@@ -154,6 +171,23 @@
       "motion_url": "static/data/motion/real_robot_clips/real_robot__bedroom_v1__banana_towel__MolmoBot__3.json"
     },
     {
+      "id": "real_robot__bedroom_v1__banana_towel__pi05-DROID__3",
+      "benchmark": "bedroom_v1",
+      "task": "banana_towel",
+      "policy": "pi05-DROID",
+      "trial": 3,
+      "text": "",
+      "object_names": [
+        "obj0"
+      ],
+      "num_objects": 1,
+      "num_frames": 610,
+      "num_clips": 8,
+      "median_magnitude": 0.003418,
+      "rgb_url": "static/videos/real_robot/real_robot__bedroom_v1__banana_towel__pi05-DROID__3.mp4",
+      "motion_url": "static/data/motion/real_robot_clips/real_robot__bedroom_v1__banana_towel__pi05-DROID__3.json"
+    },
+    {
       "id": "real_robot__bedroom_v1__clutter_towel__MolmoBot-Img__1",
       "benchmark": "bedroom_v1",
       "task": "clutter_towel",
@@ -165,10 +199,27 @@
       ],
       "num_objects": 1,
       "num_frames": 561,
-      "num_clips": 1,
+      "num_clips": 3,
       "median_magnitude": 0.002928,
       "rgb_url": "static/videos/real_robot/real_robot__bedroom_v1__clutter_towel__MolmoBot-Img__1.mp4",
       "motion_url": "static/data/motion/real_robot_clips/real_robot__bedroom_v1__clutter_towel__MolmoBot-Img__1.json"
+    },
+    {
+      "id": "real_robot__bedroom_v1__clutter_towel__MolmoBot-Img__2",
+      "benchmark": "bedroom_v1",
+      "task": "clutter_towel",
+      "policy": "MolmoBot-Img",
+      "trial": 2,
+      "text": "",
+      "object_names": [
+        "obj0"
+      ],
+      "num_objects": 1,
+      "num_frames": 563,
+      "num_clips": 5,
+      "median_magnitude": 0.002305,
+      "rgb_url": "static/videos/real_robot/real_robot__bedroom_v1__clutter_towel__MolmoBot-Img__2.mp4",
+      "motion_url": "static/data/motion/real_robot_clips/real_robot__bedroom_v1__clutter_towel__MolmoBot-Img__2.json"
     },
     {
       "id": "real_robot__bedroom_v1__pills_towel__MolmoBot-Pi0__1",
@@ -182,7 +233,7 @@
       ],
       "num_objects": 1,
       "num_frames": 410,
-      "num_clips": 2,
+      "num_clips": 4,
       "median_magnitude": 0.002255,
       "rgb_url": "static/videos/real_robot/real_robot__bedroom_v1__pills_towel__MolmoBot-Pi0__1.mp4",
       "motion_url": "static/data/motion/real_robot_clips/real_robot__bedroom_v1__pills_towel__MolmoBot-Pi0__1.json"
@@ -199,10 +250,44 @@
       ],
       "num_objects": 1,
       "num_frames": 839,
-      "num_clips": 1,
+      "num_clips": 2,
       "median_magnitude": 0.001711,
       "rgb_url": "static/videos/real_robot/real_robot__bedroom_v1__roller_towel__MolmoBot__1.mp4",
       "motion_url": "static/data/motion/real_robot_clips/real_robot__bedroom_v1__roller_towel__MolmoBot__1.json"
+    },
+    {
+      "id": "real_robot__kitchen_v3__apple_easy__MolmoBot-Img__1",
+      "benchmark": "kitchen_v3",
+      "task": "apple_easy",
+      "policy": "MolmoBot-Img",
+      "trial": 1,
+      "text": "",
+      "object_names": [
+        "obj0"
+      ],
+      "num_objects": 1,
+      "num_frames": 517,
+      "num_clips": 1,
+      "median_magnitude": 0.001599,
+      "rgb_url": "static/videos/real_robot/real_robot__kitchen_v3__apple_easy__MolmoBot-Img__1.mp4",
+      "motion_url": "static/data/motion/real_robot_clips/real_robot__kitchen_v3__apple_easy__MolmoBot-Img__1.json"
+    },
+    {
+      "id": "real_robot__kitchen_v3__apple_easy__MolmoBot-Img__2",
+      "benchmark": "kitchen_v3",
+      "task": "apple_easy",
+      "policy": "MolmoBot-Img",
+      "trial": 2,
+      "text": "",
+      "object_names": [
+        "obj0"
+      ],
+      "num_objects": 1,
+      "num_frames": 489,
+      "num_clips": 2,
+      "median_magnitude": 0.001714,
+      "rgb_url": "static/videos/real_robot/real_robot__kitchen_v3__apple_easy__MolmoBot-Img__2.mp4",
+      "motion_url": "static/data/motion/real_robot_clips/real_robot__kitchen_v3__apple_easy__MolmoBot-Img__2.json"
     },
     {
       "id": "real_robot__robomolmo_princeton__banana_plate__MolmoBot-Img__1",
@@ -222,6 +307,23 @@
       "motion_url": "static/data/motion/real_robot_clips/real_robot__robomolmo_princeton__banana_plate__MolmoBot-Img__1.json"
     },
     {
+      "id": "real_robot__workroom_v1__blue_mug_box__MolmoBot-Img__1",
+      "benchmark": "workroom_v1",
+      "task": "blue_mug_box",
+      "policy": "MolmoBot-Img",
+      "trial": 1,
+      "text": "blue ceramic coffee mug",
+      "object_names": [
+        "obj0"
+      ],
+      "num_objects": 1,
+      "num_frames": 421,
+      "num_clips": 2,
+      "median_magnitude": 0.002107,
+      "rgb_url": "static/videos/real_robot/real_robot__workroom_v1__blue_mug_box__MolmoBot-Img__1.mp4",
+      "motion_url": "static/data/motion/real_robot_clips/real_robot__workroom_v1__blue_mug_box__MolmoBot-Img__1.json"
+    },
+    {
       "id": "real_robot__workroom_v1__blue_mug_box__MolmoBot-Img__2",
       "benchmark": "workroom_v1",
       "task": "blue_mug_box",
@@ -234,7 +336,7 @@
       ],
       "num_objects": 2,
       "num_frames": 396,
-      "num_clips": 1,
+      "num_clips": 4,
       "median_magnitude": 0.003176,
       "rgb_url": "static/videos/real_robot/real_robot__workroom_v1__blue_mug_box__MolmoBot-Img__2.mp4",
       "motion_url": "static/data/motion/real_robot_clips/real_robot__workroom_v1__blue_mug_box__MolmoBot-Img__2.json"
