@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>YT-VIS — Motion Patterns (1,310 captioned clips)</title>
+<title>Real-Robot — Motion Patterns (14 captioned clips)</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -92,22 +92,24 @@ body { font-family:'Inter',sans-serif; background:var(--bg); color:var(--text); 
 <div class="page">
   <div class="masthead">
     <div>
-      <h1>YT-VIS — Motion Patterns</h1>
+      <h1>Real-Robot — Motion Patterns</h1>
       <div class="subtitle">
-        The 1,310 captioned YouTube-VIS sequences with GenTraj 3D point tracks. Each card shows the
-        ViPE RGB video with 2D track overlay (left), animated 3D tracks (right), per-object motion-magnitude chart,
-        and clip-range timeline. Only objects marked <code>keep</code> in the human/auto annotations are shown.
-        Clip selection: threshold = 0.02, min gap = 5f, min clip = 0.5s, top-20% per-frame outlier trim. Native 8 fps.
+        Real-robot DROID-eval rollouts: 14 clips (of 23 with 3D tracks)
+        across the workroom_v1 / kitchen_v3 / bedroom_v1 / robomolmo_princeton
+        benchmarks and the MolmoBot{,-Img,-Pi0} / pi05-DROID / pi0-DROID
+        policies. Each card shows the source RGB (1280×720 @ 15 fps) with
+        2D track overlay (left), animated 3D camera-frame tracks
+        (in <strong>real meters</strong>) (right), per-object motion-magnitude
+        curve, and threshold-segmented clip ranges. Chart cutoff line at
+        0.02 m/frame ≈ 0.3 m/s. Click any colored clip-range in the timeline
+        to jump to its start and focus on that one object.
       </div>
     </div>
     <div class="masthead-right">
-      <input type="search" id="search" placeholder="search caption / id / object…" />
-      <a href="stats.html">YT-VIS stats →</a>
-      <a href="mammalnet_clips.html">MammalNet clips →</a>
-      <a href="mammalnet.html">MammalNet stats →</a>
-      <a href="stereo4d_clips.html">Stereo4D clips →</a>
-      <a href="stereo4d.html">Stereo4D stats →</a>
-      <a href="real_robot_clips.html">Real-Robot clips →</a>
+      <input type="search" id="search" placeholder="search caption / benchmark / task / policy …" />
+      <a href="index.html">YT-VIS clips</a>
+      <a href="mammalnet_clips.html">MammalNet clips</a>
+      <a href="stereo4d_clips.html">Stereo4D clips</a>
       <a href="compare.html">Cross-dataset stats →</a>
       <button class="theme-toggle" onclick="toggleTheme()">Toggle theme</button>
     </div>
@@ -139,9 +141,9 @@ function colorForObject(name) {
 function escapeHtml(s) { return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 
 async function init() {
-  const resp = await fetch('static/data/motion/ytvis/manifest.json');
+  const resp = await fetch('static/data/motion/real_robot_clips/manifest.json');
   const m = await resp.json();
-  allClips = m.ytvis || [];
+  allClips = m.real_robot || [];
   filtered = allClips.slice();
   document.getElementById('search').addEventListener('input', onSearch);
   renderPage(0);
@@ -155,7 +157,9 @@ function onSearch(e) {
     filtered = allClips.filter(c =>
       (c.id||'').toLowerCase().includes(q) ||
       (c.text||'').toLowerCase().includes(q) ||
-      (c.object_names||[]).some(o => o.toLowerCase().includes(q))
+      (c.benchmark||'').toLowerCase().includes(q) ||
+      (c.task||'').toLowerCase().includes(q) ||
+      (c.policy||'').toLowerCase().includes(q)
     );
   }
   renderPage(0);
@@ -184,14 +188,18 @@ function renderPage(p) {
     const card = document.createElement('div');
     card.className = 'clip-card';
     card.id = id;
+    const med = clip.median_magnitude;
+    const medStr = (med==null) ? '—' : (med < 0.01 ? med.toFixed(5) : med.toFixed(3));
+    const tag = `${clip.benchmark||''} · ${clip.task||''} · ${clip.policy||''}#${clip.trial||''}`;
     card.innerHTML = `
       <div class="clip-header">
         <div>
           <span class="title">${escapeHtml(clip.id)}</span>
-          <span style="font-size:0.72rem;color:var(--text-secondary);margin-left:8px;">${escapeHtml(clip.object_names.join(', '))}</span>
+          <span style="font-size:0.72rem;color:var(--text-secondary);margin-left:8px;">${escapeHtml(tag)}</span>
         </div>
         <div class="meta">
           <span>${clip.num_frames}f</span>
+          <span title="top per-object median magnitude (m/frame)">top med=${medStr} m/f</span>
           <span class="seg-badge">${clip.num_clips} clips</span>
         </div>
         ${clip.text ? `<div class="desc">${escapeHtml(clip.text)}</div>` : ''}
@@ -394,6 +402,7 @@ function applyHighlight(id) {
     st.chart.data.datasets.forEach(ds => { ds.hidden = !!hi && ds.label !== hi; });
     st.chart.update('none');
   }
+  // re-render 3D viewer at current frame so the filter takes effect immediately
   if (st.draw3DFrame) {
     const vid = document.getElementById(id+'_vid');
     const T = (st.motionData && st.motionData.num_frames) || 1;
